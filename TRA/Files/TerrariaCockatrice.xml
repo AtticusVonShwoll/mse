@@ -65,7 +65,7 @@ When The Eater of Worlds leaves the battlefield, create two 2/2 green Wurm creat
       </prop>
       <tablerow>1</tablerow>
       <text>{1}{R}, {T}: Target Wurm gains trample until end of turn.
-{1}{B}{G}, {T}: Exile target creature card from a graveyard. You gain 2 life.
+{B}{G}, {T}: Exile target card from a graveyard. If it was a creature card, you gain 2 life.
 {3}{R/G}{B}, Sacrifice this artifact: Call upon The Eater of Worlds. Activate only as a sorcery. (Create a token that's a copy of a card named The Eater of Worlds.)</text>
     </card>
     <card>
@@ -412,7 +412,7 @@ Equip {0}. Activate only once each turn.</text>
       </prop>
       <tablerow>0</tablerow>
       <text>This land enters tapped.
-{T}, Tap an untapped creature you control or {1}, {T}: Add {W}{U}, {U}{B}, or {W}{B}.</text>
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {W}{U}, {U}{B}, or {W}{B}.</text>
       <cipt>1</cipt>
     </card>
     <card>
@@ -427,7 +427,7 @@ Equip {0}. Activate only once each turn.</text>
       </prop>
       <tablerow>0</tablerow>
       <text>This land enters tapped.
-{T}, Tap an untapped creature you control or {1}, {T}: Add {G}{W}, {W}{U}, or {G}{U}.</text>
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {G}{W}, {W}{U}, or {G}{U}.</text>
       <cipt>1</cipt>
     </card>
     <card>
@@ -442,12 +442,12 @@ Equip {0}. Activate only once each turn.</text>
       </prop>
       <tablerow>0</tablerow>
       <text>This land enters tapped.
-{T}, Tap an untapped creature you control or {1}, {T}: Add {B}{R}, {R}{G}, or {B}{G}.</text>
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {B}{R}, {R}{G}, or {B}{G}.</text>
       <cipt>1</cipt>
     </card>
     <card>
-      <name>Hallow Hill</name>
-      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Hallow Hill.png">TRA</set>
+      <name>Hallowed Foothills</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Hallowed Foothills.png">TRA</set>
       <prop>
         <colors></colors>
         <manacost></manacost>
@@ -457,7 +457,7 @@ Equip {0}. Activate only once each turn.</text>
       </prop>
       <tablerow>0</tablerow>
       <text>This land enters tapped.
-{T}, Tap an untapped creature you control or {1}, {T}: Add {R}{G}, {G}{W}, or {R}{W}.</text>
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {R}{G}, {G}{W}, or {R}{W}.</text>
       <cipt>1</cipt>
     </card>
     <card>
@@ -472,7 +472,82 @@ Equip {0}. Activate only once each turn.</text>
       </prop>
       <tablerow>0</tablerow>
       <text>This land enters tapped.
-{T}, Tap an untapped creature you control or {1}, {T}: Add {U}{B}, {B}{R}, or {U}{R}.</text>
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {U}{B}, {B}{R}, or {U}{R}.</text>
+      <cipt>1</cipt>
+    </card>
+    <card>
+      <name>Beachfront Pier</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Beachfront Pier.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>This land enters tapped.
+{1}, {T} or {T}, Tap an untapped creature you control: Add {G}{U}, {U}{R}, or {R}{G}.</text>
+      <cipt>1</cipt>
+    </card>
+    <card>
+      <name>Dungeon Corridor</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Dungeon Corridor.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>This land enters tapped.
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {R}{W}, {W}{B}, or {B}{R}.</text>
+      <cipt>1</cipt>
+    </card>
+    <card>
+      <name>Frosted Cavern</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Frosted Cavern.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>This land enters tapped.
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {B}{G}, {G}{U}, or {U}{B}.</text>
+      <cipt>1</cipt>
+    </card>
+    <card>
+      <name>Lihzahrd Temple</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Lihzahrd Temple.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>This land enters tapped.
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {W}{B}, {B}{G}, or {G}{W}.</text>
+      <cipt>1</cipt>
+    </card>
+    <card>
+      <name>Sky Islands</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sky Islands.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>This land enters tapped.
+{1}, {T} or {T}, Tap an untapped creature you control:  Add {U}{R}, {R}{W}, or {W}{U}.</text>
       <cipt>1</cipt>
     </card>
     <card>
@@ -1371,7 +1446,7 @@ When this creature is exiled from the battlefield, call upon Warren, Tax Collect
       </prop>
       <tablerow>1</tablerow>
       <text>Players play with the top card of their libraries revealed.
-Equipped creature has ward {2} and “1G, {T}: Target player mills a card. Put each land card milled this way onto the battlefield under your control. Activate only as a sorcery.”
+Equipped creature has ward {2} and “{1}{G}, {T}: Target player mills a card. Put each land card milled this way onto the battlefield under your control. Activate only as a sorcery.”
 Equip {2}</text>
     </card>
     <card>
@@ -2940,13 +3015,13 @@ Damage can't be prevented this turn.</text>
       <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Something Sinister Approaches.png">TRA</set>
       <prop>
         <colors>WB</colors>
-        <manacost>1WB</manacost>
-        <cmc>3</cmc>
+        <manacost>WB</manacost>
+        <cmc>2</cmc>
         <type>Instant</type>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Until end of turn, if you would create one or more creature tokens, instead create that many tokens plus one except those tokens aren't legendary and have menace.</text>
+      <text>Populate, except the token created this way isn’t legendary and has menace. (To populate, create a token that’s a copy of a creature token you control.)</text>
     </card>
     <card>
       <name>Predictor</name>

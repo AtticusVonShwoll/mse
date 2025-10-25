@@ -123,7 +123,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"cmc": 2,
-			"oracle_text": "{1}{R}, {T}: Target Wurm gains trample until end of turn.\n{1}{B}{G}, {T}: Exile target creature card from a graveyard. You gain 2 life.\n{3}{R/G}{B}, Sacrifice this artifact: Call upon The Eater of Worlds. Activate only as a sorcery. (Create a token that’s a copy of a card named The Eater of Worlds.)",
+			"oracle_text": "{1}{R}, {T}: Target Wurm gains trample until end of turn.\n{B}{G}, {T}: Exile target card from a graveyard. If it was a creature card, you gain 2 life.\n{3}{R/G}{B}, Sacrifice this artifact: Call upon The Eater of Worlds. Activate only as a sorcery. (Create a token that’s a copy of a card named The Eater of Worlds.)",
 			"type": "Artifact",
 	  "set": "tra", "collector_number": "229",
 			"image_uris": {
@@ -738,7 +738,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"cmc": 0,
-			"oracle_text": "This land enters tapped.\n{T}, Tap an untapped creature you control or {1}, {T}: Add {W}{U}, {U}{B}, or {W}{B}.",
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {W}{U}, {U}{B}, or {W}{B}.",
 			"type": "Land",
 	  "set": "tra", "collector_number": "241",
 			"image_uris": {
@@ -750,7 +750,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"cmc": 0,
-			"oracle_text": "This land enters tapped.\n{T}, Tap an untapped creature you control or {1}, {T}: Add {G}{W}, {W}{U}, or {G}{U}.",
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {G}{W}, {W}{U}, or {G}{U}.",
 			"type": "Land",
 	  "set": "tra", "collector_number": "230",
 			"image_uris": {
@@ -762,7 +762,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"cmc": 0,
-			"oracle_text": "This land enters tapped.\n{T}, Tap an untapped creature you control or {1}, {T}: Add {B}{R}, {R}{G}, or {B}{G}.",
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {B}{R}, {R}{G}, or {B}{G}.",
 			"type": "Land",
 	  "set": "tra", "collector_number": "232",
 			"image_uris": {
@@ -770,15 +770,15 @@
 			}
 		},
 		{
-			"name": "Hallow Hill",
+			"name": "Hallowd Foothills",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"cmc": 0,
-			"oracle_text": "This land enters tapped.\n{T}, Tap an untapped creature you control or {1}, {T}: Add {R}{G}, {G}{W}, or {R}{W}.",
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {R}{G}, {G}{W}, or {R}{W}.",
 			"type": "Land",
 	  "set": "tra", "collector_number": "235",
 			"image_uris": {
-				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Hallow Hill.png"
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Hallowed Foothills.png"
 			}
 		},
 		{
@@ -786,11 +786,71 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"cmc": 0,
-			"oracle_text": "This land enters tapped.\n{T}, Tap an untapped creature you control or {1}, {T}: Add {U}{B}, {B}{R}, or {U}{R}.",
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {U}{B}, {B}{R}, or {U}{R}.",
 			"type": "Land",
 	  "set": "tra", "collector_number": "233",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Crimson Spikes.png"
+			}
+		},
+		{
+			"name": "Beachfront Pier",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"cmc": 0,
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {G}{U}, {U}{R}, or {R}{G}.",
+			"type": "Land",
+	  "set": "tra", "collector_number": "233",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Beachfront Pier.png"
+			}
+		},
+		{
+			"name": "Dungeon Corridor",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"cmc": 0,
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {R}{W}, {W}{B}, or {B}{R}.",
+			"type": "Land",
+	  "set": "tra", "collector_number": "233",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Dungeon Corridor.png"
+			}
+		},
+		{
+			"name": "Frosted Cavern",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"cmc": 0,
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {B}{G}, {G}{U}, or {U}{B}.",
+			"type": "Land",
+	  "set": "tra", "collector_number": "233",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Frosted Cavern.png"
+			}
+		},
+		{
+			"name": "Lihzahrd Temple",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"cmc": 0,
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {W}{B}, {B}{G}, or {G}{W}.",
+			"type": "Land",
+	  "set": "tra", "collector_number": "233",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Lihzahrd Temple.png"
+			}
+		},
+		{
+			"name": "Sky Islands",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"cmc": 0,
+			"oracle_text": "This land enters tapped.\n{1}, {T} or {T}, Tap an untapped creature you control: Add {U}{R}, {R}{W}, or {W}{U}.",
+			"type": "Land",
+	  "set": "tra", "collector_number": "233",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sky Islands.png"
 			}
 		},
 		{
@@ -1304,7 +1364,7 @@
 			"cmc": 4,
 			"power": "2",
 			"toughness": "4",
-			"oracle_text": "Flying, vigilance\nThis creature can block an additional creature each combat.\nAs long as this creature is blocking a creature with flying, it gets +2/+0.",
+			"oracle_text": "Flying, vigilance\nThis creature can block an additional creature each combat.\nWhenever this creature blocks one or more creatures with flying, it gets +2/+0 until end of turn.",
 			"type": "Creature",
 			"subtypes": [
 			"Drake Boss"
@@ -2128,7 +2188,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"cmc": 4,
-			"oracle_text": "Players play with the top card of their libraries revealed.\nEquipped creature has ward {2} and “1G, {T}: Target player mills a card. Put each land card milled this way onto the battlefield under your control. Activate only as a sorcery.”\nEquip {2}",
+			"oracle_text": "Players play with the top card of their libraries revealed.\nEquipped creature has ward {2} and “{1}{G}, {T}: Target player mills a card. Put each land card milled this way onto the battlefield under your control. Activate only as a sorcery.”\nEquip {2}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4517,9 +4577,9 @@
 		{
 			"name": "Something Sinister Approaches",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{W}{B}",
-			"cmc": 3,
-			"oracle_text": "Until end of turn, if you would create one or more creature tokens, instead create that many tokens plus one except those tokens aren't legendary and have menace.",
+			"mana_cost": "{W}{B}",
+			"cmc": 2,
+			"oracle_text": "Populate, except the token created this way isn’t legendary and has menace. (To populate, create a token that’s a copy of a creature token you control.)",
 			"type": "Instant",
 	  "set": "tra", "collector_number": "167",
 			"image_uris": {
@@ -6979,8 +7039,13 @@
 		9 Sandy River
 		9 Beginner's Landing
 		9 Corrupted Forest
-		9 Hallow Hill
+		9 Hallowed Foothills
 		9 Crimson Spikes
+		9 Beachfront Pier
+		9 Dungeon Corridor
+		9 Frosted Cavern
+		9 Lihzahrd Temple
+		9 Sky Islands
 		9 Rest Until Morning
 		9 Unprepared Fight
 		9 Demon Altar
@@ -7220,7 +7285,12 @@
 	10 Sandy River
 	10 Beginner's Landing
 	10 Corrupted Forest
-	10 Hallow Hill
+	10 Hallowd Foothills
+	10 Beachfront Pier
+	10 Dungeon Corridor
+	10 Frosted Cavern
+	10 Lihzahrd Temple
+	10 Sky Islands
 	10 Pursuing Eye
 	10 Plantera, Jungle's Soul
 	10 The Journey's Beginning
