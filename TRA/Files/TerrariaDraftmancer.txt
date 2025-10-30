@@ -3014,7 +3014,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"cmc": 2,
-			"oracle_text": "{1}{U}{R}, {T}, Exile two nontoken Equipment you control: Create an token that's a copy of one of the exiled cards except it has all abilities of the other exiled card.",
+			"oracle_text": "{1}{U}{R}, {T}, Exile two nontoken Equipment you control: Create an token that's a copy of one of the exiled cards except it also has the other card's abilities.",
 			"type": "Artifact",
 	  "set": "tra", "collector_number": "228",
 			"image_uris": {
@@ -3025,7 +3025,7 @@
 			"name": "Tinkerer's Workshop Token",
 			"mana_cost": "{2}",
 			"cmc": 2,
-			"oracle_text": "{1}{U}{R}, {T}, Exile two nontoken Equipment you control: Create an token that's a copy of one of the exiled cards except it has all abilities of the other exiled card.",
+			"oracle_text": "{1}{U}{R}, {T}, Exile two nontoken Equipment you control: Create an token that's a copy of one of the exiled cards except it also has the other card's abilities.",
 			"type": "Token Artifact",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Tinkerers Workshop Token.png"

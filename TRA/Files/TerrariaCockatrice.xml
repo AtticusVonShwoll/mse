@@ -1924,7 +1924,7 @@ Whenever a creature an opponent controls is dealt damage, if this Aura is attach
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{1}{U}{R}, {T}, Exile two nontoken Equipment you control: Create a token that's a copy of one of the exiled cards except it has all abilities of the other exiled card.</text>
+      <text>{1}{U}{R}, {T}, Exile two nontoken Equipment you control: Create a token that's a copy of one of the exiled cards except it also has the other card's abilities.</text>
     </card>
     <card>
       <name>Rocket Boots</name>
@@ -6035,7 +6035,7 @@ Equip {2} or {U/R} ({2} or {U/R}: Attach to target creature you control. Equip o
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>{1}{U}{R}, {T}, Exile two nontoken Equipment you control: Create a token that's a copy of one of the exiled cards except it has all abilities of the other exiled card.</text>
+      <text>{1}{U}{R}, {T}, Exile two nontoken Equipment you control: Create a token that's a copy of one of the exiled cards except it also has the other card's abilities.</text>
       <token>1</token>
       <reverse-related>Nort, Goblin Tinkerer</reverse-related>
     </card>
