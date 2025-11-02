@@ -4279,8 +4279,8 @@ Crew 3</text>
 Whenever Jim becomes tapped, you may sacrifice an artifact. If you do, it deals 2 damage to any target.</text>
     </card>
     <card>
-      <name>Dreadnaulilus</name>
-      <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Dreadnaulilus.png">TRA</set>
+      <name>Dreadnautilus</name>
+      <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Dreadnautilus.png">TRA</set>
       <prop>
         <colors>BR</colors>
         <manacost>3BR</manacost>
