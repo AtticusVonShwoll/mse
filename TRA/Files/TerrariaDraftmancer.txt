@@ -770,7 +770,7 @@
 			}
 		},
 		{
-			"name": "Hallowd Foothills",
+			"name": "Hallowed Foothills",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"cmc": 0,
