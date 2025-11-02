@@ -7285,7 +7285,7 @@
 	10 Sandy River
 	10 Beginner's Landing
 	10 Corrupted Forest
-	10 Hallowd Foothills
+	10 Hallowed Foothills
 	10 Beachfront Pier
 	10 Dungeon Corridor
 	10 Frosted Cavern
