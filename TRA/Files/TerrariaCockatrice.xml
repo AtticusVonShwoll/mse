@@ -81,7 +81,7 @@ When The Eater of Worlds leaves the battlefield, create two 2/2 green Wurm creat
       </prop>
       <tablerow>2</tablerow>
       <text>Flying, haste
-If Eye of Cthulhu would be destroyed and it doesn’t have trample, regenerate it and put a trample counter on it.
+If Eye of Cthulhu would be destroyed and it doesn't have trample, regenerate it and put a trample counter on it.
 As long as Eye of Cthulhu has trample, it gets +3/-1.</text>
     </card>
     <card>
@@ -296,7 +296,7 @@ Whenever The Destroyer is dealt damage for the first time each turn, create that
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Target creature you control gets +2/+0 until end of turn. Then it fights up to one target creature you don’t control. (Each deals damage equal to its power to the other.)</text>
+      <text>Target creature you control gets +2/+0 until end of turn. Then it fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)</text>
     </card>
     <card>
       <name>The Summoner</name>
@@ -625,7 +625,7 @@ IV — Search your library for a battle card, reveal it and put it into your han
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Tap an untapped creature you control, sacrifice this artifact: Draw a card and create two Treasure tokens. If there are three or more cards in your graveyard named Shadow Orb, exile them and call upon The Eater of Worlds. (Create a token that’s a copy of a card named The Eater of Worlds)
+      <text>Tap an untapped creature you control, sacrifice this artifact: Draw a card and create two Treasure tokens. If there are three or more cards in your graveyard named Shadow Orb, exile them and call upon The Eater of Worlds. (Create a token that's a copy of a card named The Eater of Worlds)
 A deck can have any number of cards named Shadow Orb.</text>
       <related count="2">Treasure Token</related>
     </card>
@@ -908,7 +908,7 @@ When Queen Slime attacks or blocks, choose one —
       <tablerow>2</tablerow>
       <text>Defender, first strike
 As long as your life total is equal to or greater than your starting life total, Golem can't attack or block.
-As long as an artifact you control left the battlefield this turn, Golem can attack as though it didn’t have defender.</text>
+As long as an artifact you control left the battlefield this turn, Golem can attack as though it didn't have defender.</text>
     </card>
     <card>
       <name>Wyvern of the Sky Island</name>
@@ -1880,7 +1880,7 @@ As long as this Aura is attached to an opponent, if a source would deal damage t
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant player
-Whenever a token you control enters, if this Aura is attached to you, you may create a token that’s a copy of it. Do this only once each turn.
+Whenever a token you control enters, if this Aura is attached to you, you may create a token that's a copy of it. Do this only once each turn.
 Whenever an opponent is attacked, if this Aura is attached to them, target creature that player controls must block this turn if able.</text>
     </card>
     <card>
@@ -1982,7 +1982,7 @@ At the beginning of your upkeep, if this creature is tapped, it deals 2 damage t
         <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature and 1 damage to that creature’s controller.</text>
+      <text>Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature and 1 damage to that creature's controller.</text>
     </card>
     <card>
       <name>Chaos Elemental</name>
@@ -2192,7 +2192,7 @@ This creature has first strike as long as you control a Plains.</text>
       <tablerow>2</tablerow>
       <text>Flying, deathtouch
 Ward—Discard a card and pay 3 life.
-The Ranger has first strike as long as it’s attacking.
+The Ranger has first strike as long as it's attacking.
 Whenever The Ranger deals combat damage to a player, draw two cards, then discard a card.</text>
     </card>
     <card>
@@ -2337,7 +2337,7 @@ Whenever an hour counter is put onto this Event, create three Bomb tokens if it 
       </prop>
       <tablerow>1</tablerow>
       <text>(Events are protected by you. When it leaves the battlefield, exile all tokens created with it that are creatures.)
-When this Event enters and at the beginning of your upkeep, call upon a card name that you don’t control from among The Nebula Pillar, The Solar Pillar, The Stardust Pillar or The Vortex Pillar. If you don’t make a token this way, put a defense counter on each other battle you protect.</text>
+When this Event enters and at the beginning of your upkeep, call upon a card name that you don't control from among The Nebula Pillar, The Solar Pillar, The Stardust Pillar or The Vortex Pillar. If you don't make a token this way, put a defense counter on each other battle you protect.</text>
       <landscapeOrientation>1</landscapeOrientation>
     </card>
     <card>
@@ -2834,7 +2834,7 @@ As long as this Aura is attached to an opponent, artifacts that player controls 
       <tablerow>1</tablerow>
       <text>Enchant player
 Whenever you attack, if this Aura is attached to you, you may discard a card. If you do, draw a card and create a Treasure token.
-Whenever an opponent is attacked, if this Aura is attached to them, you may sacrifice any number of permanents. When you do, that many target creatures can’t block this turn.</text>
+Whenever an opponent is attacked, if this Aura is attached to them, you may sacrifice any number of permanents. When you do, that many target creatures can't block this turn.</text>
       <related>Treasure Token</related>
     </card>
     <card>
@@ -2908,7 +2908,7 @@ Whenever this creature attacks, create a 1/1 black Skeleton creature token that'
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Scry 2, then look at the top card of your library. You may cast it if it’s a Boss or battle card. If you don’t, put that card into your hand.</text>
+      <text>Scry 2, then look at the top card of your library. You may cast it if it's a Boss or battle card. If you don't, put that card into your hand.</text>
     </card>
     <card>
       <name>Headless Horserider</name>
@@ -3021,7 +3021,7 @@ Damage can't be prevented this turn.</text>
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Populate, except the token created this way isn’t legendary and has menace. (To populate, create a token that’s a copy of a creature token you control.)</text>
+      <text>Populate, except the token created this way isn't legendary and has menace. (To populate, create a token that's a copy of a creature token you control.)</text>
     </card>
     <card>
       <name>Predictor</name>
@@ -3927,7 +3927,7 @@ Whenever this creature deals combat damage to a player, return up to one target 
         <pt>3/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>As this creature enters, if U was spent to cast it, it becomes blue in addition to its other colors. The same is true for R and W. This ability doesn’t affect this card’s color identity.
+      <text>As this creature enters, if U was spent to cast it, it becomes blue in addition to its other colors. The same is true for R and W. This ability doesn't affect this card's color identity.
 Whenever this creature attacks, if it is blue, up to one target creature gets -2/-0 until end of turn.
 This creature has afflict 2 if it is red and lifelink if it is white.</text>
     </card>
@@ -4041,7 +4041,7 @@ If a source an opponent controls would deal damage to you, prevent 1 of that dam
       <tablerow>1</tablerow>
       <text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I — Remove all counters from each battle. Lantern Night gains “Players can't cast battle spells.”
-II — Until your next turn, creatures can’t attack you.
+II — Until your next turn, creatures can't attack you.
 III — You gain 3 life and draw a card.</text>
     </card>
     <card>
@@ -4057,7 +4057,7 @@ III — You gain 3 life and draw a card.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>At the beginning of your upkeep, create a 1/1 blue Fish creature token. Then you may sacrifice three Fish you control. If you do, sacrifice this creature.
-When this creature dies, if it wasn’t blocking, call upon Duke Fishron. (Create a token that’s a copy of a card named Duke Fishron)</text>
+When this creature dies, if it wasn't blocking, call upon Duke Fishron. (Create a token that's a copy of a card named Duke Fishron)</text>
       <related>Fish Token  </related>
     </card>
     <card>
@@ -4275,7 +4275,7 @@ Crew 3</text>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When Jim enters, call upon Golf Cart. (Create a token that’s a copy of a card named Golf Cart.)
+      <text>When Jim enters, call upon Golf Cart. (Create a token that's a copy of a card named Golf Cart.)
 Whenever Jim becomes tapped, you may sacrifice an artifact. If you do, it deals 2 damage to any target.</text>
     </card>
     <card>
@@ -4380,7 +4380,7 @@ When this creature enters, up to one target creature gets -4/-4 until end of tur
         <pt>2/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>{1}, {T} or Sacrifice two Treasures: Call upon Clentaminator Solution. Attach it to target nonbasic land. This ability costs {3} more to activate if it targets a land you don’t control. (Create a token that’s a copy of a card named Clentaminator Solution.)</text>
+      <text>{1}, {T} or Sacrifice two Treasures: Call upon Clentaminator Solution. Attach it to target nonbasic land. This ability costs {3} more to activate if it targets a land you don't control. (Create a token that's a copy of a card named Clentaminator Solution.)</text>
     </card>
     <card>
       <name>Clentaminator Solution</name>
@@ -4474,7 +4474,7 @@ When this creature dies, create a Treasure token. </text>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, create a Bomb token. (It’s an artifact with “{2/R}, {T}, Sacrifice this artifact: It deals 2 damage to any target.”)
+      <text>When this creature enters, create a Bomb token. (It's an artifact with “{2/R}, {T}, Sacrifice this artifact: It deals 2 damage to any target.”)
 {T}, Sacrifice a Bomb: This creature deals 2 damage to any target.</text>
       <related>Bomb Token</related>
     </card>
@@ -4490,7 +4490,7 @@ When this creature dies, create a Treasure token. </text>
         <pt>3/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature dies, call upon Pirate’s Cutlass. (Create a token that’s a copy of a card named Pirate’s Cutlass.)</text>
+      <text>When this creature dies, call upon Pirate's Cutlass. (Create a token that's a copy of a card named Pirate's Cutlass.)</text>
     </card>
     <card>
       <name>Pirate's Parrot</name>
@@ -4521,7 +4521,7 @@ When this creature dies, draw a card.</text>
       <tablerow>2</tablerow>
       <text>Menace
 Other Pirates you control have menace.
-Whenever a non-Skeleton Pirate you control dies, call upon Pirate’s Curse. (Create a token that’s a copy of a card named Pirate’s Curse.)</text>
+Whenever a non-Skeleton Pirate you control dies, call upon Pirate's Curse. (Create a token that's a copy of a card named Pirate's Curse.)</text>
     </card>
     <card>
       <name>Cursed Pirate</name>
@@ -4536,7 +4536,7 @@ Whenever a non-Skeleton Pirate you control dies, call upon Pirate’s Curse. (Cr
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-Decayed (This creature can’t block. When it attacks, sacrifice it at end of combat.)
+Decayed (This creature can't block. When it attacks, sacrifice it at end of combat.)
 When this creature dies, choose one —
 • Create a Treasure token. You lose 1 life.
 • Draw a card. You lose 2 life.</text>
@@ -4555,7 +4555,7 @@ When this creature dies, choose one —
       </prop>
       <tablerow>1</tablerow>
       <text>(Events are protected by you. When it leaves the battlefield, exile all tokens created with it that are creatures.)
-At the beginning of combat on your turn, call upon a card name chosen randomly from among Pirate Corsair, Pirate Crossbower, Pirate Deadeye, Pirate Deckhand and Pirate's Parrot. Then if you control at least three permanents with different names from that list and you don’t control a Pirate Boss token, call upon a card name chosen randomly from among Flying Dutchman and Pirate Captain.</text>
+At the beginning of combat on your turn, call upon a card name chosen randomly from among Pirate Corsair, Pirate Crossbower, Pirate Deadeye, Pirate Deckhand and Pirate's Parrot. Then if you control at least three permanents with different names from that list and you don't control a Pirate Boss token, call upon a card name chosen randomly from among Flying Dutchman and Pirate Captain.</text>
       <landscapeOrientation>1</landscapeOrientation>
     </card>
     <card>
@@ -4588,8 +4588,8 @@ Equip {3}</text>
 Target creature explores, then explores again.
 Choose one —
 • Create a 1/1 blue Fish creature token.
-• Call upon Jey, Young Angler if you control a Fish. (Create a token that’s a copy of a card named Jey, Young Angler.) 
-Return up to one target creature to its owner’s hand.</text>
+• Call upon Jey, Young Angler if you control a Fish. (Create a token that's a copy of a card named Jey, Young Angler.) 
+Return up to one target creature to its owner's hand.</text>
       <related>Fish Token  </related>
     </card>
     <card>
@@ -4603,7 +4603,7 @@ Return up to one target creature to its owner’s hand.</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>At the beginning of combat on your turn, equipped creature explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)
+      <text>At the beginning of combat on your turn, equipped creature explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)
 Equip {1}</text>
     </card>
     <card>
@@ -4618,7 +4618,7 @@ Equip {1}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Equipped creature gets +1/+0.
-Whenever equipped creature deals combat damage to another creature, return the other creature to its owner’s hand. (Return it only if it’s on the battlefield.)
+Whenever equipped creature deals combat damage to another creature, return the other creature to its owner's hand. (Return it only if it's on the battlefield.)
 Equip {2}</text>
     </card>
     <card>
@@ -4692,7 +4692,7 @@ Search your library for an artifact card, reveal it, put it into your hand, then
       <text>Flying
 When this creature dies, choose one —
 • Create a 1/1 green Ooze creature token.
-• Call upon Bounding Balloon. (Create a token that’s a copy of a card named Bounding Balloon)</text>
+• Call upon Bounding Balloon. (Create a token that's a copy of a card named Bounding Balloon)</text>
     </card>
     <card>
       <name>Dungeon Slime</name>
@@ -4706,7 +4706,7 @@ When this creature dies, choose one —
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature dies, create a Clue token. (It’s an artifact with “{2}, Sacrifice this token: Draw a card.”)</text>
+      <text>When this creature dies, create a Clue token. (It's an artifact with “{2}, Sacrifice this token: Draw a card.”)</text>
       <related>Clue Token</related>
     </card>
     <card>
@@ -4720,7 +4720,7 @@ When this creature dies, choose one —
         <maintype>Instant</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Double target creature’s power until end of turn. If that creature is a Hero, create a Treasure token.</text>
+      <text>Double target creature's power until end of turn. If that creature is a Hero, create a Treasure token.</text>
     </card>
     <card>
       <name>Crimson Heart</name>
@@ -4733,7 +4733,7 @@ When this creature dies, choose one —
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Tap an untapped creature you control, sacrifice this artifact: Exile the top two cards of your library, you may cast them this turn. Then create two Treasure tokens. If there are three or more cards in your graveyard named Crimson Heart, exile them and call upon Brain of Cthulhu. (Create a token that’s a copy of a card named Brain of Cthulhu)
+      <text>Tap an untapped creature you control, sacrifice this artifact: Exile the top two cards of your library, you may cast them this turn. Then create two Treasure tokens. If there are three or more cards in your graveyard named Crimson Heart, exile them and call upon Brain of Cthulhu. (Create a token that's a copy of a card named Brain of Cthulhu)
 A deck can have any number of cards named Crimson Heart.</text>
     </card>
     <card>
@@ -4777,7 +4777,7 @@ This creature gets +1/+0 for each other Insect you control.</text>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Mill five cards. You may put an artifact, battle, creature or land card from among them into your hand. If you didn’t put a card into your hand this way, draw a card.</text>
+      <text>Mill five cards. You may put an artifact, battle, creature or land card from among them into your hand. If you didn't put a card into your hand this way, draw a card.</text>
     </card>
     <card>
       <name>Tim, Bone Wizard</name>
@@ -4806,7 +4806,7 @@ When Tim dies, call upon Wizard Attire. (Create a token that's a copy of a card 
       </prop>
       <tablerow>1</tablerow>
       <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
-Equipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can’t be spent to cast creature spells.”
+Equipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”
 Equip {2}</text>
       <related attach="attach">Hero Token</related>
     </card>
@@ -4867,7 +4867,7 @@ At the beginning of the end step, sacrifice this creature.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>(Events are protected by you. When it leaves the battlefield, exile all tokens created with it that are creatures.)
-At the beginning of combat on your turn, call upon a card name chosen at random from among Mister Stabby, Snow Balla, or Snowman Gangsta. (Create a token that’s a copy of the named card.)</text>
+At the beginning of combat on your turn, call upon a card name chosen at random from among Mister Stabby, Snow Balla, or Snowman Gangsta. (Create a token that's a copy of the named card.)</text>
       <landscapeOrientation>1</landscapeOrientation>
     </card>
     <card>
@@ -4928,7 +4928,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever another Human or Citizen you control enters, create a Food token.
-{1}, {T}, Sacrifice a Treasure: Call upon Ale Tosser. (Create a token that’s a copy of a card named Ale Tosser)
+{1}, {T}, Sacrifice a Treasure: Call upon Ale Tosser. (Create a token that's a copy of a card named Ale Tosser)
 {1}{R}, {T}, Sacrifice a Food: Dale deals 2 damage to any target.</text>
       <related>Food Token</related>
     </card>
@@ -5894,7 +5894,7 @@ Equip {1}</text>
         <cmc>2</cmc>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature and 1 damage to that creature’s controller.</text>
+      <text>Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature and 1 damage to that creature's controller.</text>
       <token>1</token>
       <reverse-related>The Nebula Pillar</reverse-related>
       <reverse-related>The Nebula Pillar (Token)</reverse-related>
@@ -6144,7 +6144,7 @@ Whenever a creature you control dies, destroy each creature that dealt damage to
       </prop>
       <tablerow>2</tablerow>
       <text>Flying, haste
-If Eye of Cthulhu would be destroyed and it doesn’t have trample, regenerate it and put a trample counter on it.
+If Eye of Cthulhu would be destroyed and it doesn't have trample, regenerate it and put a trample counter on it.
 As long as Eye of Cthulhu has trample, it gets +3/-1.</text>
       <token>1</token>
       <reverse-related>Pursuing Eye</reverse-related>
@@ -7172,7 +7172,7 @@ When this creature dies, create a Treasure token. </text>
         <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, create a Bomb token. (It’s an artifact with “{2/R}, {T}, Sacrifice this artifact: It deals 2 damage to any target.”)
+      <text>When this creature enters, create a Bomb token. (It's an artifact with “{2/R}, {T}, Sacrifice this artifact: It deals 2 damage to any target.”)
 {T}, Sacrifice a Bomb: This creature deals 2 damage to any target.</text>
       <token>1</token>
       <reverse-related>The Pirate Invasion</reverse-related>
@@ -7190,7 +7190,7 @@ When this creature dies, create a Treasure token. </text>
         <pt>3/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature dies, call upon Pirate's Cutlass. (Create a token that’s a copy of a card named Pirate's Cutlass.)</text>
+      <text>When this creature dies, call upon Pirate's Cutlass. (Create a token that's a copy of a card named Pirate's Cutlass.)</text>
       <token>1</token>
       <reverse-related>The Pirate Invasion</reverse-related>
     </card>
@@ -7225,7 +7225,7 @@ When this creature dies, draw a card.</text>
       <tablerow>2</tablerow>
       <text>Menace
 Other Pirates you control have menace.
-Whenever a non-Skeleton Pirate you control dies, call upon Pirate’s Curse. (Create a token that’s a copy of a card named Pirate’s Curse.)</text>
+Whenever a non-Skeleton Pirate you control dies, call upon Pirate's Curse. (Create a token that's a copy of a card named Pirate's Curse.)</text>
       <token>1</token>
       <reverse-related>The Pirate Invasion</reverse-related>
     </card>
@@ -7242,7 +7242,7 @@ Whenever a non-Skeleton Pirate you control dies, call upon Pirate’s Curse. (Cr
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-Decayed (This creature can’t block. When it attacks, sacrifice it at end of combat.)
+Decayed (This creature can't block. When it attacks, sacrifice it at end of combat.)
 When this creature dies, choose one—
 • Create a Treasure token. You lose 1 life.
 • Draw a card. You lose 2 life.</text>
@@ -7349,7 +7349,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
       </prop>
       <tablerow>1</tablerow>
       <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
-Equipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can’t be spent to cast creature spells.”
+Equipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”
 Equip {2}</text>
       <related attach="attach">Hero Token</related>
       <token>1</token>
