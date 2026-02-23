@@ -4570,7 +4570,7 @@ At the beginning of combat on your turn, call upon a card name chosen randomly f
       </prop>
       <tablerow>1</tablerow>
       <text>Jump — During your turn, equipped creature has flying.
-Whenever a creature you control enters, you may attach this Equipment to that creature.
+Whenever a creature you control enters, you may attach this Equipment to it.
 Equip {3}</text>
     </card>
     <card>
@@ -7367,7 +7367,7 @@ Equip {2}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>Jump — During your turn, equipped creature has flying.
-Whenever a creature you control enters, you may attach this Equipment to that creature.
+Whenever a creature you control enters, you may attach this Equipment to it.
 Equip {3}</text>
       <token>1</token>
       <reverse-related>Windy Balloon</reverse-related>
@@ -7394,4 +7394,5 @@ Equip {3}</text>
   </cards>
 
 </cockatrice_carddatabase>
+
 
