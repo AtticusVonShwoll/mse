@@ -634,7 +634,7 @@
 			"oracle_text": "If one or more tokens would be created under your control, twice that many of those tokens are created instead.\nCreature tokens you control get +1/+1 and have flying.",
 			"type": "Legendary Creature",
 			"subtypes": [
-			"Human Shaman"
+			"Human Shaman Hero"
 			],
 	  "set": "tra", "collector_number": "170",
 			"image_uris": {
@@ -651,7 +651,7 @@
 			"oracle_text": "Flying, double strike, trample, haste\nIf a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.",
 			"type": "Legendary Creature",
 			"subtypes": [
-			"Human Warrior"
+			"Human Warrior Hero"
 			],
 	  "set": "tra", "collector_number": "122",
 			"image_uris": {
@@ -971,7 +971,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"cmc": 3,
-			"oracle_text": "Tap an untapped creature you control, sacrifice this artifact: Create two Treasure tokens. If there are two or more cards named Shadow Orb in your graveyard, draw a card. If there are three or more cards named Shadow Orb in your graveyard, each opponent loses 3 life, then call upon The Eater of Worlds.\nA deck can have up to six cards named Shadow Orb.",
+			"oracle_text": "Tap an untapped creature you control, sacrifice this artifact: Draw a card and create two Treasure tokens. If there are three or more cards in your graveyard named Shadow Orb, exile them and call upon The Eater of Worlds. (Create a token that’s a copy of a card named The Eater of Worlds)\nA deck can have any number of cards named Shadow Orb.",
 			"type": "Artifact",
 	  "set": "tra", "collector_number": "53",
 			"image_uris": {
@@ -1327,6 +1327,21 @@
 			"Fish Token",
 			"Treasure Token"
 			],
+		},
+		{
+			"name": "Jey, Young Angler Token",
+			"mana_cost": "{1}{W}{U}",
+			"cmc": 3,
+			"power": "2",
+			"toughness": "2",
+			"oracle_text": "At the beginning of your upkeep, you may have another target player create a 1/1 blue Fish creature token. If you do, you gain 2 life and draw a card.\n{T}: Target player may sacrifice a Fish creature they control. If they do, they create a Treasure token.",
+			"type": "Token Legendary Creature",
+			"subtypes": [
+			"Human Citizen"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Jey, Young Angler Token.png"
+			},
 		},
 			{
 			"name": "Fish Token",
@@ -2024,7 +2039,7 @@
 			"cmc": 5,
 			"power": "1",
 			"toughness": "5",
-			"oracle_text": "At the beginning of your end step, put X tax counters on Warren, where X is half the number of Humans and/or Citizens you control, rounded up.\n{T}, Remove X tax counters: Create X Treasure tokens. X can't be 0 or more than 10.",
+			"oracle_text": "At the beginning of your end step, put X tax counters on Warren, where X is half the number of Humans and/or Citizens you control, rounded up.\n{T}, Remove X tax counters from Warren: Create X Treasure tokens. X can't be 0 or more than 10.",
 			"type": "Legendary Creature",
 			"subtypes": [
 			"Human Citizen"
@@ -2043,7 +2058,7 @@
 			"cmc": 5,
 			"power": "1",
 			"toughness": "5",
-			"oracle_text": "At the beginning of your end step, put X tax counters on Warren, where X is half the number of Humans and/or Citizens you control, rounded up.\n{T}, Remove X tax counters: Create X Treasure tokens. X can't be 0 or more than 10.",
+			"oracle_text": "At the beginning of your end step, put X tax counters on Warren, where X is half the number of Humans and/or Citizens you control, rounded up.\n{T}, Remove X tax counters from Warren: Create X Treasure tokens. X can't be 0 or more than 10.",
 			"type": "Token Legendary Creature",
 			"subtypes": [
 			"Human Citizen"
@@ -2910,7 +2925,7 @@
 			"oracle_text": "Haste\n{R}, {T}, Sacrifice this creature: Destroy target creature with defender.",
 			"type": "Creature",
 			"subtypes": [
-			"Goblin"
+			"Goblin Soldier"
 			],
 	  "set": "tra", "collector_number": "72",
 			"image_uris": {
@@ -2926,7 +2941,7 @@
 			"oracle_text": "Haste\n{R}, {T}, Sacrifice this creature: Destroy target creature with defender.",
 			"type": "Token Creature",
 			"subtypes": [
-			"Goblin"
+			"Goblin Soldier"
 			],
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Goblin Peon Token.png"
@@ -3424,7 +3439,7 @@
 			"oracle_text": "Flying, deathtouch\nWard—Discard a card and pay 3 life.\nThe Ranger has first strike as long as it’s attacking.\nWhenever The Ranger deals combat damage to a player, draw two cards, then discard a card.",
 			"type": "Legendary Creature",
 			"subtypes": [
-			"Human Ranger"
+			"Human Ranger Hero"
 			],
 	  "set": "tra", "collector_number": "156",
 			"image_uris": {
@@ -3607,7 +3622,7 @@
 			"oracle_text": "Flying\nWhenever you cast a noncreature spell with mana value X or less, copy it. You may choose new targets for the copy. Where X is twice the number of artifacts you control named Mana Crystal.\n{2}, {T}, Discard a card: Call upon Mana Crystal. (Create a token that's a copy of a card named Mana Crystal.)",
 			"type": "Legendary Creature",
 			"subtypes": [
-			"Human Wizard"
+			"Human Wizard Hero"
 			],
 	  "set": "tra", "collector_number": "141",
 			"image_uris": {
@@ -6951,6 +6966,531 @@
 			"Cursed Pirate Token"
 			],
 		},
+		{
+			"name": "Bounding Balloon",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"cmc": 1,
+			"oracle_text": "Jump — During your turn, equipped creature has flying.\nWhenever a creature you control enters, you may attach this Equipment to that creature.\nEquip {3}",
+			"type": "Artifact",
+			"subtypes": [
+			"Equipment"
+			],
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Bounding Balloon.png"
+			}
+		},
+		{
+			"name": "Bounding Balloon Token",
+			"mana_cost": "{1}",
+			"cmc": 1,
+			"oracle_text": "Jump — During your turn, equipped creature has flying.\nWhenever a creature you control enters, you may attach this Equipment to that creature.\nEquip {3}",
+			"type": "Token Artifact",
+			"subtypes": [
+			"Equipment"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Bounding Balloon Token.png"
+			}
+		},
+		{
+			"name": "Finding the Ocean",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"cmc": 3,
+			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nTarget creature explores, then explores again.\nChoose one —\n• Create a 1/1 blue Fish creature token.\n• Call upon Jey, Young Angler if you control a Fish. (Create a token that's a copy of a card named Jey, Young Angler.) \nReturn up to one target creature to its owner's hand.",
+			"type": "Enchantment",
+			"subtypes": [
+			"Saga"
+			],
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Finding the Ocean.png"
+			},
+			"related_cards": [
+			"Fish Token",
+			"Jey, Young Angler Token",
+			"Treasure Token"
+			],
+		},
+		{
+			"name": "Light Pet",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"cmc": 2,
+			"oracle_text": "At the beginning of combat on your turn, equipped creature explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)\nEquip {1}",
+			"type": "Artifact",
+			"subtypes": [
+			"Equipment"
+			],
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Light Pet.png"
+			}
+		},
+		{
+			"name": "K.O. Cannon",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"cmc": 2,
+			"oracle_text": "Equipped creature gets +1/+0.\nWhenever equipped creature deals combat damage to another creature, return the other creature to its owner's hand. (Return it only if it's on the battlefield.)\nEquip {2}",
+			"type": "Artifact",
+			"subtypes": [
+			"Equipment"
+			],
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/K.O. Cannon.png"
+			}
+		},
+		{
+			"name": "Shared Loot",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"cmc": 2,
+			"oracle_text": "Distribute X +1/+1 counters among any number of target creatures, where X is 2 plus the number of cards named Shared Loot in your graveyard.\nA deck can have any number of cards named Shared Loot.",
+			"type": "Sorcery",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Shared Loot.png"
+			}
+		},
+		{
+			"name": "Through the Pylons",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"cmc": 1,
+			"oracle_text": "Look at the top X cards of your library, where X is two plus twice the number of cards in your graveyard named Through the Pylons. Put one into your hand and the rest on the bottom of your library in a random order.\nA deck can have up to eleven cards named Through the Pylons.",
+			"type": "Sorcery",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Through the Pylons.png"
+			}
+		},
+		{
+			"name": "Change Loadout",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"cmc": 1,
+			"oracle_text": "Put a +1/+1 counter on target creature. You may attach any number of Equipment you control to it.",
+			"type": "Instant",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Change Loadout.png"
+			}
+		},
+		{
+			"name": "Rare Find",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"cmc": 6,
+			"oracle_text": "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nSearch your library for an artifact card, reveal it, put it into your hand, then shuffle.\n{2}, Discard this card: Create a Treasure token.",
+			"type": "Sorcery",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Rare Find.png"
+			}
+			"related_cards": [
+			"Treasure Token"
+			],
+		},
+		{
+			"name": "Windy Balloon",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"cmc": 1,
+			"power": "1",
+			"toughness": "1",
+			"oracle_text": "Flying\nWhen this creature dies, choose one —\n• Create a 1/1 green Ooze creature token.\n• Call upon Bounding Balloon. (Create a token that's a copy of a card named Bounding Balloon)",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze "
+			],
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Windy Balloon.png"
+			},
+			"related_cards": [
+			"Ooze Token",
+			"Bounding Balloon Token"
+			]
+		},
+		{
+			"name": "Dungeon Slime",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"cmc": 1,
+			"power": "1",
+			"toughness": "1",
+			"oracle_text": "When this creature dies, create a Clue token. (It's an artifact with “{2}, Sacrifice this token: Draw a card.”)",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze "
+			],
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Dungeon Slime.png"
+			},
+			"related_cards": [
+			"Clue Token"
+			]
+		},
+		{
+			"name": "Metallic Blessing",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"cmc": 2,
+			"oracle_text": "Double target creature's power until end of turn. If that creature is a Hero, create a Treasure token.",
+			"type": "Instant",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Metallic Blessing.png"
+			},
+			"related_cards": [
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Crimson Heart",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"cmc": 3,
+			"oracle_text": "Tap an untapped creature you control, sacrifice this artifact: Exile the top two cards of your library, you may cast them this turn. Then create two Treasure tokens. If there are three or more cards in your graveyard named Crimson Heart, exile them and call upon Brain of Cthulhu. (Create a token that's a copy of a card named Brain of Cthulhu)\nA deck can have any number of cards named Crimson Heart.",
+			"type": "Artifact",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Crimson Heart.png"
+			},
+			"related_cards": [
+			"Treasure Token",
+			"Brain of Cthulhu Token"
+			]
+		},
+		{
+			"name": "Flying Fish",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"cmc": 2,
+			"power": "1",
+			"toughness": "2",
+			"oracle_text": "Flying\nThis creature gets +1/+1 as long as you control a battle.",
+			"type": "Creature",
+			"subtypes": [
+			"Fish"
+			],
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Flying Fish.png"
+			}
+		},
+		{
+			"name": "Antlion Charger",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"cmc": 4,
+			"power": "3",
+			"toughness": "4",
+			"oracle_text": "Trample\nThis creature gets +1/+0 for each other Insect you control.",
+			"type": "Creature",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Antlion Charger.png"
+			}
+		},
+		{
+			"name": "Jungle Excavation",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"cmc": 2,
+			"oracle_text": "Mill five cards. You may put an artifact, battle, creature or land card from among them into your hand. If you didn't put a card into your hand this way, draw a card.",
+			"type": "Sorcery",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Jungle Excavation.png"
+			}
+		},
+		{
+			"name": "Tim, Bone Wizard",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"cmc": 3,
+			"power": 2,
+			"toughness": 2,
+			"oracle_text": "{T}: Add one mana of any color. This mana can't be spent to cast creature spells.\nWhen Tim dies, call upon Wizard Attire. (Create a token that's a copy of a card named Wizard Attire)",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Skeleton Wizard"
+			],
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tim, Bone Wizard.png"
+			},
+			"related_cards": [
+			"Wizard Attire Token",
+			"Hero Token"
+			]
+		},
+		{
+			"name": "Wizard Attire",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"cmc": 2,
+			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”\nEquip {2}",
+			"type": "Artifact",
+			"subtypes": [
+			"Equipment"
+			],
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Wizard Attire.png"
+			},
+			"related_cards": [
+			"Hero Token"
+			]
+		},
+		{
+			"name": "Wizard Attire Token",
+			"mana_cost": "{1}{U}",
+			"cmc": 2,
+			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”\nEquip {2}",
+			"type": "Token Artifact",
+			"subtypes": [
+			"Equipment"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Wizard Attire Token.png"
+			}
+		},
+		{
+			"name": "Librarian Skeleton",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"cmc": 1,
+			"power": 1,
+			"toughness": 2,
+			"oracle_text": "{1}, {T}: Draw a card, then discard a card.",
+			"type": "Creature",
+			"subtypes": [
+			"Skeleton Wizard"
+			],
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Librarian Skeleton.png"
+			}
+		},
+		{
+			"name": "Fire Imp Assault",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"cmc": 1,
+			"oracle_text": "Choose one —\n• Fire Imp Assault deals 2 damage to any target.\n• Create a 1/1 red Imp Wizard creature token with “When this creature dies, it deals 1 damage to any target.”",
+			"type": "Sorcery",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Fire Imp Assault.png"
+			},
+			"related_cards": [
+			"Imp Wizard Token"
+			]
+		},
+		{
+			"name": "Imp Wizard Token",
+			"mana_cost": "",
+			"type": "Token Creature",
+			"subtypes": [
+			"Imp Wizard"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Imp Wizard Token.png"
+			}
+		},
+		{
+			"name": "Spark Elemental",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"cmc": 1,
+			"power": 3,
+			"toughness": 1,
+			"oracle_text": "Trample, haste\nAt the beginning of the end step, sacrifice this creature.",
+			"type": "Creature",
+			"subtype": [
+			"Elemental"
+			],
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Blazing Wheel.png"
+			}
+		},
+		{
+			"name": "The Frost Legion",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}{G}",
+			"cmc": 3,
+			"loyalty": "4",
+			"oracle_text": "(Events are protected by you. When it leaves the battlefield, exile all tokens created with it that are creatures.)\nAt the beginning of combat on your turn, call upon a card name chosen at random from among Mister Stabby, Snow Balla, or Snowman Gangsta. (Create a token that's a copy of the named card.)",
+			"type": "Battle",
+			"subtypes": [
+			"Event"
+			],
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/The Frost Legion.png"
+			},
+			"related_cards": [
+			"Mister Stabby Token",
+			"Snowman Gangsta Token",
+			"Snow Balla Token"
+			]
+		},
+		{
+			"name": "Mister Stabby",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"cmc": 2,
+			"power": 2,
+			"toughness": 2,
+			"oracle_text": "Lifelink\n{B}, Sacrifice this creature: Destroy target creature blocking it.",
+			"type": "Creature",
+			"subtypes": [
+			"Elemental Mercenary"
+			],
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mister Stabby.png"
+			}
+		},
+		{
+			"name": "Mister Stabby Token",
+			"mana_cost": "{1}{B}",
+			"cmc": 2,
+			"power": 2,
+			"toughness": 2,
+			"oracle_text": "Lifelink\n{B}, Sacrifice this creature: Destroy target creature blocking it.",
+			"type": "Token Creature",
+			"subtypes": [
+			"Elemental Mercenary"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Mister Stabby Token.png"
+			}
+		},
+		{
+			"name": "Snowman Gangsta",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"cmc": 2,
+			"power": 2,
+			"toughness": 2,
+			"oracle_text": "Vigilance\nWhen this creature enters, it deals damage equal to its power to up to one target creature with flying.",
+			"type": "Creature",
+			"subtypes": [
+			"Elemental Mercenary"
+			],
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Snowman Gangsta.png"
+			}
+		},
+		{
+			"name": "Snowman Gangsta Token",
+			"mana_cost": "{1}{G}",
+			"cmc": 2,
+			"power": 2,
+			"toughness": 2,
+			"oracle_text": "Vigilance\nWhen this creature enters, it deals damage equal to its power to up to one target creature with flying.",
+			"type": "Creature",
+			"subtypes": [
+			"Elemental Mercenary"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Snowman Gangsta Token.png"
+			}
+		},
+		{
+			"name": "Snow Balla",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"cmc": 2,
+			"power": 2,
+			"toughness": 2,
+			"oracle_text": "Reach\n{1}, {T}: Snow Balla deals 1 damage to target opponent.",
+			"type": "Creature",
+			"subtypes": [
+			"Elemental Mercenary"
+			],
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Snow Balla.png"
+			}
+		},
+		{
+			"name": "Snow Balla Token",
+			"mana_cost": "{1}{R}",
+			"cmc": 2,
+			"power": 2,
+			"toughness": 2,
+			"oracle_text": "Reach\n{1}, {T}: Snow Balla deals 1 damage to target opponent.",
+			"type": "Creature",
+			"subtypes": [
+			"Elemental Mercenary"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Snow Balla Token.png"
+			}
+		},
+		{
+			"name": "Dale, Otherworldly Barkeep",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"cmc": 3,
+			"power": 0,
+			"toughness": 4,
+			"oracle_text": "Whenever another Human or Citizen you control enters, create a Food token./n{1}, {T}, Sacrifice a Treasure: Call upon Ale Tosser. (Create a token that's a copy of a card named Ale Tosser)\n{1}{R}, {T}, Sacrifice a Food: Dale deals 2 damage to any target.",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Human Citizen"
+			],
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Dale, Otherworldly Barkeep.png"
+			},
+			"related_cards": [
+			"Food Token",
+			"Ale Tosser Token"
+			]
+		},
+		{
+			"name": "Ale Tosser",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"cmc": 1,
+			"oracle_text": "Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain that much life.”\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nEquip {2}",
+			"type": "Artifact",
+			"subtypes": [
+			"Equipment Food"
+			],
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Ale Tosser.png"
+			}
+		},
+		{
+			"name": "Ale Tosser Token",
+			"mana_cost": "{1}",
+			"cmc": 1,
+			"oracle_text": "Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain that much life.”\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nEquip {2}",
+			"type": "Token Artifact",
+			"subtypes": [
+			"Equipment Food"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Ale Tosser Token.png"
+			}
+		},
 		]
 	[RareSlot(1)]
 		2 Skeletron, Dungeon Guardian
@@ -7115,6 +7655,11 @@
 		9 Falling Meteors
 		9 Old One's Ogre
 		9 Pirate Deadeye
+		9 Finding the Ocean
+		9 Rare Find
+		9 Metallic Blessing
+		9 The Frost Legion
+		9 Dale, Otherworldly Barkeep
 		[CommonSlot(7)]
 		30 Slime Crown
 		30 Bravery Against the Odds
@@ -7207,11 +7752,11 @@
 		30 Sunlit Marsh
 		30 Tangled Islet
 		30 Wooded Ridgeline
-		30 Granite Golem
-		30 Corrupt Devourer
-		30 Relentless Shark
-		30 Tomb Crawler
-		30 Man Eater
+		45 Granite Golem
+		45 Corrupt Devourer
+		45 Relentless Shark
+		45 Tomb Crawler
+		45 Man Eater
 		30 Prophetic Prism
 		30 Broken Hero Sword
 		30 Bone Serpent
@@ -7239,8 +7784,8 @@
 		30 Mourning Wood
 		30 Geistwave
 		30 Building a Town
-		30 Slime Symposium
-		30 Shadow Orb
+		60 Slime Symposium
+		60 Shadow Orb
 		30 Deadly Derision
 		30 Splinterling
 		30 Flocko
@@ -7255,6 +7800,27 @@
 		30 Pirate Corsair
 		30 Pirate's Parrot
 		30 Cursed Pirate
+		30 Bounding Balloon
+		30 Light Pet
+		30 K.O. Cannon
+		60 Shared Loot
+		60 Through the Pylons
+		30 Change Loadout
+		30 Windy Balloon
+		30 Dungeon Slime
+		60 Crimson Heart
+		30 Flying Fish
+		30 Antlion Charger
+		30 Jungle Excavation
+		30 Tim, Bone Wizard
+		30 Wizard Attire
+		30 Librarian Skeleton
+		30 Fire Imp Assault
+		30 Spark Elemental
+		30 Mister Stabby
+		30 Snowman Gangsta
+		30 Snow Balla
+		30 Ale Tosser
 		[WildcardSlot(2)]
 	10 Skeletron, Dungeon Guardian
 	10 The Dungeon's Entrance
@@ -7546,6 +8112,32 @@
 	10 Pirate Captain
 	10 Cursed Pirate
 	10 The Pirate Invasion
+	10 Bounding Balloon
+	10 Finding the Ocean
+	10 Light Pet
+	10 K.O. Cannon
+	10 Shared Loot
+	10 Through the Pylons
+	10 Change Loadout
+	10 Rare Find
+	10 Windy Balloon
+	10 Dungeon Slime
+	10 Metallic Blessing
+	10 Crimson Heart
+	10 Flying Fish
+	10 Antlion Charger
+	10 Jungle Excavation
+	10 Tim, Bone Wizard
+	10 Wizard Attire
+	10 Librarian Skeleton
+	10 Fire Imp Assault
+	10 Blazing Wheel
+	10 The Frost Legion
+	10 Mister Stabby
+	10 Snowman Gangsta
+	10 Snow Balla
+	10 Dale, Otherworldly Barkeep
+	10 Ale Tosser
 	[LandSlot(1)]
 	10 Contaminated Aquifer
 	10 Geothermal Bog
