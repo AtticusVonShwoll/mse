@@ -6971,7 +6971,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"cmc": 1,
-			"oracle_text": "Jump — During your turn, equipped creature has flying.\nWhenever a creature you control enters, you may attach this Equipment to that creature.\nEquip {3}",
+			"oracle_text": "Jump — During your turn, equipped creature has flying.\nWhenever a creature you control enters, you may attach this Equipment to it.\nEquip {3}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -6985,7 +6985,7 @@
 			"name": "Bounding Balloon Token",
 			"mana_cost": "{1}",
 			"cmc": 1,
-			"oracle_text": "Jump — During your turn, equipped creature has flying.\nWhenever a creature you control enters, you may attach this Equipment to that creature.\nEquip {3}",
+			"oracle_text": "Jump — During your turn, equipped creature has flying.\nWhenever a creature you control enters, you may attach this Equipment to it.\nEquip {3}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -8150,3 +8150,4 @@
 	10 Tangled Islet
 
 	10 Wooded Ridgeline
+
