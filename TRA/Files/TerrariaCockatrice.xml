@@ -4724,8 +4724,8 @@ When this creature dies, choose one —
     </card>
     <card>
       <name>Crimson Heart</name>
-      <set rarity="common">TRA</set>
-      <prop picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Crimson Heart.png">
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Crimson Heart.png">TRA</set>
+      <prop>
         <colors>R</colors>
         <manacost>2R</manacost>
         <cmc>3</cmc>
@@ -7392,4 +7392,5 @@ Equip {3}</text>
       <reverse-related>Finding the Ocean</reverse-related>
     </card>
   </cards>
+
 </cockatrice_carddatabase>
