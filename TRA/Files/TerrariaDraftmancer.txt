@@ -7664,7 +7664,7 @@
 		30 Slime Crown
 		30 Bravery Against the Odds
 		30 Acorn Bag
-		30 Pursuing Eye
+		45 Pursuing Eye
 		30 Enchanted Sword
 		30 Search for an Enchanted Sword
 		30 Critter Catching Net
@@ -8148,4 +8148,5 @@
 	10 Sacred Peaks
 	10 Sunlit Marsh
 	10 Tangled Islet
+
 	10 Wooded Ridgeline
