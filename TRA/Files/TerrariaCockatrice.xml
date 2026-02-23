@@ -6413,7 +6413,7 @@ Wall of Flesh attacks each combat if able and must be blocked if able.</text>
       <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Guide Voodoo Doll Token.png">TRA</set>
       <prop>
         <colors />
-        <type>Artifact</type>
+        <type>Token Artifact</type>
         <maintype>Artifact</maintype>
         <manacost>2</manacost>
         <cmc>2</cmc>
@@ -6810,7 +6810,7 @@ When this creature enters, each player sacrifices a creature.</text>
         <manacost>2B</manacost>
         <cmc>3</cmc>
       </prop>
-      <tablerow>2</tablerow>
+      <tablerow>2</tablerow>  
       <text>Whenever this creature is dealt damage, each opponent loses 1 life.</text>
       <token>1</token>
       <reverse-related>A Solar Eclipse is Happening</reverse-related>
@@ -7394,3 +7394,4 @@ Equip {3}</text>
   </cards>
 
 </cockatrice_carddatabase>
+
