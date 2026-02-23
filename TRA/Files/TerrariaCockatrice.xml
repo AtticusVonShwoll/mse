@@ -4617,8 +4617,7 @@ Equip {1}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +1/+0.
-Whenever equipped creature deals combat damage to another creature, return the other creature to its owner's hand. (Return it only if it's on the battlefield.)
+      <text>Equipped creature gets +1/+0 and has “Whenever this creature deals combat damage to a creature, return that creature to its owner’s hand. (Return it only if it’s on the battlefield.)”
 Equip {2}</text>
     </card>
     <card>
@@ -7394,6 +7393,7 @@ Equip {3}</text>
   </cards>
 
 </cockatrice_carddatabase>
+
 
 
 
