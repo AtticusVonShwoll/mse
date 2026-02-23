@@ -4585,7 +4585,7 @@ Equip {3}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Target creature explores, then explores again.
+Target creature you control explores, then explores again.
 Choose one —
 • Create a 1/1 blue Fish creature token.
 • Call upon Jey, Young Angler if you control a Fish. (Create a token that's a copy of a card named Jey, Young Angler.) 
@@ -7394,5 +7394,6 @@ Equip {3}</text>
   </cards>
 
 </cockatrice_carddatabase>
+
 
 
