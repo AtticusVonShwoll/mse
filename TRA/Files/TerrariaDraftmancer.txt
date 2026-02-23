@@ -6999,7 +6999,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"cmc": 3,
-			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nTarget creature explores, then explores again.\nChoose one —\n• Create a 1/1 blue Fish creature token.\n• Call upon Jey, Young Angler if you control a Fish. (Create a token that's a copy of a card named Jey, Young Angler.) \nReturn up to one target creature to its owner's hand.",
+			"oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nTarget creature you control explores, then explores again.\nChoose one —\n• Create a 1/1 blue Fish creature token.\n• Call upon Jey, Young Angler if you control a Fish. (Create a token that's a copy of a card named Jey, Young Angler.) \nReturn up to one target creature to its owner's hand.",
 			"type": "Enchantment",
 			"subtypes": [
 			"Saga"
@@ -8150,4 +8150,5 @@
 	10 Tangled Islet
 
 	10 Wooded Ridgeline
+
 
