@@ -4631,7 +4631,7 @@ Equip {2}</text>
         <maintype>Sorcery</maintype>
       </prop>
       <tablerow>3</tablerow>
-      <text>Distribute X +1/+1 counters among any number of target creatures, where X is 2 plus the number of cards named Shared Loot in your graveyard.
+      <text>Distribute X +1/+1 counters among any number of target creatures, where X is 2 plus the number of cards named Shared Loot in your graveyard as you cast this spell.
 A deck can have any number of cards named Shared Loot.</text>
     </card>
     <card>
@@ -7393,6 +7393,7 @@ Equip {3}</text>
   </cards>
 
 </cockatrice_carddatabase>
+
 
 
 
