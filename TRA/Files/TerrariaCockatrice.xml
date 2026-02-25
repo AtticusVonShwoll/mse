@@ -4942,7 +4942,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain that much life.”
+      <text>Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain 2 life.”
 {2}, {T}, Sacrifice this artifact: You gain 3 life.
 Equip {2}</text>
     </card>
@@ -7279,7 +7279,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain that much life.”
+      <text>Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain 2 life.”
 {2}, {T}, Sacrifice this artifact: You gain 3 life.
 Equip {2}</text>
       <token>1</token>
@@ -7393,6 +7393,7 @@ Equip {3}</text>
   </cards>
 
 </cockatrice_carddatabase>
+
 
 
 
