@@ -7156,7 +7156,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"cmc": 3,
-			"oracle_text": "Tap an untapped creature you control, sacrifice this artifact: Exile the top two cards of your library, you may cast them this turn. Then create two Treasure tokens. If there are three or more cards in your graveyard named Crimson Heart, exile them and call upon Brain of Cthulhu. (Create a token that's a copy of a card named Brain of Cthulhu)\nA deck can have any number of cards named Crimson Heart.",
+			"oracle_text": "Tap an untapped creature you control, sacrifice this artifact: Exile the top two cards of your library, you may play those cards this turn. Then create two Treasure tokens. If there are three or more cards in your graveyard named Crimson Heart, exile them and call upon Brain of Cthulhu. (Create a token that's a copy of a card named Brain of Cthulhu)\nA deck can have any number of cards named Crimson Heart.",
 			"type": "Artifact",
 			"collector_number": "93",
 			"image_uris": {
@@ -8150,6 +8150,7 @@
 	10 Tangled Islet
 
 	10 Wooded Ridgeline
+
 
 
 
