@@ -7468,7 +7468,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"cmc": 1,
-			"oracle_text": "Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain that much life.”\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nEquip {2}",
+			"oracle_text": "Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain 2 life.”\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nEquip {2}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment Food"
@@ -7482,7 +7482,7 @@
 			"name": "Ale Tosser Token",
 			"mana_cost": "{1}",
 			"cmc": 1,
-			"oracle_text": "Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain that much life.”\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nEquip {2}",
+			"oracle_text": "Equipped creature gets +1/+0 and has reach and “{R}, {T}, Sacrifice an artifact: This creature deals 2 damage to any target. If a Food was sacrificed this way, you gain 2 life.”\n{2}, {T}, Sacrifice this artifact: You gain 3 life.\nEquip {2}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment Food"
@@ -8150,6 +8150,7 @@
 	10 Tangled Islet
 
 	10 Wooded Ridgeline
+
 
 
 
