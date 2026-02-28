@@ -7090,7 +7090,7 @@
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Rare Find.png"
-			}
+			},
 			"related_cards": [
 			"Treasure Token"
 			],
@@ -8150,6 +8150,7 @@
 	10 Tangled Islet
 
 	10 Wooded Ridgeline
+
 
 
 
