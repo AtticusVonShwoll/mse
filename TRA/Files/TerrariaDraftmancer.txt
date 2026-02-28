@@ -8131,7 +8131,7 @@
 	10 Wizard Attire
 	10 Librarian Skeleton
 	10 Fire Imp Assault
-	10 Blazing Wheel
+	10 Spark Elemental
 	10 The Frost Legion
 	10 Mister Stabby
 	10 Snowman Gangsta
@@ -8150,6 +8150,7 @@
 	10 Tangled Islet
 
 	10 Wooded Ridgeline
+
 
 
 
