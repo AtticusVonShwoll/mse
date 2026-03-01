@@ -715,7 +715,7 @@ Exile target battle, Boss or enchantment.</text>
       </prop>
       <tablerow>1</tablerow>
       <text>{1}, {T}, Sacrifice two other artifacts: Create three Treasure tokens.
-{T}, Sacrifice four Treasures: Call upon Night's Edge. (Create a token that's a copy of a card named Night's Edge.)</text>
+{T}, Sacrifice four Treasures: Call upon Night's Edge. Activate only as a sorcery. (Create a token that's a copy of a card named Night's Edge.)</text>
       <related count="3">Treasure Token</related>
     </card>
     <card>
@@ -840,7 +840,8 @@ Whenever a creature an opponent controls dies, Xavier deals 1 damage to that cre
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +5/+5 and has menace and trample.
+      <text>Job select
+Equipped creature gets +5/+5, has menace and trample, and is a Warrior in addition to its other types.
 Equip {2}</text>
     </card>
     <card>
@@ -1053,7 +1054,8 @@ Magic Missile deals 3 damage divided as you choose among one, two, or three targ
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +5/+5 and has lifelink and haste.
+      <text>Job select
+Equipped creature gets +5/+5 and has lifelink and haste, and is a Warrior in addition to its other types.
 Equip {2}</text>
     </card>
     <card>
@@ -1233,11 +1235,10 @@ At the beginning of your end step, you may remove a defense counter from this Ev
         <cmc>2</cmc>
         <type>Creature — Jellyfish </type>
         <maintype>Creature</maintype>
-        <pt>1/1</pt>
+        <pt>2/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, scry 1.
-This creature gets +1/+1 for each opponent that controls an Island.</text>
+      <text>When this creature enters, scry 2 and you may pay {R}. When you do, it deals 2 damage to any target.</text>
     </card>
     <card>
       <name>Surface Slime</name>
@@ -1251,7 +1252,7 @@ This creature gets +1/+1 for each opponent that controls an Island.</text>
         <pt>1/1</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>This creature can't be blocked as long as it hasn't been dealt damage this turn.
+      <text>This creature can't be blocked.
 Whenever this creature deals combat damage to a player, scry 1.</text>
     </card>
     <card>
@@ -1470,7 +1471,7 @@ When this creature dies, if it had flying, return it to the battlefield tapped.<
       <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sky Harpy.png">TRA</set>
       <prop>
         <colors>WU</colors>
-        <manacost>WWU</manacost>
+        <manacost>1WU</manacost>
         <cmc>3</cmc>
         <type>Creature — Harpy </type>
         <maintype>Creature</maintype>
@@ -1880,7 +1881,7 @@ As long as this Aura is attached to an opponent, if a source would deal damage t
       </prop>
       <tablerow>1</tablerow>
       <text>Enchant player
-Whenever a token you control enters, if this Aura is attached to you, you may create a token that's a copy of it. Do this only once each turn.
+Whenever a token you control enters, if this Aura is attached to you, you may create a token that's a copy of that token. Do this only once each turn.
 Whenever an opponent is attacked, if this Aura is attached to them, target creature that player controls must block this turn if able.</text>
     </card>
     <card>
@@ -1967,7 +1968,7 @@ Equip {2} or {U/R} ({2} or {U/R}: Attach to target creature you control. Equip o
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-Whenever this creature deals damage to a player, tap it and it doesn't untap during your next untap step.
+Whenever this creature deals damage to a player, tap it and put a stun counter on it.
 At the beginning of your upkeep, if this creature is tapped, it deals 2 damage to each opponent.</text>
     </card>
     <card>
@@ -1982,7 +1983,8 @@ At the beginning of your upkeep, if this creature is tapped, it deals 2 damage t
         <pt>1/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature and 1 damage to that creature's controller.</text>
+      <text>When this creature enters, you may pay {W}. If you do, put a +1/+1 counter and a lifelink counter on it.
+Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature.</text>
     </card>
     <card>
       <name>Chaos Elemental</name>
@@ -2169,14 +2171,15 @@ This creature has first strike as long as you control a Plains.</text>
       <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Gray Grunt.png">TRA</set>
       <prop>
         <colors>W</colors>
-        <manacost>2W</manacost>
-        <cmc>3</cmc>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
         <type>Creature — Alien Warrior </type>
         <maintype>Creature</maintype>
-        <pt>2/3</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>Prevent all noncombat damage that would be dealt to this creature.</text>
+      <text>When this creature enters, you may pay {B}. If you do, put a menace counter on it and create a Treasure token.
+Prevent all noncombat damage that would be dealt to this creature.</text>
     </card>
     <card>
       <name>The Ranger</name>
@@ -2250,16 +2253,18 @@ When this creature enters, target opponent loses 3 life unless they sacrifice a 
       <name>Shield of Cthulhu</name>
       <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Shield of Cthulhu.png">TRA</set>
       <prop>
-        <colors></colors>
-        <manacost>2</manacost>
+        <colors>R</colors>
+        <manacost>1R</manacost>
         <cmc>2</cmc>
         <type>Artifact — Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +0/+2 and has haste.
-Equipped creature has first strike as long as its attacking.
-Equip {2/R}</text>
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+2, has haste and is a Warrior in addition to its other types.
+Equip {2}
+Equip Warrior {R}</text>
+      <related attach="attach">Hero Token</related>
     </card>
     <card>
       <name>Faye, The Last Dryad</name>
@@ -2702,8 +2707,8 @@ Whenever this creature deals combat damage to a player or battle, you may have i
         <pt>3/3</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature dies, create three 1/1 green Ooze creature tokens.</text>
-      <related count="3">Ooze Token</related>
+      <text>When this creature enters, you may pay {U}. If you do, create two 1/1 green Ooze creature tokens.
+When this creature dies, create three 1/1 green Ooze creature tokens.</text>
     </card>
     <card>
       <name>Snow Flinxes</name>
@@ -2739,31 +2744,35 @@ Whenever this creature deals combat damage to a player or battle, you may have i
       <name>Flinx Fur Coat</name>
       <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Flinx Fur Coat.png">TRA</set>
       <prop>
-        <colors></colors>
-        <manacost>1</manacost>
-        <cmc>1</cmc>
-        <type>Artifact — Equipment </type>
-        <maintype>Artifact</maintype>
-      </prop>
-      <tablerow>1</tablerow>
-      <text>Equipped creature gets +0/+1 and has “Creature tokens you control get +1/+0.”
-Equip {3}
-Equip Shaman {2/W}</text>
-    </card>
-    <card>
-      <name>Flinx Staff</name>
-      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Flinx Staff.png">TRA</set>
-      <prop>
-        <colors></colors>
-        <manacost>2</manacost>
+        <colors>W</colors>
+        <manacost>1W</manacost>
         <cmc>2</cmc>
         <type>Artifact — Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever equipped creature attacks, create a 1/1 blue Yeti creature token.
+      <text>Job select
+Equipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.
+Equip {3}
+Equip Shaman {W}</text>
+      <related attach="attach">Hero Token</related>
+    </card>
+    <card>
+      <name>Flinx Staff</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Flinx Staff.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Artifact — Equipment </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Job select
+Equipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”
 Equip {4}
-Equip Shaman {2/G}</text>
+Equip Shaman {G}</text>
+      <related attach="attach">Hero Token</related>
     </card>
     <card>
       <name>Ironskin Potion</name>
@@ -3405,9 +3414,9 @@ Afflict X, where X is its power. (Whenever this creature becomes blocked, defend
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +1/+0 and is a Warrior in addition to its other types.
-{6}{R/G}{W/B}, Sacrifice this Equipment: Choose a card name from among Excalibur if {W} was spent to activate this ability or Night's Edge if {B} was spent. Call upon that card except it has “Equipped creature is a Warrior in addition to its other types.” You may attach it to a creature you control.
+{8}, Sacrifice this Equipment: Call upon your choice of Excalibur or Night's Edge. Activate only as a sorcery.
 Equip {2}</text>
       <related attach="attach">Hero Token</related>
     </card>
@@ -3423,7 +3432,7 @@ Equip {2}</text>
         <pt>4/4</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>When this creature enters, you draw a card and lose 1 life.
+      <text>When this creature enters, you draw a card and lose 1 life. Then you may pay {G}. If you do, put a +1/+1 counter and trample counter on it.
 Unearth {1}{B}{B}</text>
     </card>
     <card>
@@ -3596,11 +3605,11 @@ Deathtouch</text>
       <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Eyezor.png">TRA</set>
       <prop>
         <colors>B</colors>
-        <manacost>3B</manacost>
-        <cmc>4</cmc>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
         <type>Creature — Eye Zombie Horror </type>
         <maintype>Creature</maintype>
-        <pt>2/3</pt>
+        <pt>2/2</pt>
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever this creature attacks, each opponent loses 2 life.</text>
@@ -3657,7 +3666,7 @@ When this creature enters, each player sacrifices a creature.</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +2/+1 and is a Warrior in addition to its other types.
 Equip {4}</text>
       <related attach="attach">Hero Token</related>
@@ -3673,7 +3682,7 @@ Equip {4}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +0/+1, has “Activated abilities of Equipment you control cost {1} less,” and is an Artificer in addition to its other types.
 Equip {4}</text>
       <related attach="attach">Hero Token</related>
@@ -3689,7 +3698,7 @@ Equip {4}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +2/+0, has vigilance, and is a Ranger in addition to its other types.
 Equip {5}</text>
       <related attach="attach">Hero Token</related>
@@ -3705,7 +3714,7 @@ Equip {5}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +1/+0, has flying and “{3}{R}{G}: Create a 1/1 red and green Insect creature token with flying. Activate only as a sorcery,” and is a Shaman in addition to its other types.
 Equip {5}</text>
       <related attach="attach">Hero Token</related>
@@ -3895,7 +3904,7 @@ When this creature enters, counter target spell unless its controller pays {X}, 
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +3/+3, has first strike and vigilance, and is a Knight in addition to its other types.
 Equip {3}{W}{B}</text>
       <related attach="attach">Hero Token</related>
@@ -3917,19 +3926,20 @@ Whenever this creature deals combat damage to a player, return up to one target 
     </card>
     <card>
       <name>Armored Bones</name>
-      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Armored Bones.png">TRA</set>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Armored Bones.png">TRA</set>
       <prop>
         <colors>B</colors>
-        <manacost>2B</manacost>
-        <cmc>3</cmc>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
         <type>Creature — Skeleton Warrior </type>
         <maintype>Creature</maintype>
         <pt>3/2</pt>
       </prop>
       <tablerow>2</tablerow>
-      <text>As this creature enters, if U was spent to cast it, it becomes blue in addition to its other colors. The same is true for R and W. This ability doesn't affect this card's color identity.
-Whenever this creature attacks, if it is blue, up to one target creature gets -2/-0 until end of turn.
-This creature has afflict 2 if it is red and lifelink if it is white.</text>
+      <text>Kicker {U} and/or {R} and/or {W}.
+If this creature was kicked with its {U} kicker, it enters with “Whenever this creature attacks, up to one target creature gets -2/-0.”
+If this creature was kicked with its {R} kicker, it enters with afflict 2.
+If this creature was kicked with its {W} kicker, it enters with a lifelink counter on it.</text>
     </card>
     <card>
       <name>Song of the Dryads</name>
@@ -4565,7 +4575,7 @@ At the beginning of combat on your turn, call upon a card name chosen randomly f
         <colors></colors>
         <manacost>1</manacost>
         <cmc>1</cmc>
-        <type>Artifact - Equipment </type>
+        <type>Artifact — Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -4580,7 +4590,7 @@ Equip {3}</text>
         <colors>U</colors>
         <manacost>2U</manacost>
         <cmc>3</cmc>
-        <type>Enchantment - Saga </type>
+        <type>Enchantment — Saga </type>
         <maintype>Enchantment</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -4599,7 +4609,7 @@ Return up to one target creature to its owner's hand.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact - Equipment </type>
+        <type>Artifact — Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -4613,7 +4623,7 @@ Equip {1}</text>
         <colors>U</colors>
         <manacost>1U</manacost>
         <cmc>2</cmc>
-        <type>Artifact - Equipment </type>
+        <type>Artifact — Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -4683,7 +4693,7 @@ Search your library for an artifact card, reveal it, put it into your hand, then
         <colors>W</colors>
         <manacost>W</manacost>
         <cmc>1</cmc>
-        <type>Creature - Ooze </type>
+        <type>Creature — Ooze </type>
         <maintype>Creature</maintype>
         <pt>1/1</pt>
       </prop>
@@ -4700,7 +4710,7 @@ When this creature dies, choose one —
         <colors>B</colors>
         <manacost>B</manacost>
         <cmc>1</cmc>
-        <type>Creature - Ooze </type>
+        <type>Creature — Ooze </type>
         <maintype>Creature</maintype>
         <pt>1/1</pt>
       </prop>
@@ -4742,7 +4752,7 @@ A deck can have any number of cards named Crimson Heart.</text>
         <colors>U</colors>
         <manacost>1U</manacost>
         <cmc>2</cmc>
-        <type>Creature - Fish </type>
+        <type>Creature — Fish </type>
         <maintype>Creature</maintype>
         <pt>1/2</pt>
       </prop>
@@ -4757,7 +4767,7 @@ This creature gets +1/+1 as long as you control a battle.</text>
         <colors>G</colors>
         <manacost>3G</manacost>
         <cmc>4</cmc>
-        <type>Creature - Insect </type>
+        <type>Creature — Insect </type>
         <maintype>Creature</maintype>
         <pt>3/4</pt>
       </prop>
@@ -4785,7 +4795,7 @@ This creature gets +1/+0 for each other Insect you control.</text>
         <colors>U</colors>
         <manacost>2U</manacost>
         <cmc>3</cmc>
-        <type>Legendary Creature - Skeleton Wizard </type>
+        <type>Legendary Creature — Skeleton Wizard </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -4800,11 +4810,11 @@ When Tim dies, call upon Wizard Attire. (Create a token that's a copy of a card 
         <colors>U</colors>
         <manacost>1U</manacost>
         <cmc>2</cmc>
-        <type>Artifact - Equipment </type>
+        <type>Artifact — Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”
 Equip {2}</text>
       <related attach="attach">Hero Token</related>
@@ -4816,7 +4826,7 @@ Equip {2}</text>
         <colors>U</colors>
         <manacost>U</manacost>
         <cmc>1</cmc>
-        <type>Creature - Skeleton Wizard </type>
+        <type>Creature — Skeleton Wizard </type>
         <maintype>Creature</maintype>
         <pt>1/2</pt>
       </prop>
@@ -4845,7 +4855,7 @@ Equip {2}</text>
         <colors>R</colors>
         <manacost>R</manacost>
         <cmc>1</cmc>
-        <type>Creature - Elemental </type>
+        <type>Creature — Elemental </type>
         <maintype>Creature</maintype>
         <pt>3/1</pt>
       </prop>
@@ -4860,7 +4870,7 @@ At the beginning of the end step, sacrifice this creature.</text>
         <colors>BRG</colors>
         <manacost>BRG</manacost>
         <cmc>3</cmc>
-        <type>Battle - Event </type>
+        <type>Battle — Event </type>
         <maintype>Battle</maintype>
         <loyalty>4</loyalty>
       </prop>
@@ -4876,7 +4886,7 @@ At the beginning of combat on your turn, call upon a card name chosen at random 
         <colors>B</colors>
         <manacost>1B</manacost>
         <cmc>2</cmc>
-        <type>Creature - Elemental Mercenary </type>
+        <type>Creature — Elemental Mercenary </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -4891,7 +4901,7 @@ At the beginning of combat on your turn, call upon a card name chosen at random 
         <colors>G</colors>
         <manacost>1G</manacost>
         <cmc>2</cmc>
-        <type>Creature - Elemental Mercenary </type>
+        <type>Creature — Elemental Mercenary </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -4906,7 +4916,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
         <colors>R</colors>
         <manacost>1R</manacost>
         <cmc>2</cmc>
-        <type>Creature - Elemental Mercenary </type>
+        <type>Creature — Elemental Mercenary </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -4921,7 +4931,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
         <colors>W</colors>
         <manacost>2W</manacost>
         <cmc>3</cmc>
-        <type>Legendary Creature - Human Citizen </type>
+        <type>Legendary Creature — Human Citizen </type>
         <maintype>Creature</maintype>
         <pt>0/4</pt>
       </prop>
@@ -4938,7 +4948,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
         <colors></colors>
         <manacost>1</manacost>
         <cmc>1</cmc>
-        <type>Artifact - Equipment Food </type>
+        <type>Artifact — Equipment Food </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -5048,7 +5058,8 @@ Tap an untapped creature you control: Destroy this creature. Any player may acti
       <reverse-related>King Slime (Token)</reverse-related>
       <reverse-related>Slime Rain</reverse-related>
       <reverse-related>Queen Slime</reverse-related>
-      <reverse-related>Mother Slime</reverse-related>
+      <reverse-related count="2">Mother Slime</reverse-related>
+      <reverse-related count="3">Mother Slime</reverse-related>
       <reverse-related>Bounding Balloon</reverse-related>
     </card>
     <card>
@@ -5211,6 +5222,7 @@ Equip {2}</text>
       <reverse-related>Rare Find</reverse-related>
       <reverse-related count="2">Crimson Heart</reverse-related>
       <reverse-related>Metallic Blessing</reverse-related>
+      <reverse-related>Gray Grunt</reverse-related>
     </card>
     <card>
       <name>Food Token</name>
@@ -5679,35 +5691,39 @@ At the beginning of your upkeep, put a time counter on this creature. Then if it
       <name>Flinx Fur Coat (Token)</name>
       <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Flinx Fur Coat Token.png">TRA</set>
       <prop>
-        <colors></colors>
-        <manacost>1</manacost>
+        <colors>W</colors>
+        <manacost>1W</manacost>
         <type>Token Artifact — Equipment </type>
         <maintype>Artifact</maintype>
-        <cmc>1</cmc>
+        <cmc>2</cmc>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +0/+1 and has “Creature tokens you control get +1/+0.”
+      <text>Job select
+Equipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.
 Equip {3}
-Equip Shaman {2/W}</text>
+Equip Shaman {W}</text>
       <token>1</token>
       <reverse-related>Snow Flinxes</reverse-related>
+      <related attach="attach">Hero Token</related>
     </card>
     <card>
       <name>Flinx Staff (Token)</name>
       <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Flinx Staff Token.png">TRA</set>
       <prop>
-        <colors></colors>
+        <colors>G</colors>
         <type>Token Artifact — Equipment </type>
         <maintype>Artifact</maintype>
-        <manacost>2</manacost>
+        <manacost>1G</manacost>
         <cmc>2</cmc>
       </prop>
       <tablerow>1</tablerow>
-      <text>Whenever equipped creature attacks, create a 1/1 blue Yeti creature token.
+      <text>Job select
+Equipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”
 Equip {4}
-Equip Shaman {2/G}</text>
+Equip Shaman {G}</text>
       <token>1</token>
       <reverse-related>Snow Flinxes</reverse-related>
+      <related attach="attach">Hero Token</related>
     </card>
     <card>
       <name>Star Cell (Token)</name>
@@ -5893,7 +5909,8 @@ Equip {1}</text>
         <cmc>2</cmc>
       </prop>
       <tablerow>2</tablerow>
-      <text>Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature and 1 damage to that creature's controller.</text>
+      <text>When this creature enters, you may pay {W}. If you do, put a +1/+1 counter and a lifelink counter on it.
+Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature.</text>
       <token>1</token>
       <reverse-related>The Nebula Pillar</reverse-related>
       <reverse-related>The Nebula Pillar (Token)</reverse-related>
@@ -6050,7 +6067,7 @@ At the beginning of combat on your turn, another target Illusion or Horror you c
       </prop>
       <tablerow>2</tablerow>
       <text>Flying
-When this creature deals damage to a player, tap it and it doesn't untap during your next untap step.
+When this creature deals damage to a player, tap it and put a stun counter on it.
 At the beginning of your upkeep, if this creature is tapped, it deals 2 damage to each opponent.</text>
       <token>1</token>
       <reverse-related>The Nebula Pillar</reverse-related>
@@ -6412,7 +6429,7 @@ Wall of Flesh attacks each combat if able and must be blocked if able.</text>
       <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Guide Voodoo Doll Token.png">TRA</set>
       <prop>
         <colors />
-        <type>Token Artifact</type>
+        <type>Artifact</type>
         <maintype>Artifact</maintype>
         <manacost>2</manacost>
         <cmc>2</cmc>
@@ -6471,7 +6488,8 @@ Whenever King Slime is dealt damage, create a 0/0 green Ooze creature token.</te
         <cmc>6</cmc>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +5/+5 and has menace and trample.
+      <text>Job select
+Equipped creature gets +5/+5, has menace and trample, and is a Warrior in addition to its other types.
 Equip {2}</text>
       <token>1</token>
       <reverse-related>Demon Altar</reverse-related>
@@ -6569,9 +6587,9 @@ Equip {2} or {U/R} ({2} or {U/R}: Attach to target creature you control. Equip o
         <cmc>2</cmc>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +1/+0 and is a Warrior in addition to its other types.
-{6}{R/G}{W/B}, Sacrifice this Equipment: Choose a card name from among Excalibur if you spent {W} or Night's Edge if you spent {B}. Call upon that card except it has “Equipped creature is a Warrior in addition its other types.” You may attach it to a creature you control.
+{8}, Sacrifice this Equipment: Call upon your choice of Excalibur or Night's Edge. Activate only as a sorcery.
 Equip {2}</text>
       <token>1</token>
       <reverse-related>Mothron</reverse-related>
@@ -6589,7 +6607,8 @@ Equip {2}</text>
         <cmc>6</cmc>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +5/+5 and has lifelink and haste.
+      <text>Job select
+Equipped creature gets +5/+5 and has lifelink and haste, and is a Warrior in addition to its other types.
 Equip {2}</text>
       <token>1</token>
       <reverse-related>Broken Hero Sword</reverse-related>
@@ -6606,7 +6625,7 @@ Equip {2}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +3/+3, has first strike and vigilance, and is a Knight in addition to its other types.
 Equip {3}{W}{B}</text>
       <token>1</token>
@@ -6738,9 +6757,9 @@ Deathtouch</text>
         <colors>B</colors>
         <type>Token Creature — Eye Zombie Horror </type>
         <maintype>Creature</maintype>
-        <pt>2/3</pt>
-        <manacost>3B</manacost>
-        <cmc>4</cmc>
+        <pt>2/2</pt>
+        <manacost>2B</manacost>
+        <cmc>3</cmc>
       </prop>
       <tablerow>2</tablerow>
       <text>Whenever this creature attacks, each opponent loses 2 life.</text>
@@ -6809,7 +6828,7 @@ When this creature enters, each player sacrifices a creature.</text>
         <manacost>2B</manacost>
         <cmc>3</cmc>
       </prop>
-      <tablerow>2</tablerow>  
+      <tablerow>2</tablerow>
       <text>Whenever this creature is dealt damage, each opponent loses 1 life.</text>
       <token>1</token>
       <reverse-related>A Solar Eclipse is Happening</reverse-related>
@@ -6843,7 +6862,7 @@ When this creature enters, each player sacrifices a creature.</text>
         <cmc>1</cmc>
       </prop>
       <tablerow>2</tablerow>
-      <text>This creature can't be blocked as long as it hasn't been dealt damage this turn.
+      <text>This creature can't be blocked.
 Whenever this creature deals combat damage to a player, scry 1.</text>
       <token>1</token>
       <reverse-related>Slime Rain</reverse-related>
@@ -7347,7 +7366,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”
 Equip {2}</text>
       <related attach="attach">Hero Token</related>
@@ -7391,12 +7410,4 @@ Equip {3}</text>
       <reverse-related>Finding the Ocean</reverse-related>
     </card>
   </cards>
-
 </cockatrice_carddatabase>
-
-
-
-
-
-
-

@@ -1087,7 +1087,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R/G}{B}",
 			"cmc": 3,
-			"oracle_text": "{1}, {T}, Sacrifice two other artifacts: Create three Treasure tokens.\n{T}, Sacrifice four Treasures: Call upon Night's Edge. (Create a token that's a copy of a card named Night's Edge.)",
+			"oracle_text": "{1}, {T}, Sacrifice two other artifacts: Create three Treasure tokens.\n{T}, Sacrifice four Treasures: Call upon Night's Edge. Activate only as a sorcery. (Create a token that's a copy of a card named Night's Edge.)",
 			"type": "Artifact",
 	  "set": "tra", "collector_number": "184",
 			"image_uris": {
@@ -1095,7 +1095,8 @@
 			},
 			"related_cards": [
 			"Treasure Token",
-			"Night's Edge Token"
+			"Night's Edge Token",
+			"Hero Token"
 			],
 		},
 		{
@@ -1244,7 +1245,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R/G}{B}",
 			"cmc": 6,
-			"oracle_text": "Equipped creature gets +5/+5 and has menace and trample.\nEquip {2}",
+			"oracle_text": "Job select\nEquipped creature gets +5/+5, has menace and trample, and is a Warrior in addition to its other types.\nEquip {2}",
 			"type": "Legendary Artifact",
 			"subtypes": [
 			"Equipment"
@@ -1252,13 +1253,16 @@
 	  "set": "tra", "collector_number": "193",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Night's Edge.png"
-			}
+			},
+			"related_cards": [
+			"Hero Token"
+			],
 		},
 		{
 			"name": "Night's Edge Token",
 			"mana_cost": "{4}{R/G}{B}",
 			"cmc": 6,
-			"oracle_text": "Equipped creature gets +5/+5 and has menace and trample.\nEquip {2}",
+			"oracle_text": "Job select\nEquipped creature gets +5/+5, has menace and trample, and is a Warrior in addition to its other types.\nEquip {2}",
 			"type": "Token Legendary Artifact",
 			"subtypes": [
 			"Equipment"
@@ -1529,7 +1533,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R/G}{W}",
 			"cmc": 6,
-			"oracle_text": "Equipped creature gets +5/+5 and has lifelink and haste.\nEquip {2}",
+			"oracle_text": "Job select\nEquipped creature gets +5/+5, has lifelink and haste, and is a Warrior in addition to its other types.\nEquip {2}",
 			"type": "Legendary Artifact",
 			"subtypes": [
 			"Equipment"
@@ -1537,13 +1541,16 @@
 	  "set": "tra", "collector_number": "187",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Excalibur.png"
-			}
+			},
+			"related_cards": [
+			"Hero Token"
+			],
 		},
 		{
 			"name": "Excalibur Token",
 			"mana_cost": "{4}{R/G}{W}",
 			"cmc": 6,
-			"oracle_text": "Equipped creature gets +5/+5 and has lifelink and haste.\nEquip {2}",
+			"oracle_text": "Job select\nEquipped creature gets +5/+5, has lifelink and haste, and is a Warrior in addition to its other types.\nEquip {2}",
 			"type": "Token Legendary Artifact",
 			"subtypes": [
 			"Equipment"
@@ -1865,9 +1872,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"cmc": 2,
-			"power": "1",
+			"power": "2",
 			"toughness": "1",
-			"oracle_text": "When this creature enters, scry 1.\nThis creature gets +1/+1 for each opponent that controls an Island.",
+			"oracle_text": "When this creature enters, scry 2 and you may pay {R}. When you do, it deals 2 damage to any target.",
 			"type": "Creature",
 			"subtypes": [
 			"Jellyfish"
@@ -1884,7 +1891,7 @@
 			"cmc": 1,
 			"power": "1",
 			"toughness": "1",
-			"oracle_text": "This creature can’t be blocked as long as it hasn’t been dealt damage this turn.\nWhenever this creature deals combat damage to a player, scry 1.",
+			"oracle_text": "This creature can’t be blocked.\nWhenever this creature deals combat damage to a player, scry 1.",
 			"type": "Creature",
 			"subtypes": [
 			"Ooze"
@@ -1900,7 +1907,7 @@
 			"cmc": 1,
 			"power": "1",
 			"toughness": "1",
-			"oracle_text": "This creature can’t be blocked as long as it hasn’t been dealt damage this turn.\nWhenever this creature deals combat damage to a player, scry 1.",
+			"oracle_text": "This creature can’t be blocked.\nWhenever this creature deals combat damage to a player, scry 1.",
 			"type": "Creature",
 			"subtypes": [
 			"Ooze"
@@ -2233,7 +2240,7 @@
 		{
 			"name": "Sky Harpy",
 			"rarity": "common",
-			"mana_cost": "{W}{W}{U}",
+			"mana_cost": "{1}{W}{U}",
 			"cmc": 3,
 			"power": "2",
 			"toughness": "2",
@@ -2982,7 +2989,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{G}",
 			"cmc": 3,
-			"oracle_text": "Enchant player\nWhenever a token you control enters, if this Aura is attached to you, you may create a token that’s a copy of it. Do this only once each turn.\nWhenever an opponent is attacked, if this Aura is attached to them, target creature that player controls must block this turn if able.",
+			"oracle_text": "Enchant player\nWhenever a token you control enters, if this Aura is attached to you, you may create a token that’s a copy of that token. Do this only once each turn.\nWhenever an opponent is attacked, if this Aura is attached to them, target creature that player controls must block this turn if able.",
 			"type": "Enchantment",
 			"subtypes": [
 			"Aura"
@@ -3113,7 +3120,7 @@
 			"cmc": 2,
 			"power": "1",
 			"toughness": "1",
-			"oracle_text": "Flying\nWhenever this creature deals damage to a player, tap it and it doesn't untap during your next untap step.\nAt the beginning of your upkeep, if this creature is tapped, it deals 2 damage to each opponent.",
+			"oracle_text": "Flying\nWhenever this creature deals damage to a player, tap it and put a stun counter on it.\nAt the beginning of your upkeep, if this creature is tapped, it deals 2 damage to each opponent.",
 			"type": "Creature",
 			"subtypes": [
 			"Alien Beast Squid"
@@ -3129,7 +3136,7 @@
 			"cmc": 2,
 			"power": "1",
 			"toughness": "1",
-			"oracle_text": "Flying\nWhenever this creature deals damage to a player, tap it and it doesn't untap during your next untap step.\nAt the beginning of your upkeep, if this creature is tapped, it deals 2 damage to each opponent.",
+			"oracle_text": "Flying\nWhenever this creature deals damage to a player, tap it and put a stun counter on it.\nAt the beginning of your upkeep, if this creature is tapped, it deals 2 damage to each opponent.",
 			"type": "Token Creature",
 			"subtypes": [
 			"Alien Beast Squid"
@@ -3145,7 +3152,7 @@
 			"cmc": 2,
 			"power": "1",
 			"toughness": "2",
-			"oracle_text": "Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature and 1 damage to that creature’s controller.",
+			"oracle_text": "When this creature enters, you may pay {W}. If you do, put a +1/+1 counter and a lifelink counter on it.\nWhenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature.",
 			"type": "Creature",
 			"subtypes": [
 			"Alien Beast"
@@ -3161,7 +3168,7 @@
 			"cmc": 2,
 			"power": "1",
 			"toughness": "2",
-			"oracle_text": "Whenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature and 1 damage to that creature’s controller.",
+			"oracle_text": "When this creature enters, you may pay {W}. If you do, put a +1/+1 counter and a lifelink counter on it.\nWhenever this creature blocks or becomes blocked by a creature, this creature deals 1 damage to that creature.",
 			"type": "Token Creature",
 			"subtypes": [
 			"Alien Beast"
@@ -3415,11 +3422,11 @@
 		{
 			"name": "Gray Grunt",
 			"rarity": "common",
-			"mana_cost": "{2}{W}",
-			"cmc": 3,
+			"mana_cost": "{1}{W}",
+			"cmc": 2,
 			"power": "2",
-			"toughness": "3",
-			"oracle_text": "Prevent all noncombat damage that would be dealt to this creature.",
+			"toughness": "2",
+			"oracle_text": "When this creature enters, you may pay {B}. If you do, put a menace counter on it and create a Treasure token.\nPrevent all noncombat damage that would be dealt to this creature.",
 			"type": "Creature",
 			"subtypes": [
 			"Alien Warrior"
@@ -3427,7 +3434,10 @@
 	  "set": "tra", "collector_number": "6",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Gray Grunt.png"
-			}
+			},
+			"related_cards": [
+			"Treasure Token"
+			]
 		},
 		{
 			"name": "The Ranger",
@@ -3488,9 +3498,9 @@
 		{
 			"name": "Shield of Cthulhu",
 			"rarity": "uncommon",
-			"mana_cost": "{2}",
+			"mana_cost": "{1}{R}",
 			"cmc": 2,
-			"oracle_text": "Equipped creature gets +0/+2 and has haste.\nEquipped creature has first strike as long as its attacking.\nEquip {2/R}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+2, has haste and is a Warrior in addition to its other types.\nEquip {2}\nEquip Warrior {R}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4163,7 +4173,7 @@
 			"cmc": 4,
 			"power": "3",
 			"toughness": "3",
-			"oracle_text": "When this creature dies, create three 1/1 green Ooze creature tokens.",
+			"oracle_text": "When this creature enters, you may pay {U}. If you do, create two 1/1 green Ooze creature tokens.\nWhen this creature dies, create three 1/1 green Ooze creature tokens.",
 			"type": "Creature",
 			"subtypes": [
 			"Ooze"
@@ -4194,6 +4204,7 @@
 			},
 			"related_cards": [
 			"Flinx Fur Coat Token",
+			"Hero Token",
 			"Flinx Staff Token",
 			"Yeti Token"
 			],
@@ -4218,9 +4229,9 @@
 		{
 			"name": "Flinx Fur Coat",
 			"rarity": "common",
-			"mana_cost": "{1}",
-			"cmc": 1,
-			"oracle_text": "Equipped creature gets +0/+1 and has “Creature tokens you control get +1/+0.”\nEquip {3}\nEquip Shaman {2/W}",
+			"mana_cost": "{1}{W}",
+			"cmc": 2,
+			"oracle_text": "Job select\nEquipped creature gets +0/+1, has "Creature tokens you control get +1/+0" and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4228,13 +4239,16 @@
 	  "set": "tra", "collector_number": "208",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Flinx Fur Coat.png"
-			}
+			},
+			"related_cards": [
+			"Hero Token"
+			]
 		},
 		{
 			"name": "Flinx Fur Coat Token",
-			"mana_cost": "{1}",
-			"cmc": 1,
-			"oracle_text": "Equipped creature gets +0/+1 and has “Creature tokens you control get +1/+0.”\nEquip {3}\nEquip Shaman {2/W}",
+			"mana_cost": "{1}{W}",
+			"cmc": 2,
+			"oracle_text": "Job select\nEquipped creature gets +0/+1, has "Creature tokens you control get +1/+0" and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4246,9 +4260,9 @@
 		{
 			"name": "Flinx Staff",
 			"rarity": "common",
-			"mana_cost": "{2}",
+			"mana_cost": "{1}{G}",
 			"cmc": 2,
-			"oracle_text": "Whenever equipped creature attacks, create a 1/1 blue Yeti creature token.\nEquip {4}\nEquip Shaman {2/G}",
+			"oracle_text": "Job select\nEquipped creature is a Shaman in addition to its other types and has "Whenever this creature attacks, create a 1/1 blue Yeti creature token."\nEquip {4}\nEquip Shaman {G}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4258,14 +4272,15 @@
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Flinx Staff.png"
 			},
 			"related_cards": [
+			"Hero Token",
 			"Yeti Token"
 			],
 		},
 		{
 			"name": "Flinx Staff Token",
-			"mana_cost": "{2}",
+			"mana_cost": "{1}{G}",
 			"cmc": 2,
-			"oracle_text": "Whenever equipped creature attacks, create a 1/1 blue Yeti creature token.\nEquip {4}\nEquip Shaman {2/G}",
+			"oracle_text": "Job select\nEquipped creature is a Shaman in addition to its other types and has "Whenever this creature attacks, create a 1/1 blue Yeti creature token."\nEquip {4}\nEquip Shaman {G}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5035,7 +5050,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"cmc": 2,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+0 and is a Warrior in addition to its other types.\n{6}{R/G}{W/B}, Sacrifice this Equipment: Choose a card name from among Excalibur if you spent {W} or Night's Edge if you spent {B}. Call upon that card except it has “Equipped creature is a Warrior in addition to its other types.” You may attach it to a creature you control.\nEquip {2}",
+			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+0 and is a Warrior in addition to its other types.\n{8}, Sacrifice this Equipment: Call upon your choice of Excalibur or Night's Edge. Activate only as a sorcery.\nEquip {2}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5045,6 +5060,7 @@
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Broken Hero Sword.png"
 			},
 			"related_cards": [
+			"Hero Token",
 			"Excalibur Token",
 			"Night's Edge Token"
 			],
@@ -5053,7 +5069,7 @@
 			"name": "Broken Hero Sword Token",
 			"mana_cost": "{2}",
 			"cmc": 2,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+0 and is a Warrior in addition to its other types.\n{6}{R/G}{W/B}, Sacrifice this Equipment: Choose a card name from among Excalibur if {W} was spent to activate this ability or Night's Edge if {B} was spent. Call upon that card except it has “Equipped creature is a Warrior in addition its other types.” You may attach it to a creature you control.\nEquip {2}",
+			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+0 and is a Warrior in addition to its other types.\n{8}, Sacrifice this Equipment: Call upon your choice of Excalibur or Night's Edge. Activate only as a sorcery.\nEquip {2}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5080,6 +5096,7 @@
 			},
 			"related_cards": [
 			"Broken Hero Sword Token",
+			"Hero Token",
 			"Excalibur Token",
 			"Night's Edge Token",
 			"Insect Egg Token",
@@ -5132,7 +5149,7 @@
 			"cmc": 5,
 			"power": "4",
 			"toughness": "4",
-			"oracle_text": "When this creature enters, you draw a card and lose 1 life.\nUnearth {1}{B}{B}",
+			"oracle_text": "When this creature enters, you draw a card and lose 1 life. Then you may pay {G}. If you do, put a +1/+1 counter and trample counter on it.\nUnearth {1}{B}{B}",
 			"type": "Creature",
 			"subtypes": [
 			"Skeleton Wurm Serpent"
@@ -5433,10 +5450,10 @@
 		{
 			"name": "Eyezor",
 			"rarity": "common",
-			"mana_cost": "{3}{B}",
-			"cmc": 4,
+			"mana_cost": "{2}{B}",
+			"cmc": 3,
 			"power": "2",
-			"toughness": "3",
+			"toughness": "2",
 			"oracle_text": "Whenever this creature attacks, each opponent loses 2 life.",
 			"type": "Creature",
 			"subtypes": [
@@ -5449,10 +5466,10 @@
 		},
 		{
 			"name": "Eyezor Token",
-			"mana_cost": "{3}{B}",
-			"cmc": 4,
+			"mana_cost": "{2}{B}",
+			"cmc": 3,
 			"power": "2",
-			"toughness": "3",
+			"toughness": "2",
 			"oracle_text": "Whenever this creature attacks, each opponent loses 2 life.",
 			"type": "Token Creature",
 			"subtypes": [
@@ -5523,7 +5540,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"cmc": 3,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+1 and is a Warrior in addition to its other types.\nEquip {4}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+1 and is a Warrior in addition to its other types.\nEquip {4}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5553,7 +5570,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}{R}",
 			"cmc": 2,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +0/+1, has “Activated abilities of Equipment you control cost {1} less,” and is an Artificer in addition to its other types.\nEquip {4}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +0/+1, has “Activated abilities of Equipment you control cost {1} less,” and is an Artificer in addition to its other types.\nEquip {4}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5571,7 +5588,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}{B}",
 			"cmc": 2,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+0, has vigilance, and is a Ranger in addition to its other types.\nEquip {5}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+0, has vigilance, and is a Ranger in addition to its other types.\nEquip {5}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5589,7 +5606,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{G}",
 			"cmc": 3,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)/nEquipped creature gets +1/+0, has flying and “{3}{R}{G}: Create a 1/1 red and green Insect creature token with flying. Activate only as a sorcery,” and is a Shaman in addition to its other types.\nEquip {5}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)/nEquipped creature gets +1/+0, has flying and “{3}{R}{G}: Create a 1/1 red and green Insect creature token with flying. Activate only as a sorcery,” and is a Shaman in addition to its other types.\nEquip {5}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5787,7 +5804,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{B}",
 			"cmc": 6,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +3/+3, has first strike and vigilance, and is a Knight in addition to its other types.\nEquip {3}{W}{B}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +3/+3, has first strike and vigilance, and is a Knight in addition to its other types.\nEquip {3}{W}{B}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5804,7 +5821,7 @@
 			"name": "Paladin's Gear Token",
 			"mana_cost": "{4}{W}{B}",
 			"cmc": 6,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +3/+3, has first strike and vigilance, and is a Knight in addition to its other types.\nEquip {3}{W}{B}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +3/+3, has first strike and vigilance, and is a Knight in addition to its other types.\nEquip {3}{W}{B}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -5832,12 +5849,12 @@
 		},
 		{
 			"name": "Armored Bones",
-			"rarity": "common",
-			"mana_cost": "{2}{B}",
-			"cmc": 3,
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"cmc": 2,
 			"power": "3",
 			"toughness": "2",
-			"oracle_text": "As this creature enters, if {U} was spent to cast it, it becomes blue in addition to its other colors. The same is true for {R} and {W}. This ability doesn’t affect this card’s color identity.\nWhenever this creature attacks, if it is blue, up to one target creature gets -2/-0 until end of turn.\nThis creature has afflict 2 if it is red and lifelink if it is white.",
+			"oracle_text": "Kicker {U} and/or {R} and/or {W}.\nIf this creature was kicked with its {U} kicker, it enters with "Whenever this creature attacks, up to one target creature gets -2/-0."\nIf this creature was kicked with its {R} kicker, it enters with afflict 2.\nIf this creature was kicked with its {W} kicker, it enters with a lifelink counter on it.",
 			"type": "Creature",
 			"subtypes": [
 			"Skeleton Warrior"
@@ -5963,6 +5980,7 @@
 			"The Possessed Token",
 			"Mothron Token",
 			"Broken Hero Sword Token",
+			"Hero Token",
 			"Excalibur Token",
 			"Night's Edge Token",
 			"Insect Egg Token",
@@ -7239,7 +7257,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"cmc": 2,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”\nEquip {2}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”\nEquip {2}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -7256,7 +7274,7 @@
 			"name": "Wizard Attire Token",
 			"mana_cost": "{1}{U}",
 			"cmc": 2,
-			"oracle_text": "Job Select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”\nEquip {2}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Wizard in addition to its other types and has “{T}: Add one mana of any color. This mana can't be spent to cast creature spells.”\nEquip {2}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -7660,6 +7678,7 @@
 		9 Metallic Blessing
 		9 The Frost Legion
 		9 Dale, Otherworldly Barkeep
+		9 Armored Bones
 		[CommonSlot(7)]
 		30 Slime Crown
 		30 Bravery Against the Odds
@@ -7780,7 +7799,6 @@
 		30 Blasted by Rainbows
 		30 Scale the Heights
 		30 Dark Caster
-		30 Armored Bones
 		30 Mourning Wood
 		30 Geistwave
 		30 Building a Town
@@ -8148,13 +8166,4 @@
 	10 Sacred Peaks
 	10 Sunlit Marsh
 	10 Tangled Islet
-
 	10 Wooded Ridgeline
-
-
-
-
-
-
-
-
