@@ -4231,7 +4231,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"cmc": 2,
-			"oracle_text": "Job select\nEquipped creature gets +0/+1, has "Creature tokens you control get +1/+0" and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
+			"oracle_text": "Job select\nEquipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4248,7 +4248,7 @@
 			"name": "Flinx Fur Coat Token",
 			"mana_cost": "{1}{W}",
 			"cmc": 2,
-			"oracle_text": "Job select\nEquipped creature gets +0/+1, has "Creature tokens you control get +1/+0" and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
+			"oracle_text": "Job select\nEquipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4262,7 +4262,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"cmc": 2,
-			"oracle_text": "Job select\nEquipped creature is a Shaman in addition to its other types and has "Whenever this creature attacks, create a 1/1 blue Yeti creature token."\nEquip {4}\nEquip Shaman {G}",
+			"oracle_text": "Job select\nEquipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”\nEquip {4}\nEquip Shaman {G}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4280,7 +4280,7 @@
 			"name": "Flinx Staff Token",
 			"mana_cost": "{1}{G}",
 			"cmc": 2,
-			"oracle_text": "Job select\nEquipped creature is a Shaman in addition to its other types and has "Whenever this creature attacks, create a 1/1 blue Yeti creature token."\nEquip {4}\nEquip Shaman {G}",
+			"oracle_text": "Job select\nEquipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”\nEquip {4}\nEquip Shaman {G}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4554,9 +4554,9 @@
 			],
 		},
 		{
-			"name": "Plate Armor",
+			"name": "Hallowed Armor",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{1}{W}",
 			"cmc": 3,
 			"oracle_text": "Equipped creature gets +3/+3 and has ward {1}. (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\nEquip {3}. This ability costs {1} less to activate for each other Equipment you control.",
 			"type": "Artifact",
@@ -5854,7 +5854,7 @@
 			"cmc": 2,
 			"power": "3",
 			"toughness": "2",
-			"oracle_text": "Kicker {U} and/or {R} and/or {W}.\nIf this creature was kicked with its {U} kicker, it enters with "Whenever this creature attacks, up to one target creature gets -2/-0."\nIf this creature was kicked with its {R} kicker, it enters with afflict 2.\nIf this creature was kicked with its {W} kicker, it enters with a lifelink counter on it.",
+			"oracle_text": "Kicker {U} and/or {R} and/or {W}.\nIf this creature was kicked with its {U} kicker, it enters with “Whenever this creature attacks, up to one target creature gets -2/-0.”\nIf this creature was kicked with its {R} kicker, it enters with afflict 2.\nIf this creature was kicked with its {W} kicker, it enters with a lifelink counter on it.",
 			"type": "Creature",
 			"subtypes": [
 			"Skeleton Warrior"
@@ -7522,7 +7522,11 @@
 			"collector_number": "61",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Completely Boned.png"
-			}
+			},
+			"related_cards": [
+			"Skeleton Token",
+			"Treasure Token"
+			]
 		},
 		{
 			"name": "Star Destroyer",
@@ -7537,7 +7541,11 @@
 			"collector_number": "50",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Star Destroyer.png"
-			}
+			},
+			"related_cards": [
+			"Alien Ooze Token",
+			"Treasure Token"
+			]
 		},
 		{
 			"name": "Eye on You!",
@@ -7552,7 +7560,12 @@
 			"collector_number": "103",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Eye on You!.png"
-			}
+			},
+			"related_cards": [
+			"Pursuing Eye Token",
+			"Treasure Token",
+			"Clue Token"
+			]
 		},
 		{
 			"name": "Sticky Situation",
@@ -7567,7 +7580,11 @@
 			"collector_number": "148",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sticky Situation.png"
-			}
+			},
+			"related_cards": [
+			"Ooze Token",
+			"Treasure Token"
+			]
 		},
 		{
 			"name": "Combat Ready Village",
@@ -7582,7 +7599,10 @@
 			"collector_number": "6",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Combat Ready Village.png"
-			}
+			},
+			"related_cards": [
+			"Citizen Token"
+			]
 		},
 		]
 	[RareSlot(1)]
@@ -7726,7 +7746,7 @@
 		9 Strange Brew
 		9 Ironskin Potion
 		9 An Ancient Warning
-		9 Plate Armor
+		9 Hallowed Armor
 		9 Something Sinister Approaches
 		9 Predictor
 		9 Flow Invader
@@ -8113,7 +8133,7 @@
 	10 Headless Horserider
 	10 Horrific Destruction
 	10 Ever-Returning Threat
-	10 Plate Armor
+	10 Hallowed Armor
 	10 Illusionary Replication
 	10 Lost Encounter
 	10 Quality Over Quantity

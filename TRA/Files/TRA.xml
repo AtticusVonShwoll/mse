@@ -2964,11 +2964,11 @@ Choose one —
 • Return target card you own in exile named Moon Lord to the battlefield.</text>
     </card>
     <card>
-      <name>Plate Armor</name>
+      <name>Hallowed Armor</name>
       <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Hallowed Armor.png" uuid="63e90662-b5da-47e6-a5b9-51165c54df0f">TRA</set>
       <prop>
         <colors>W</colors>
-        <manacost>2W</manacost>
+        <manacost>1W</manacost>
         <cmc>3</cmc>
         <type>Artifact — Equipment </type>
         <maintype>Artifact</maintype>
