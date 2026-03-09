@@ -1,8 +1,3 @@
-[Settings]
-{
-"name": "An Exploration of Terraria",
-"showSlots": true,
-}
 [CustomCards]
 	[	
 		{
@@ -84,7 +79,7 @@
 			"related_cards": [
 			"Wurm Token",
 			"Wurm Token2"
-			],
+			]
 		},
 		{
 			"name": "The Eater of Worlds Token",
@@ -124,14 +119,17 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "{1}{R}, {T}: Target Wurm gains trample until end of turn.\n{B}{G}, {T}: Exile target card from a graveyard. If it was a creature card, you gain 2 life.\n{3}{R/G}{B}, Sacrifice this artifact: Call upon The Eater of Worlds. Activate only as a sorcery. (Create a token that’s a copy of a card named The Eater of Worlds.)",
-			"type": "Artifact",
+			"type": "Kindred Artifact",
+			"subtypes": [
+			"Wurm Boss"
+			],
 	  "set": "tra", "collector_number": "229",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Wurm Food.png"
 			},
 			"related_cards": [
 			"The Eater of Worlds Token"
-			],
+			]
 		},
 		{
 			"name": "Eye of Cthulhu",
@@ -171,14 +169,17 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "{B}{R}, {T}: Look at the top card of your library. If it’s an Eye card, you may reveal it and put it into your hand.\n{3}{B}{R}, Sacrifice this artifact: Call upon Eye of Cthulhu. Activate only as a sorcery. (Create a token that’s a copy of a card named Eye of Cthulhu.)",
-			"type": "Artifact",
+			"type": "Kindred Artifact",
+			"subtypes": [
+			"Eye Boss"
+			],
 	  "set": "tra", "collector_number": "227",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Suspicious Looking Eye.png"
 			},
 			"related_cards": [
 			"Eye of Cthulhu Token"
-			],
+			]
 		},
 		{
 			"name": "King Slime",
@@ -198,7 +199,7 @@
 			},
 			"related_cards": [
 			"Ooze Token"
-			],
+			]
 		},
 		{
 			"name": "King Slime Token",
@@ -245,7 +246,7 @@
 			},
 			"related_cards": [
 			"Insect Token RG"
-			],
+			]
 		},
 		{
 			"name": "Queen Bee Token",
@@ -292,7 +293,7 @@
 			},
 			"related_cards": [
 			"Horror Illusion Token"
-			],
+			]
 		},
 		{
 			"name": "Brain of Cthulhu Token",
@@ -328,9 +329,9 @@
 			"mana_cost": "{1}",
 			"cmc": 1,
 			"oracle_text": "Equipped creature gets +1/+1.\n{2}{G/U}{G/U}, Sacrifice this artifact: Call upon King Slime. Activate only as a sorcery. (Create a token that’s a copy of a card named King Slime.)\nEquip Ooze {2} ({2}: Attach to target Ooze creature you control. Equip only as a sorcery.)",
-			"type": "Artifact",
+			"type": "Kindred Artifact",
 			"subtypes": [
-			"Equipment"
+			"Ooze Boss Equipment"
 			],
 	  "set": "tra", "collector_number": "224",
 			"image_uris": {
@@ -338,7 +339,7 @@
 			},
 			"related_cards": [
 			"King Slime Token"
-			],
+			]
 		},
 		{
 			"name": "Slime Rain",
@@ -363,7 +364,7 @@
 			"Surface Slime Token",
 			"Ooze Token",
 			"King Slime Token"
-			],
+			]
 		},
 			{
 			"name": "Treasure Token",
@@ -423,7 +424,10 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "{1}{R}{G}, {T}: Create a 1/1 red and green Insect creature token with flying. Activate only as a sorcery.\n{3}{R}{G}, Sacrifice this artifact: Call upon Queen Bee. Activate only as a sorcery. (Create a token that’s a copy of a card named Queen Bee.)",
-			"type": "Artifact",
+			"type": "Kindred Artifact",
+			"subtypes": [
+			"Insect Boss"
+			],
 	  "set": "tra", "collector_number": "198",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Abeemination.png"
@@ -431,7 +435,7 @@
 			"related_cards": [
 			"Insect Token RG",
 			"Queen Bee Token"
-			],
+			]
 		},
 		{
 			"name": "Bloody Spine",
@@ -439,14 +443,17 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "{R}, {T}: Target Horror gains haste until end of turn.\n{3}{U}{U}, {T}: Draw a card.\n{4}{U}{R}, Sacrifice this artifact: Call upon Brain of Cthulhu. Activate only as a sorcery. (Create a token that's a copy of a card named Brain of Cthulhu.)",
-			"type": "Artifact",
+			"type": "Kindred Artifact",
+			"subtypes": [
+			"Horror Boss"
+			],
 	  "set": "tra", "collector_number": "199",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Bloody Spine.png"
 			},
 			"related_cards": [
 			"Brain of Cthulhu Token"
-			],
+			]
 		},
 		{
 			"name": "Retinazer and Spazmatism",
@@ -486,21 +493,27 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "{2}{B}{R}, {T}: Put a -1/-1 counter on target creature. If that creature is a Human, this artifact deals 1 damage to that creature's controller.\n{3}{B}{R}, Sacrifice this artifact: Call upon Wall of Flesh. Activate only as a sorcery. (Create a token that's a copy of a card named Wall of Flesh.)",
-			"type": "Artifact",
+			"type": "Kindred Artifact",
+			"subtypes": [
+			"Horror Boss"
+			],
 	  "set": "tra", "collector_number": "211",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Guide Voodoo Doll.png"
 			},
 			"related_cards": [
 			"Wall of Flesh Token"
-			],
+			]
 		},
 		{
 			"name": "Guide Voodoo Doll Token",
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "{2}{B}{R}, {T}: Put a -1/-1 counter on target creature. If that creature is a Human, this artifact deals 1 damage to that creature's controller.\n{3}{B}{R}, Sacrifice this artifact: Call upon Wall of Flesh. Activate only as a sorcery. (Create a token that's a copy of a card named Wall of Flesh.)",
-			"type": "Token Artifact",
+			"type": "Token Kindred Artifact",
+			"subtypes": [
+			"Horror Boss"
+			],
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Guide Voodoo Doll Token.png"
 			}
@@ -524,7 +537,7 @@
 			"related_cards": [
 			"Construct Token Ranged",
 			"Construct Token Melee"
-			],
+			]
 		},
 		{
 			"name": "Skeletron Prime Token",
@@ -583,7 +596,7 @@
 			},
 			"related_cards": [
 			"Construct Token Drone"
-			],
+			]
 		},
 		{
 			"name": "The Destroyer Token",
@@ -691,14 +704,17 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "{3}, {T}: Untap target Eye that attacked this turn.\n{5}{R}{W}{B}, Sacrifice this artifact: Call upon Retinazer and Spazmatism. (Create a token that's a copy of a card named Retinazer and Spazmatism.)",
-			"type": "Artifact",
+			"type": " Kindred Artifact",
+			"subtypes": [
+			"Eye Boss"
+			],
 	  "set": "tra", "collector_number": "217",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mechanical Eye.png"
 			},
 			"related_cards": [
 			"Retinazer and Spazmatism Token"
-			],
+			]
 		},
 		{
 			"name": "Mechanical Wurm",
@@ -706,7 +722,10 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "At the beginning of each end step, you may have this artifact deal 1 damage to target creature you control.\n{5}{U}{B}{R}, Sacrifice this artifact: Call upon The Destroyer. (Create a token that's a copy of a card named The Destroyer.)",
-			"type": "Artifact",
+			"type": " Kindred Artifact",
+			"subtypes": [
+			"Wurm Boss"
+			],
 	  "set": "tra", "collector_number": "219",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mechanical Wurm.png"
@@ -714,7 +733,7 @@
 			"related_cards": [
 			"The Destroyer Token",
 			"Construct Token Drone"
-			],
+			]
 		},
 		{
 			"name": "Mechanical Skull",
@@ -722,7 +741,10 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "{2}: This artifact becomes a 3/3 Construct artifact creature until end of turn.\n{5}{U}{R}{W}, Sacrifice this artifact: Call upon Skeletron Prime. (Create a token that's a copy of a card named Skeletron Prime.)",
-			"type": "Artifact",
+			"type": "Kindred Artifact",
+			"subtypes": [
+			"Skeleton Boss"
+			],
 	  "set": "tra", "collector_number": "218",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mechanical Skull.png"
@@ -731,7 +753,7 @@
 			"Skeletron Prime Token",
 			"Construct Token Ranged",
 			"Construct Token Melee"
-			],
+			]
 		},
 		{
 			"name": "Sandy River",
@@ -871,7 +893,7 @@
 			},
 			"related_cards": [
 			"Eye of Cthulhu Token"
-			],
+			]
 		},
 		{
 			"name": "Pursuing Eye Token",
@@ -927,13 +949,16 @@
 			"cmc": 3,
 			"oracle_text": "When this artifact enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\n{4}{R}{G}{G}{W}, {T}, Sacrifice this artifact: Call upon Plantera, Jungle's Soul. (Create a token that's a copy of a card named Plantera, Jungle's Soul.)",
 			"type": "Artifact",
+			"subtypes": [
+			"Plant Boss"
+			],
 	  "set": "tra", "collector_number": "95",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Plantera's Bulb.png"
 			},
 			"related_cards": [
 			"Plantera, Jungle's Soul Token"
-			],
+			]
 		},
 		{
 			"name": "The Journey's Beginning",
@@ -952,7 +977,7 @@
 			"related_cards": [
 			"Coin Slime Token",
 			"Zombie Token"
-			],
+			]
 		},
 			{
 			"name": "Zombie Token",
@@ -980,7 +1005,7 @@
 			"related_cards": [
 			"Treasure Token",
 			"The Eater of Worlds Token"
-			],
+			]
 		},
 		{
 			"name": "Mecha Mayhem",
@@ -1009,7 +1034,7 @@
 			"The Destroyer Token",
 			"Retinazer and Spazmatism Token",
 			"Skeletron Prime Token"
-			],
+			]
 		},
 		{
 			"name": "Duke Fishron",
@@ -1029,7 +1054,7 @@
 			},
 			"related_cards": [
 			"Shark Token"
-			],
+			]
 		},
 		{
 			"name": "Duke Fishron Token",
@@ -1097,7 +1122,7 @@
 			"Treasure Token",
 			"Night's Edge Token",
 			"Hero Token"
-			],
+			]
 		},
 		{
 			"name": "Boss Rush",
@@ -1128,7 +1153,7 @@
 			"Plant Token",
 			"Treasure Token",
 			"Clue Token"
-			],
+			]
 		},
 			{
 			"name": "Plant Token",
@@ -1189,6 +1214,21 @@
 	  "set": "tra", "collector_number": "117",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Edmund, Town Merchant.png"
+			}
+		},
+		{
+			"name": "Edmund, Town Merchant Token",
+			"mana_cost": "{2}{W}{B}",
+			"cmc": 4,
+			"power": "1",
+			"toughness": "3",
+			"oracle_text": "Affinity for Treasures\n{T}, Sacrifice an artifact: Choose one —\n• You gain 3 life.\n• Put a +1/+1 counter on target creature.\n• Target player loses 2 life.",
+			"type": "Token Legendary Creature",
+			"subtypes": [
+			"Human Citizen"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Edmund Town Merchant Token.png"
 			}
 		},
 		{
@@ -1256,7 +1296,7 @@
 			},
 			"related_cards": [
 			"Hero Token"
-			],
+			]
 		},
 		{
 			"name": "Night's Edge Token",
@@ -1289,7 +1329,7 @@
 			},
 			"related_cards": [
 			"Ooze Token"
-			],
+			]
 		},
 		{
 			"name": "Luciano, Inspired Painter",
@@ -1309,7 +1349,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Jey, Young Angler",
@@ -1330,9 +1370,9 @@
 			"related_cards": [
 			"Fish Token",
 			"Treasure Token"
-			],
+			]
 		},
-		{
+			{
 			"name": "Jey, Young Angler Token",
 			"mana_cost": "{1}{W}{U}",
 			"cmc": 3,
@@ -1343,10 +1383,8 @@
 			"subtypes": [
 			"Human Citizen"
 			],
-			"image_uris": {
-				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Jey, Young Angler Token.png"
+			"image_uris": { "en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Jey, Young Angler Token.png" }
 			},
-		},
 			{
 			"name": "Fish Token",
 			"mana_cost": "",
@@ -1437,7 +1475,7 @@
 			},
 			"related_cards": [
 			"Enchanted Sword Token"
-			],
+			]
 		},
 		{
 			"name": "No-Dachi",
@@ -1470,7 +1508,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Nightly Defending",
@@ -1485,7 +1523,7 @@
 			},
 			"related_cards": [
 			"Zombie Token"
-			],
+			]
 		},
 		{
 			"name": "Strength in Numbers",
@@ -1514,7 +1552,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Magic Missile",
@@ -1544,7 +1582,7 @@
 			},
 			"related_cards": [
 			"Hero Token"
-			],
+			]
 		},
 		{
 			"name": "Excalibur Token",
@@ -1577,7 +1615,7 @@
 			},
 			"related_cards": [
 			"Rabbit Token"
-			],
+			]
 		},
 			{
 			"name": "Rabbit Token",
@@ -1621,7 +1659,7 @@
 			},
 			"related_cards": [
 			"Bomb Token"
-			],
+			]
 		},
 		{
 			"name": "Bomb Slime Token",
@@ -1656,7 +1694,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Coin Slime Token",
@@ -1709,7 +1747,7 @@
 			"Alien Queen Token",
 			"Storm Diver Token",
 			"Vortexian Token"
-			],
+			]
 		},
 		{
 			"name": "The Vortex Pillar Token",
@@ -1744,7 +1782,7 @@
 			"Brain Suckler Token",
 			"Evolution Beast Token",
 			"Predictor Token"
-			],
+			]
 		},
 		{
 			"name": "The Nebula Pillar Token",
@@ -1780,7 +1818,7 @@
 			"Alien Ooze Token",
 			"Star Cell Token",
 			"Stargazer Token"
-			],
+			]
 		},
 		{
 			"name": "The Stardust Pillar Token",
@@ -1816,7 +1854,7 @@
 			"Drakomire Rider Token",
 			"Drakomire Token",
 			"Selenian Token"
-			],
+			]
 		},
 		{
 			"name": "The Solar Pillar Token",
@@ -1850,7 +1888,7 @@
 			},
 			"related_cards": [
 			"Bomb Token"
-			],
+			]
 		},
 		{
 			"name": "Booby Trapped Cache",
@@ -1951,7 +1989,7 @@
 			},
 			"related_cards": [
 			"Umbrella"
-			],
+			]
 		},
 			{
 			"name": "Umbrella",
@@ -1997,7 +2035,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Emilia, Hallow Princess",
@@ -2017,7 +2055,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Dazzle, Life of the Party",
@@ -2037,7 +2075,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Warren, Tax Collector",
@@ -2057,7 +2095,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Warren, Tax Collector Token",
@@ -2092,7 +2130,7 @@
 			},
 			"related_cards": [
 			"Warren, Tax Collector Token"
-			],
+			]
 		},
 		{
 			"name": "Purification Powder",
@@ -2124,7 +2162,7 @@
 			},
 			"related_cards": [
 			"Groom's Finery Token"
-			],
+			]
 		},
 		{
 			"name": "The Groom Token",
@@ -2223,7 +2261,7 @@
 		{
 			"name": "Corruption Slimer",
 			"rarity": "uncommon",
-			"mana_cost": "{U}{B}{B}",
+			"mana_cost": "{1}{U}{B}",
 			"cmc": 3,
 			"power": "2",
 			"toughness": "2",
@@ -2272,7 +2310,7 @@
 			},
 			"related_cards": [
 			"Drakomire Token"
-			],
+			]
 		},
 		{
 			"name": "Drakomire Rider Token",
@@ -2404,7 +2442,7 @@
 			"related_cards": [
 			"Alien Queen Token",
 			"Alien Insect Egg Token"
-			],
+			]
 		},
 		{
 			"name": "Alien Hornet Token",
@@ -2440,7 +2478,7 @@
 			"related_cards": [
 			"Alien Insect Egg Token",
 			"Alien Hornet Token"
-			],
+			]
 		},
 		{
 			"name": "Alien Queen Token",
@@ -2587,7 +2625,7 @@
 			"Grapple Hook Token",
 			"Rocket Boots Token",
 			"Tinkerer's Workshop Token"
-			],
+			]
 		},
 		{
 			"name": "Grapple Hook",
@@ -2836,7 +2874,7 @@
 			"oracle_text": "Whenever you cast a red spell, untap this creature.\n{R}, {T}: This creature deals 1 damage to any target.",
 			"type": "Creature",
 			"subtypes": [
-			"Goblin Shaman"
+			"Goblin Sorcerer Wizard"
 			],
 	  "set": "tra", "collector_number": "73",
 			"image_uris": {
@@ -2852,7 +2890,7 @@
 			"oracle_text": "Whenever you cast a red spell, untap this creature.\n{R}, {T}: This creature deals 1 damage to any target.",
 			"type": "Token Creature",
 			"subtypes": [
-			"Goblin Shaman"
+			"Goblin Sorcerer Wizard"
 			],
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Goblin Sorcerer Token.png"
@@ -3306,7 +3344,7 @@
 			"oracle_text": "This creature has lifelink as long as you control a Swamp.\nThis creature gets +1/+1 as long as you control a Forest.",
 			"type": "Creature",
 			"subtypes": [
-			"Nymph"
+			"Nymph Horror"
 			],
 	  "set": "tra", "collector_number": "191",
 			"image_uris": {
@@ -3348,7 +3386,7 @@
 			},
 			"related_cards": [
 			"Bomb Rabbit Token"
-			],
+			]
 		},
 			{
 			"name": "Bomb Rabbit Token",
@@ -3382,7 +3420,7 @@
 			"Treasure Token",
 			"Leather Armor Token",
 			"Rogue's Gloves Token"
-			],
+			]
 		},
 			{
 			"name": "Leather Armor Token",
@@ -3410,14 +3448,17 @@
 			"mana_cost": "{2}",
 			"cmc": 2,
 			"oracle_text": "Skeleton creatures you control have menace.\n{2}{R}{W}{B}, Sacrifice this artifact: Call upon Skeletron, Dungeon Guardian. (Create a token that's a copy of a card named Skeletron, Dungeon Guardian.)",
-			"type": "Artifact",
+			"type": "Kindred Artifact",
+			"subtypes": [
+			"Skeleton Boss"
+			],
 	  "set": "tra", "collector_number": "201",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Clothier Voodoo Doll.png"
 			},
 			"related_cards": [
 			"Skeletron, Dungeon Guardian Token"
-			],
+			]
 		},
 		{
 			"name": "Gray Grunt",
@@ -3466,7 +3507,7 @@
 			"oracle_text": "Flying, trample, haste\nAt the beginning of each end step, sacrifice this creature.\n{3}{B}{B}{G}, Sacrifice a creature: Call upon Pumpking. This ability costs {3} less to activate if you control a battle named The Pumpkin Moon is Rising. Activate only if this card is in your graveyard.",
 			"type": "Creature",
 			"subtypes": [
-			"Scarecrow Noble Boss"
+			"Scarecrow Horror Noble Boss"
 			],
 	  "set": "tra", "collector_number": "152",
 			"image_uris": {
@@ -3477,8 +3518,8 @@
 			"Pumpkin Scarecrow Token",
 			"Splinterling Token",
 			"Headless Horserider Token",
-			"Mourning Wood Token",
-			],
+			"Mourning Wood Token"
+			]
 		},
 		{
 			"name": "Pumpking Token",
@@ -3489,7 +3530,7 @@
 			"oracle_text": "Flying, trample, haste\nAt the beginning of each end step, sacrifice this creature.\n{3}{B}{B}{G}, Sacrifice a creature: Call upon Pumpking. This ability costs {3} less to activate if you control a battle named The Pumpkin Moon is Rising. Activate only if this card is in your graveyard.",
 			"type": "Token Creature",
 			"subtypes": [
-			"Scarecrow Noble Boss"
+			"Scarecrow Horror Noble Boss"
 			],
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Pumpking Token.png"
@@ -3545,7 +3586,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Excessive Mining",
@@ -3560,7 +3601,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "The Air Becomes Colder",
@@ -3582,7 +3623,7 @@
 			"Skeletron Prime Token",
 			"Construct Token Ranged",
 			"Construct Token Melee"
-			],
+			]
 		},
 		{
 			"name": "The Celestial Invasion",
@@ -3620,7 +3661,7 @@
 			"Alien Insect Egg Token",
 			"Storm Diver Token",
 			"Vortexian Token"
-			],
+			]
 		},
 		{
 			"name": "The Mage",
@@ -3640,7 +3681,7 @@
 			},
 			"related_cards": [
 			"Mana Crystal Token"
-			],
+			]
 		},
 		{
 			"name": "Gathering of the Cultists",
@@ -3663,7 +3704,7 @@
 			"The Lunatic Cultist Token",
 			"Cleric Illusion Token",
 			"Drake Illusion Token"
-			],
+			]
 		},
 			{
 			"name": "Cleric Token",
@@ -3710,7 +3751,7 @@
 			"Goblin Sorcerer Token",
 			"Goblin Thief Token",
 			"Goblin Warrior Token"
-			],
+			]
 		},
 		{
 			"name": "The Lunatic Cultist",
@@ -3731,7 +3772,7 @@
 			"related_cards": [
 			"Cleric Illusion Token",
 			"Drake Illusion Token"
-			],
+			]
 		},
 		{
 			"name": "The Lunatic Cultist Token",
@@ -3785,7 +3826,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Minimus Containment",
@@ -3831,7 +3872,7 @@
 			},
 			"related_cards": [
 			"The Destroyer Token"
-			],
+			]
 		},
 		{
 			"name": "Jungle Grows Restless",
@@ -3853,7 +3894,7 @@
 			"Mountain Forest Token",
 			"Forest Plains Token",
 			"Plantera, Jungle's Soul Token"
-			],
+			]
 		},
 			{
 			"name": "Forest Token",
@@ -3907,7 +3948,7 @@
 			"The Bride Token",
 			"The Groom Token",
 			"Vicious Bunny Token"
-			],
+			]
 		},
 		{
 			"name": "A Terrible Night",
@@ -3927,7 +3968,7 @@
 			"related_cards": [
 			"Zombie Token",
 			"Retinazer and Spazmatism Token"
-			],
+			]
 		},
 		{
 			"name": "Endless Events",
@@ -3993,7 +4034,7 @@
 			"Bomb Token",
 			"Treasure Token",
 			"Strange Brew Token"
-			],
+			]
 		},
 		{
 			"name": "Strange Brew",
@@ -4035,7 +4076,7 @@
 			},
 			"related_cards": [
 			"The Empress of Light Token"
-			],
+			]
 		},
 		{
 			"name": "Angering a Light God",
@@ -4056,7 +4097,7 @@
 			"Insect Token W",
 			"Hallow Pixie Token",
 			"The Empress of Light Token"
-			],
+			]
 		},
 			{
 			"name": "Insect Token W",
@@ -4115,7 +4156,7 @@
 			},
 			"related_cards": [
 			"Moon Lord"
-			],
+			]
 		},
 		{
 			"name": "Hornet Nest",
@@ -4135,7 +4176,7 @@
 			},
 			"related_cards": [
 			"Insect Token"
-			],
+			]
 		},
 			{
 			"name": "Insect Token",
@@ -4184,7 +4225,7 @@
 			},
 			"related_cards": [
 			"Ooze Token"
-			],
+			]
 		},
 		{
 			"name": "Snow Flinxes",
@@ -4207,7 +4248,7 @@
 			"Hero Token",
 			"Flinx Staff Token",
 			"Yeti Token"
-			],
+			]
 		},
 		{
 			"name": "Ice Slime",
@@ -4274,7 +4315,7 @@
 			"related_cards": [
 			"Hero Token",
 			"Yeti Token"
-			],
+			]
 		},
 		{
 			"name": "Flinx Staff Token",
@@ -4371,7 +4412,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Lifeforce Potion",
@@ -4465,7 +4506,7 @@
 			},
 			"related_cards": [
 			"Skeleton Token"
-			],
+			]
 		},
 			{
 			"name": "Skeleton Token",
@@ -4536,7 +4577,7 @@
 			},
 			"related_cards": [
 			"Moon Lord"
-			],
+			]
 		},
 		{
 			"name": "Ever-Returning Threat",
@@ -4551,7 +4592,7 @@
 			},
 			"related_cards": [
 			"Moon Lord"
-			],
+			]
 		},
 		{
 			"name": "Hallowed Armor",
@@ -4722,7 +4763,7 @@
 			"oracle_text": "Flying\nWhenever this creature attacks, create a 1/1 blue Alien Ooze creature token with flying that's tapped and attacking. When you do, that token fights up to one target creature defending player controls.",
 			"type": "Creature",
 			"subtypes": [
-			"Alien Jellyfish"
+			"Alien Jellyfish Shaman"
 			],
 	  "set": "tra", "collector_number": "123",
 			"image_uris": {
@@ -4730,7 +4771,7 @@
 			},
 			"related_cards": [
 			"Alien Ooze Token"
-			],
+			]
 		},
 		{
 			"name": "Flow Invader Token",
@@ -4741,7 +4782,7 @@
 			"oracle_text": "Flying\nWhenever this creature attacks, create a 1/1 blue Alien Ooze creature token with flying that's tapped and attacking. When you do, that token fights up to one target creature defending player controls.",
 			"type": "Token Creature",
 			"subtypes": [
-			"Alien Jellyfish"
+			"Alien Jellyfish Shaman"
 			],
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Flow Invader Token.png"
@@ -4778,7 +4819,7 @@
 			"Zombie Token",
 			"Pursuing Eye Token",
 			"Eye of Cthulhu Token"
-			],
+			]
 		},
 		{
 			"name": "Contaminated Aquifer",
@@ -4928,7 +4969,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Corrupt Devourer",
@@ -4948,7 +4989,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Relentless Shark",
@@ -5063,7 +5104,7 @@
 			"Hero Token",
 			"Excalibur Token",
 			"Night's Edge Token"
-			],
+			]
 		},
 		{
 			"name": "Broken Hero Sword Token",
@@ -5101,7 +5142,7 @@
 			"Night's Edge Token",
 			"Insect Egg Token",
 			"Insect Token WBG"
-			],
+			]
 		},
 		{
 			"name": "Mothron Token",
@@ -5551,7 +5592,7 @@
 			},
 			"related_cards": [
 			"Hero Token"
-			],
+			]
 		},
 			{
 			"name": "Hero Token",
@@ -5581,7 +5622,7 @@
 			},
 			"related_cards": [
 			"Hero Token"
-			],
+			]
 		},
 		{
 			"name": "Fossil Armor",
@@ -5599,7 +5640,7 @@
 			},
 			"related_cards": [
 			"Hero Token"
-			],
+			]
 		},
 		{
 			"name": "Bee Armor",
@@ -5617,7 +5658,7 @@
 			},
 			"related_cards": [
 			"Hero Token"
-			],
+			]
 		},
 		{
 			"name": "Crimslime",
@@ -5654,7 +5695,7 @@
 			},
 			"related_cards": [
 			"Guide Voodoo Doll Token"
-			],
+			]
 		},
 		{
 			"name": "All the Buffs",
@@ -5732,7 +5773,7 @@
 			},
 			"related_cards": [
 			"Ooze Token"
-			],
+			]
 		},
 		{
 			"name": "Ruinous Rampage",
@@ -5797,7 +5838,7 @@
 			"related_cards": [
 			"Paladin's Gear Token",
 			"Hero Token"
-			],
+			]
 		},
 		{
 			"name": "Paladin's Gear",
@@ -5815,7 +5856,7 @@
 			},
 			"related_cards": [
 			"Hero Token"
-			],
+			]
 		},
 		{
 			"name": "Paladin's Gear Token",
@@ -5885,7 +5926,7 @@
 			"Headless Horserider Token",
 			"Mourning Wood Token",
 			"Pumpking Token"
-			],
+			]
 		},
 		{
 			"name": "Mourning Wood",
@@ -5985,7 +6026,7 @@
 			"Night's Edge Token",
 			"Insect Egg Token",
 			"Insect Token WBG"
-			],
+			]
 		},
 		{
 			"name": "Song of the Dryads",
@@ -6015,7 +6056,7 @@
 			},
 			"related_cards": [
 			"Fish Token"
-			],
+			]
 		},
 		{
 			"name": "Geistwave",
@@ -6042,7 +6083,7 @@
 			},
 			"related_cards": [
 			"Citizen Token"
-			],
+			]
 		},
 			{
 			"name": "Citizen Token",
@@ -6069,13 +6110,13 @@
 			},
 			"related_cards": [
 			"Ooze Token"
-			],
+			]
 		},
 		{
 			"name": "Ankh Shield",
 			"rarity": "rare",
-			"mana_cost": "{5}",
-			"cmc": 5,
+			"mana_cost": "{4}",
+			"cmc": 4,
 			"oracle_text": "You have hexproof.\nIf a source an opponent controls would deal damage to you, prevent 1 of that damage.",
 			"type": "Artifact",
 	  "set": "tra", "collector_number": "224",
@@ -6096,7 +6137,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Lantern Night",
@@ -6132,7 +6173,7 @@
 			"related_cards": [
 			"Fish Token",
 			"Duke Fishron Token"
-			],
+			]
 		},
 		{
 			"name": "Splinterling",
@@ -6141,10 +6182,10 @@
 			"cmc": 2,
 			"power": "1",
 			"toughness": "2",
-			"oracle_text": "{T}: Add {G}.\n{T}: Add two mana of any one color. Spend this mana only to cast Boss or Event spells.",
+			"oracle_text": "{T}: Add {G}.\n{T}: Add two mana of any one color. Spend this mana only to cast Boss or Event spells or activate abilities of Boss or Event sources.",
 			"type": "Creature",
 			"subtypes": [
-			"Treefolk"
+			"Treefolk Horror"
 			],
 	  "set": "tra", "collector_number": "111",
 			"image_uris": {
@@ -6157,10 +6198,10 @@
 			"cmc": 2,
 			"power": "1",
 			"toughness": "2",
-			"oracle_text": "{T}: Add {G}.\n{T}: Add two mana of any one color. Spend this mana only to cast Boss or Event spells.",
+			"oracle_text": "{T}: Add {G}.\n{T}: Add two mana of any one color. Spend this mana only to cast Boss or Event spells or activate abilities of Boss or Event sources.",
 			"type": "Token Creature",
 			"subtypes": [
-			"Treefolk"
+			"Treefolk Horror"
 			],
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Splinterling Token.png"
@@ -6280,7 +6321,7 @@
 			"Frost Moon Yeti Token",
 			"Ice Queen Token",
 			"Santa-NK1 Token"
-			],
+			]
 		},
 		{
 			"name": "Gingerbrute",
@@ -6398,7 +6439,7 @@
 			"Bomb Token",
 			"Food Token",
 			"Treasure Token"
-			],
+			]
 		},
 			{
 			"name": "Food Token",
@@ -6472,7 +6513,7 @@
 			},
 			"related_cards": [
 			"Golf Cart Token"
-			],
+			]
 		},
 		{
 			"name": "Dreadnautilus",
@@ -6570,7 +6611,7 @@
 			},
 			"related_cards": [
 			"Drake Token"
-			],
+			]
 		},
 			{
 			"name": "Drake Token",
@@ -6619,7 +6660,7 @@
 			},
 			"related_cards": [
 			"Clentaminator Solution Token"
-			],
+			]
 		},
 		{
 			"name": "Phi, Explosive Cyborg",
@@ -6639,7 +6680,7 @@
 			},
 			"related_cards": [
 			"Bomb Token"
-			],
+			]
 		},
 		{
 			"name": "Clentaminator Solution",
@@ -6720,7 +6761,7 @@
 			"related_cards": [
 			"Bomb Token",
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Pirate Deckhand Token",
@@ -6755,7 +6796,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Pirate Crossbower Token",
@@ -6790,7 +6831,7 @@
 			},
 			"related_cards": [
 			"Bomb Token"
-			],
+			]
 		},
 		{
 			"name": "Pirate Deadeye Token",
@@ -6825,7 +6866,7 @@
 			},
 			"related_cards": [
 			"Pirate's Cutlass Token"
-			],
+			]
 		},
 		{
 			"name": "Pirate Corsair Token",
@@ -6903,7 +6944,7 @@
 			"related_cards": [
 			"Cursed Pirate Token",
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Pirate Captain Token",
@@ -6938,7 +6979,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Cursed Pirate Token",
@@ -6982,7 +7023,7 @@
 			"Flying Dutchman Token",
 			"Pirate Captain Token",
 			"Cursed Pirate Token"
-			],
+			]
 		},
 		{
 			"name": "Bounding Balloon",
@@ -7030,7 +7071,7 @@
 			"Fish Token",
 			"Jey, Young Angler Token",
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Light Pet",
@@ -7111,7 +7152,7 @@
 			},
 			"related_cards": [
 			"Treasure Token"
-			],
+			]
 		},
 		{
 			"name": "Windy Balloon",
@@ -7220,6 +7261,22 @@
 			}
 		},
 		{
+			"name": "Antlion Charger Token",
+			"mana_cost": "{3}{G}",
+			"cmc": 4,
+			"power": "3",
+			"toughness": "4",
+			"oracle_text": "Trample\nThis creature gets +1/+0 for each other Insect you control.",
+			"type": "Token Creature",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Antlion Charger Token.png"
+			}
+		},
+		{
 			"name": "Jungle Excavation",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
@@ -7241,7 +7298,7 @@
 			"oracle_text": "{T}: Add one mana of any color. This mana can't be spent to cast creature spells.\nWhen Tim dies, call upon Wizard Attire. (Create a token that's a copy of a card named Wizard Attire)",
 			"type": "Legendary Creature",
 			"subtypes": [
-			"Skeleton Wizard"
+			"Skeleton Wizard Boss"
 			],
 			"collector_number": "50",
 			"image_uris": {
@@ -7591,7 +7648,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"cmc": 2,
-			"oracle_text": "When this enchantment enters, create a 1/1 green and white Citizen creature token.\nEach creature you control that’s a Human or a Citizen gets +1/+0.\nWhenever a Human or Citizen you control dies, put a +1/+1 counter on up to one target creature.",
+			"oracle_text": "When this enchantment enters, create a 1/1 green and white Citizen creature token.\nCitizen creatures you control gets +1/+0.\nWhenever a Citizen you control dies, put a +1/+1 counter on up to one target creature.",
 			"type": "Kindred Enchantment",
 			"subtypes": [
 			"Citizen"
@@ -7604,6 +7661,285 @@
 			"Citizen Token"
 			]
 		},
+		{
+			"name": "Horrific Bloodbath",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B/R}",
+			"cmc": 2,
+			"oracle_text": "Each Horror card you own that isn’t on the battlefield has madness. The madness cost is equal to its mana cost.\nWhenever a Horror you control dies, you may discard a card. If you do, draw a card.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Horror"
+			],
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Horrific Bloodbath.png"
+			}
+		},
+		{
+			"name": "Goblin Punter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R/G}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, call upon Goblin Archer. Then you may behold a Boss or Event. If you do, create a Treasure token.\nWhenever a Goblin you control dies, it deals 1 damage to any target.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Goblin"
+			],
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Goblin Punter.png"
+			},
+			"related_cards": [
+			"Goblin Archer Token",
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Melee Focus",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R/W}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, call upon Broken Hero Sword. Then you may behold a Hero. If you do, create a Treasure token.\nWhenever a Warrior you control dies, you may attach any number of Equipment that were attached to it to another target creature.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Warrior"
+			],
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Melee Focus.png"
+			},
+			"related_cards": [
+			"Broken Hero Sword Token",
+			"Hero Token",
+			"Excalibur Token",
+			"Night's Edge Token",
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Ranged Focus",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U/B}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, call upon Storm Diver. Then you may behold a Hero. If you do, create a Treasure token. Otherwise, put a -1/-1 counter on the Storm Diver.\nWhenever a Ranger you control dies, surveil 2.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Ranger"
+			],
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Ranged Focus.png"
+			},
+			"related_cards": [
+			"Storm Diver Token",
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Magic Focus",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U/R}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, call upon Wizard Attire. Then you may behold a Hero. If you do, create a Treasure token.\nWhenever a Wizard you control dies, you may pay {2}. If you do, call upon Mana Crystal. This ability only triggers once each turn.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Wizard"
+			],
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Magic Focus.png"
+			},
+			"related_cards": [
+			"Wizard Attire Token",
+			"Hero Token",
+			"Treasure Token",
+			"Mana Crystal Token"
+			]
+		},
+		{
+			"name": "Summon Focus",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/U}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, call upon Flinx Staff. Then you may behold a Hero. If you do, create a Treasure token.\nWhenever a Shaman you control dies, create a 1/1 blue Alien Ooze creature token with flying.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Shaman"
+			],
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Summon Focus.png"
+			},
+			"related_cards": [
+			"Flinx Staff Token",
+			"Hero Token",
+			"Yeti Token",
+			"Treasure Token",
+			"Alien Ooze Token"
+			]
+		},
+		{
+			"name": "Against the World",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/B}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, choose one —\n• Create a Treasure token.\n• You may behold a Hero. If you do, call upon Edmund, Town Merchant.\nWhenever a Human you control dies, create a token that’s a copy of a noncreature token you control.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Human"
+			],
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Against the World.png"
+			},
+			"related_cards": [
+			"Treasure Token",
+			"Edmund, Town Merchant Token"
+			]
+		},
+		{
+			"name": "Crown Claiming",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/U}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, you may behold a Boss or Event. If you do, create two Treasure tokens. Otherwise, create a Treasure token.\nTreasures you control have “{T}, Sacrifice this artifact: Add two mana of any one color. Spend this mana only to cast Noble spells.”",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Noble"
+			],
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Crown Claiming.png"
+			},
+			"related_cards": [
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Baleful Harvest",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B/G}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, call upon Splinterling. Then you may behold a Boss or Event. If you do, create a Treasure token.\nWhenever a Horror you control dies, create a Food token.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Horror"
+			],
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Baleful Harvest.png"
+			},
+			"related_cards": [
+			"Splinterling Token",
+			"Treasure Token",
+			"Food Token"
+			]
+		},
+		{
+			"name": "Antlion Swarmer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"power": "2",
+			"toughness": "2",
+			"cmc": 3,
+			"oracle_text": "Flying\nWhenever this creature attacks, another target attacking creature without flying gains flying until end of turn.",
+			"type": "Creature",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Antlion Swarmer.png"
+			}
+		},
+		{
+			"name": "Antlion Swarmer Token",
+			"mana_cost": "{2}{W}",
+			"power": "2",
+			"toughness": "2",
+			"cmc": 3,
+			"oracle_text": "Flying\nWhenever this creature attacks, another target attacking creature without flying gains flying until end of turn.",
+			"type": "Token Creature",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Antlion Swarmer Token.png"
+			}
+		},
+		{
+			"name": "Spitting Antlion",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"power": "3",
+			"toughness": "3",
+			"cmc": 2,
+			"oracle_text": "Defender, reach\n{G}{W}, Sacrifice this creature: Call upon your choice of Antlion Charger or Antlion Swarmer. (Create a token that’s a copy of a card with the chosen name.)",
+			"type": "Creature",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Spitting Antlion.png"
+			},
+			"related_cards": [
+			"Antlion Charger Token",
+			"Antlion Swarmer Token"
+			]
+		},
+		{
+			"name": "Spitting Antlion Token",
+			"mana_cost": "{1}{G}",
+			"power": "3",
+			"toughness": "3",
+			"cmc": 2,
+			"oracle_text": "Defender, reach\n{G}{W}, Sacrifice this creature: Call upon your choice of Antlion Charger or Antlion Swarmer. (Create a token that’s a copy of a card with the chosen name.)",
+			"type": "Token Creature",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Spitting Antlion Token.png"
+			}
+		},
+		{
+			"name": "Jungle Hornet",
+			"rarity": "common",
+			"mana_cost": "{G}{W}",
+			"cmc": 2,
+			"oracle_text": "Flying, deathtouch, lifelink",
+			"type": "Creature",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Jungle Hornet.png"
+			}
+		},
+		{
+			"name": "Sting Operation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/W}",
+			"cmc": 2,
+			"oracle_text": "When this enchantment enters, call upon Spitting Antlion. Then you may behold a Boss or Event. If you do, create a Treasure token.\nWhenever an Insect you control dies, you gain 2 life.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sting Operation.png"
+			},
+			"related_cards": [
+			"Spitting Antlion Token",
+			"Treasure Token"
+			]
+		}
 		]
 	[RareSlot(1)]
 		2 Skeletron, Dungeon Guardian
@@ -7779,6 +8115,16 @@
 		9 Eye on You!
 		9 Sticky Situation
 		9 Combat Ready Village
+		9 Horrific Bloodbath
+		9 Goblin Punter
+		9 Melee Focus
+		9 Ranged Focus
+		9 Magic Focus
+		9 Summon Focus
+		9 Against the World
+		9 Crown Claiming
+		9 Baleful Harvest
+		9 Sting Operation
 		[CommonSlot(7)]
 		30 Slime Crown
 		30 Bravery Against the Odds
@@ -7939,6 +8285,9 @@
 		30 Snowman Gangsta
 		30 Snow Balla
 		30 Ale Tosser
+		30 Antlion Swarmer
+		30 Spitting Antlion
+		30 Jungle Hornet
 		[WildcardSlot(2)]
 	10 Skeletron, Dungeon Guardian
 	10 The Dungeon's Entrance
@@ -8261,6 +8610,19 @@
 	10 Eye on You!
 	10 Sticky Situation
 	10 Combat Ready Village
+	10 Horrific Bloodbath
+	10 Goblin Punter
+	10 Melee Focus
+	10 Ranged Focus
+	10 Magic Focus
+	10 Summon Focus
+	10 Against the World
+	10 Crown Claiming
+	10 Baleful Harvest
+	10 Antlion Swarmer
+	10 Spitting Antlion
+	10 Jungle Hornet
+	10 Sting Operation
 	[LandSlot(1)]
 	10 Contaminated Aquifer
 	10 Geothermal Bog
@@ -8272,3 +8634,8 @@
 	10 Sunlit Marsh
 	10 Tangled Islet
 	10 Wooded Ridgeline
+[Settings]
+{
+"name": "An Exploration of Terraria",
+"showSlots": true,
+}

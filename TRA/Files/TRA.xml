@@ -60,7 +60,7 @@ When The Eater of Worlds leaves the battlefield, create two 2/2 green Wurm creat
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Wurm Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -91,7 +91,7 @@ As long as Eye of Cthulhu has trample, it gets +3/-1.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Eye Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -155,7 +155,7 @@ At the beginning of combat on your turn, another target Illusion or Horror you c
         <colors></colors>
         <manacost>1</manacost>
         <cmc>1</cmc>
-        <type>Artifact — Equipment </type>
+        <type>Kindred Artifact — Ooze Boss Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -203,7 +203,7 @@ Wall of Flesh attacks each combat if able and must be blocked if able.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Insect Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -217,7 +217,7 @@ Wall of Flesh attacks each combat if able and must be blocked if able.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Horror Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -247,7 +247,7 @@ Wall of Flesh attacks each combat if able and must be blocked if able.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Horror Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -365,7 +365,7 @@ Equip {0}. Activate only once each turn.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Eye Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -379,7 +379,7 @@ Equip {0}. Activate only once each turn.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Wurm Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -393,7 +393,7 @@ Equip {0}. Activate only once each turn.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Skeleton Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -589,7 +589,7 @@ When this creature enters or leaves the battlefield, scry 1.
         <colors>G</colors>
         <manacost>2G</manacost>
         <cmc>3</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Plant Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -1786,7 +1786,7 @@ As long as this Aura is attached to an opponent, creatures that player controls 
         <colors>R</colors>
         <manacost>2R</manacost>
         <cmc>3</cmc>
-        <type>Creature — Goblin Shaman </type>
+        <type>Creature — Goblin Sorcerer Wizard </type>
         <maintype>Creature</maintype>
         <pt>0/1</pt>
       </prop>
@@ -2098,7 +2098,7 @@ This creature has menace as long as you control a Swamp.</text>
         <colors>BG</colors>
         <manacost>1B/G</manacost>
         <cmc>2</cmc>
-        <type>Creature — Nymph </type>
+        <type>Creature — Nymph Horror </type>
         <maintype>Creature</maintype>
         <pt>2/1</pt>
       </prop>
@@ -2159,7 +2159,7 @@ This creature has first strike as long as you control a Plains.</text>
         <colors></colors>
         <manacost>2</manacost>
         <cmc>2</cmc>
-        <type>Artifact</type>
+        <type>Kindred Artifact — Skeleton Boss </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -2225,7 +2225,7 @@ When this Event enters or at the beginning of your upkeep, choose one or more �
         <colors>BG</colors>
         <manacost>1BBG</manacost>
         <cmc>4</cmc>
-        <type>Creature — Scarecrow Noble Boss </type>
+        <type>Creature — Scarecrow Horror Noble Boss </type>
         <maintype>Creature</maintype>
         <pt>6/1</pt>
       </prop>
@@ -3087,7 +3087,7 @@ When this creature dies, you may pay {X}. When you do, call upon Star Cell X tim
         <colors>WUG</colors>
         <manacost>GWU</manacost>
         <cmc>3</cmc>
-        <type>Creature — Alien Jellyfish </type>
+        <type>Creature — Alien Jellyfish Shaman </type>
         <maintype>Creature</maintype>
         <pt>2/3</pt>
       </prop>
@@ -4016,8 +4016,8 @@ A deck can have any number of cards named Slime Symposium.</text>
       <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Ankh Shield.png">TRA</set>
       <prop>
         <colors></colors>
-        <manacost>5</manacost>
-        <cmc>5</cmc>
+        <manacost>4</manacost>
+        <cmc>4</cmc>
         <type>Artifact</type>
         <maintype>Artifact</maintype>
       </prop>
@@ -4083,7 +4083,7 @@ When this creature dies, if it wasn't blocking, call upon Duke Fishron. (Create 
       </prop>
       <tablerow>2</tablerow>
       <text>{T}: Add {G}.
-{T}: Add two mana of any one color. Spend this mana only to cast Boss or Event spells.</text>
+{T}: Add two mana of any one color. Spend this mana only to cast Boss or Event spells or activate abilities of Boss or Event sources.</text>
     </card>
     <card>
       <name>Flocko</name>
@@ -4968,8 +4968,8 @@ Equip {2}</text>
       </prop>
       <tablerow>1</tablerow>
       <text>When this enchantment enters, create a 1/1 green and white Citizen creature token.
-Each creature you control that’s a Human or a Citizen gets +1/+0.
-Whenever a Human or Citizen you control dies, put a +1/+1 counter on up to one target creature.</text>
+Citizen creatures you control gets +1/+0.
+Whenever a Citizen you control dies, put a +1/+1 counter on up to one target creature.</text>
     </card>
     <card>
       <name>Star Destroyer</name>
@@ -5027,6 +5027,192 @@ Whenever an Eye you control dies or is exiled, create a Clue token.</text>
       <tablerow>1</tablerow>
       <text>When this enchantment enters, create a 2/2 green Ooze creature token. Then you may behold a Boss or Event. If you do, create a Treasure token.
 Whenever an Ooze you control with base power or toughness 2 or greater dies, create a 1/1 green Ooze creature token.</text>
+    </card>
+    <card>
+      <name>Horrific Bloodbath</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Horrific Bloodbath.png">TRA</set>
+      <prop>
+        <colors>BR</colors>
+        <manacost>1B/R</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Horror </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Each Horror card you own that isn’t on the battlefield has madness. The madness cost is equal to its mana cost.
+Whenever a Horror you control dies, you may discard a card. If you do, draw a card.</text>
+    </card>
+    <card>
+      <name>Goblin Punter</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Goblin Punter.png">TRA</set>
+      <prop>
+        <colors>RG</colors>
+        <manacost>1R/G</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Goblin </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, call upon Goblin Archer. Then you may behold a Boss or Event. If you do, create a Treasure token.
+Whenever a Goblin you control dies, it deals 1 damage to any target.</text>
+    </card>
+    <card>
+      <name>Melee Focus</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Melee Focus.png">TRA</set>
+      <prop>
+        <colors>WR</colors>
+        <manacost>1R/W</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Warrior </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, call upon Broken Hero Sword. Then you may behold a Hero. If you do, create a Treasure token.
+Whenever a Warrior you control dies, you may attach any number of Equipment that were attached to it to another target creature.</text>
+    </card>
+    <card>
+      <name>Ranged Focus</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Ranged Focus.png">TRA</set>
+      <prop>
+        <colors>UB</colors>
+        <manacost>1U/B</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Ranger </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, call upon Storm Diver. Then you may behold a Hero. If you do, create a Treasure token. Otherwise, put a -1/-1 counter on the Storm Diver.
+Whenever a Ranger you control dies, surveil 2.</text>
+    </card>
+    <card>
+      <name>Magic Focus</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Magic Focus.png">TRA</set>
+      <prop>
+        <colors>UR</colors>
+        <manacost>1U/R</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Wizard </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, call upon Wizard Attire. Then you may behold a Hero. If you do, create a Treasure token.
+Whenever a Wizard you control dies, you may pay {2}. If you do, call upon Mana Crystal. This ability only triggers once each turn.</text>
+    </card>
+    <card>
+      <name>Summon Focus</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Summon Focus.png">TRA</set>
+      <prop>
+        <colors>UG</colors>
+        <manacost>1G/U</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Shaman </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, call upon Flinx Staff. Then you may behold a Hero. If you do, create a Treasure token.
+Whenever a Shaman you control dies, create a 1/1 blue Alien Ooze creature token with flying.</text>
+    </card>
+    <card>
+      <name>Against the World</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Against the World.png">TRA</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>1W/B</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Human </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, choose one —
+• Create a Treasure token.
+• You may behold a Hero. If you do, call upon Edmund, Town Merchant.
+Whenever a Human you control dies, create a token that’s a copy of a noncreature token you control.</text>
+    </card>
+    <card>
+      <name>Crown Claiming</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Crown Claiming.png">TRA</set>
+      <prop>
+        <colors>WU</colors>
+        <manacost>1W/U</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Noble </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, you may behold a Boss or Event. If you do, create two Treasure tokens. Otherwise, create a Treasure token.
+Treasures you control have “{T}, Sacrifice this artifact: Add two mana of any one color. Spend this mana only to cast Noble spells.”</text>
+    </card>
+    <card>
+      <name>Baleful Harvest</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Baleful Harvest.png">TRA</set>
+      <prop>
+        <colors>BG</colors>
+        <manacost>1B/G</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Horror </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, call upon Splinterling. Then you may behold a Boss or Event. If you do, create a Treasure token.
+Whenever a Horror you control dies, create a Food token.</text>
+    </card>
+    <card>
+      <name>Antlion Swarmer</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Antlion Swarmer.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature — Insect </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever this creature attacks, another target attacking creature without flying gains flying until end of turn.</text>
+    </card>
+    <card>
+      <name>Spitting Antlion</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Spitting Antlion.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Creature — Insect </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Defender, reach
+{G}{W}, Sacrifice this creature: Call upon your choice of Antlion Charger or Antlion Swarmer. Activate only as a sorcery. (Create a token that’s a copy of a card with the chosen name.)</text>
+    </card>
+    <card>
+      <name>Jungle Hornet</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Jungle Hornet.png">TRA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>GW</manacost>
+        <cmc>2</cmc>
+        <type>Creature — Insect </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, deathtouch, lifelink</text>
+    </card>
+    <card>
+      <name>Sting Operation</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sting Operation.png">TRA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1G/W</manacost>
+        <cmc>2</cmc>
+        <type>Kindred Enchantment — Insect </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, call upon Spitting Antlion. Then you may behold a Boss or Event. If you do, create a Treasure token.
+Whenever an Insect you control dies, you gain 2 life.</text>
     </card>
     <!-->Tokens</-->
     <card>
@@ -5316,6 +5502,15 @@ Equip {2}</text>
       <reverse-related>Sticky Situation</reverse-related>
       <reverse-related>Eye on You!</reverse-related>
       <reverse-related>Star Destroyer</reverse-related>
+      <reverse-related>Goblin Punter</reverse-related>
+      <reverse-related>Melee Focus</reverse-related>
+      <reverse-related>Ranged Focus</reverse-related>
+      <reverse-related>Magic Focus</reverse-related>
+      <reverse-related>Summon Focus</reverse-related>
+      <reverse-related>Against the World</reverse-related>
+      <reverse-related>Crown Claiming</reverse-related>
+      <reverse-related>Baleful Harvest</reverse-related>
+      <reverse-related>Sting Operation</reverse-related>
     </card>
     <card>
       <name>Food Token</name>
@@ -5328,6 +5523,7 @@ Equip {2}</text>
       <tablerow>1</tablerow>
       <text>{2}, {T}, Sacrifice this token: You gain 3 life.</text>
       <token>1</token>
+      <reverse-related>Baleful Harvest</reverse-related>
     </card>
     <card>
       <name>Shark Token  </name>
@@ -5360,6 +5556,7 @@ At the beginning of your end step, sacrifice this creature.</text>
       <reverse-related>Flow Invader</reverse-related>
       <reverse-related>Flow Invader (Token)</reverse-related>
       <reverse-related>Star Destroyer</reverse-related>
+      <reverse-related>Summon Focus</reverse-related>
     </card>
     <card>
       <name>Cleric Token    </name>
@@ -5818,6 +6015,7 @@ Equip Shaman {G}</text>
       <token>1</token>
       <reverse-related>Snow Flinxes</reverse-related>
       <related attach="attach">Hero Token</related>
+      <reverse-related>Summon Focus</reverse-related>
     </card>
     <card>
       <name>Star Cell (Token)</name>
@@ -6031,7 +6229,7 @@ Whenever this creature blocks or becomes blocked by a creature, this creature de
       <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Goblin Sorcerer Token.png">TRA</set>
       <prop>
         <colors>R</colors>
-        <type>Token Creature — Goblin Shaman </type>
+        <type>Token Creature — Goblin Sorcerer Wizard </type>
         <maintype>Creature</maintype>
         <pt>0/1</pt>
         <manacost>2R</manacost>
@@ -6296,6 +6494,7 @@ Whenever this creature attacks, create a 1/1 blue Alien Ooze creature token with
 Whenever this creature blocks or becomes blocked by a creature with flying, this creature gets +1/+0 and gains first strike until end of turn.</text>
       <token>1</token>
       <reverse-related>Goblin Invasion</reverse-related>
+      <reverse-related>Goblin Punter</reverse-related>
     </card>
     <card>
       <name>Goblin Warrior (Token)</name>
@@ -6499,6 +6698,7 @@ Skeletron Prime gets +1/+1 for each other Construct you control.</text>
       <token>1</token>
       <reverse-related>The Vortex Pillar</reverse-related>
       <reverse-related>The Vortex Pillar (Token)</reverse-related>
+      <reverse-related>Ranged Focus</reverse-related>
     </card>
     <card>
       <name>Wall of Flesh (Token)</name>
@@ -6620,6 +6820,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
       <text>{1}, {T}: Add two mana of any one color. This mana can't be spent to cast creature spells.</text>
       <token>1</token>
       <reverse-related>The Mage</reverse-related>
+      <reverse-related>Magic Focus</reverse-related>
     </card>
     <card>
       <name>Rocket Boots (Token)</name>
@@ -6689,6 +6890,7 @@ Equip {2}</text>
       <reverse-related>Mothron</reverse-related>
       <related attach="attach">Hero Token</related>
       <reverse-related>Mothron (Token)</reverse-related>
+      <reverse-related>Melee Focus</reverse-related>
     </card>
     <card>
       <name>Excalibur (Token)</name>
@@ -6966,7 +7168,7 @@ Whenever this creature deals combat damage to a player, scry 1.</text>
       <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Pumpking Token.png">TRA</set>
       <prop>
         <colors>BG</colors>
-        <type>Token Creature — Scarecrow Noble Boss </type>
+        <type>Token Creature — Scarecrow Horror Noble Boss </type>
         <maintype>Creature</maintype>
         <pt>6/1</pt>
         <manacost>1BBG</manacost>
@@ -7043,9 +7245,10 @@ Whenever this creature deals combat damage to a creature, tap that creature and 
       </prop>
       <tablerow>2</tablerow>
       <text>{T}: Add {G}.
-{T}: Add two mana of any one color. Spend this mana only to cast Boss or Event spells.</text>
+{T}: Add two mana of any one color. Spend this mana only to cast Boss or Event spells or activate abilities of Boss or Event sources.</text>
       <token>1</token>
       <reverse-related>The Pumpkin Moon is Rising</reverse-related>
+      <reverse-related>Baleful Harvest</reverse-related>
     </card>
     <card>
       <name>Mourning Wood (Token)</name>
@@ -7388,7 +7591,7 @@ Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
         <colors></colors>
         <manacost>1</manacost>
         <cmc>1</cmc>
-        <type>Artifact - Equipment Food </type>
+        <type>Token Artifact - Equipment Food </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -7405,7 +7608,7 @@ Equip {2}</text>
         <colors>B</colors>
         <manacost>1B</manacost>
         <cmc>2</cmc>
-        <type>Creature - Elemental Mercenary </type>
+        <type>Token Creature - Elemental Mercenary </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -7422,7 +7625,7 @@ Equip {2}</text>
         <colors>G</colors>
         <manacost>1G</manacost>
         <cmc>2</cmc>
-        <type>Creature - Elemental Mercenary </type>
+        <type>Token Creature - Elemental Mercenary </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -7439,7 +7642,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
         <colors>R</colors>
         <manacost>1R</manacost>
         <cmc>2</cmc>
-        <type>Creature - Elemental Mercenary </type>
+        <type>Token Creature - Elemental Mercenary </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -7456,7 +7659,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
         <colors>U</colors>
         <manacost>1U</manacost>
         <cmc>2</cmc>
-        <type>Artifact - Equipment </type>
+        <type>Token Artifact - Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -7466,6 +7669,7 @@ Equip {2}</text>
       <related attach="attach">Hero Token</related>
       <token>1</token>
       <reverse-related>Tim, Bone Wizard</reverse-related>
+      <reverse-related>Magic Focus</reverse-related>
     </card>
     <card>
       <name>Bounding Balloon (Token)</name>
@@ -7474,7 +7678,7 @@ Equip {2}</text>
         <colors></colors>
         <manacost>1</manacost>
         <cmc>1</cmc>
-        <type>Artifact - Equipment </type>
+        <type>Token Artifact - Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
@@ -7491,7 +7695,7 @@ Equip {3}</text>
         <colors>WU</colors>
         <manacost>1WU</manacost>
         <cmc>3</cmc>
-        <type>Legendary Creature — Human Citizen </type>
+        <type>Token Legendary Creature — Human Citizen </type>
         <maintype>Creature</maintype>
         <pt>2/2</pt>
       </prop>
@@ -7502,6 +7706,79 @@ Equip {3}</text>
       <related>Fish Token  </related>
       <token>1</token>
       <reverse-related>Finding the Ocean</reverse-related>
+    </card>
+    <card>
+      <name>Antlion Swarmer (Token)</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Antlion Swarmer Token.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Token Creature — Insect </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever this creature attacks, another target attacking creature without flying gains flying until end of turn.</text>
+      <token>1</token>
+      <reverse-related>Spitting Antlion</reverse-related>
+      <reverse-related>Spitting Antlion (Token)</reverse-related>
+    </card>
+    <card>
+      <name>Antlion Charger (Token)</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Antlion Charger Token.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Token Creature — Insect </type>
+        <maintype>Creature</maintype>
+        <pt>3/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Trample
+This creature gets +1/+0 for each other Insect you control.</text>
+      <token>1</token>
+      <reverse-related>Spitting Antlion</reverse-related>
+      <reverse-related>Spitting Antlion (Token)</reverse-related>
+    </card>
+    <card>
+      <name>Spitting Antlion (Token)</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Spitting Antlion Token.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Token Creature - Insect </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Defender, reach
+{G}{W}, Sacrifice this creature: Call upon your choice of Antlion Charger or Antlion Swarmer. Activate only as a sorcery. (Create a token that’s a copy of a card with the chosen name.)</text>
+      <token>1</token>
+      <reverse-related>Sting Operation</reverse-related>
+    </card>
+    <card>
+      <name>Edmund, Town Merchant (Token)</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Edmund, Town Merchant Token.png">TRA</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>2WB</manacost>
+        <cmc>4</cmc>
+        <type>Token Legendary Creature — Human Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Affinity for Treasures
+{T}, Sacrifice an artifact: Choose one —
+• You gain 3 life.
+• Put a +1/+1 counter on target creature.
+• Target player loses 2 life.</text>
+      <token>1</token>
+      <reverse-related>Against the World</reverse-related>
     </card>
   </cards>
 </cockatrice_carddatabase>
