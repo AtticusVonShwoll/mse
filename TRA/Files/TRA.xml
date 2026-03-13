@@ -2180,6 +2180,7 @@ This creature has first strike as long as you control a Plains.</text>
       <tablerow>2</tablerow>
       <text>When this creature enters, you may pay {B}. If you do, put a menace counter on it and create a Treasure token.
 Prevent all noncombat damage that would be dealt to this creature.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>The Ranger</name>
@@ -4685,6 +4686,7 @@ A deck can have up to eleven cards named Through the Pylons.</text>
       <text>Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
 Search your library for an artifact card, reveal it, put it into your hand, then shuffle.
 {2}, Discard this card: Create a Treasure token.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Windy Balloon</name>
@@ -4730,6 +4732,7 @@ When this creature dies, choose one —
       </prop>
       <tablerow>3</tablerow>
       <text>Double target creature's power until end of turn. If that creature is a Hero, create a Treasure token.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Crimson Heart</name>
@@ -4744,6 +4747,7 @@ When this creature dies, choose one —
       <tablerow>1</tablerow>
       <text>Tap an untapped creature you control, sacrifice this artifact: Exile the top two cards of your library, you may play those cards this turn. Then create two Treasure tokens. If there are three or more cards in your graveyard named Crimson Heart, exile them and call upon Brain of Cthulhu. (Create a token that's a copy of a card named Brain of Cthulhu)
 A deck can have any number of cards named Crimson Heart.</text>
+      <related count="2">Treasure Token</related>
     </card>
     <card>
       <name>Flying Fish</name>
@@ -4970,6 +4974,7 @@ Equip {2}</text>
       <text>When this enchantment enters, create a 1/1 green and white Citizen creature token.
 Citizen creatures you control gets +1/+0.
 Whenever a Citizen you control dies, put a +1/+1 counter on up to one target creature.</text>
+      <related>Citizen Token  </related>
     </card>
     <card>
       <name>Star Destroyer</name>
@@ -4984,6 +4989,7 @@ Whenever a Citizen you control dies, put a +1/+1 counter on up to one target cre
       <tablerow>1</tablerow>
       <text>When this creature enters, create a Treasure token and a 1/1 blue Alien Ooze creature token with flying. Then you may behold a Boss or Event. If you do, draw a card.
 Whenever an Alien you control dies, proliferate.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Completely Boned</name>
@@ -4998,6 +5004,8 @@ Whenever an Alien you control dies, proliferate.</text>
       <tablerow>1</tablerow>
       <text>When this enchantment enters, you may behold a Boss or Event. If you do, create two 1/1 black Skeleton creature tokens. Otherwise, create one of those tokens.
 Whenever a Skeleton you control dies, you may pay 1 life. If you do, create a Treasure token.</text>
+      <related>Treasure Token</related>
+      <related>Skeleton Token </related>
     </card>
     <card>
       <name>Eye on You!</name>
@@ -5013,6 +5021,7 @@ Whenever a Skeleton you control dies, you may pay 1 life. If you do, create a Tr
       <text>When this enchantment enters, call upon Pursuing Eye. Then you may behold a Boss or Event. If you do, create a Treasure token.
 Whenever an Eye you control dies or is exiled, create a Clue token.</text>
       <related>Clue Token</related>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Sticky Situation</name>
@@ -5027,6 +5036,7 @@ Whenever an Eye you control dies or is exiled, create a Clue token.</text>
       <tablerow>1</tablerow>
       <text>When this enchantment enters, create a 2/2 green Ooze creature token. Then you may behold a Boss or Event. If you do, create a Treasure token.
 Whenever an Ooze you control with base power or toughness 2 or greater dies, create a 1/1 green Ooze creature token.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Horrific Bloodbath</name>
@@ -5055,6 +5065,7 @@ Whenever a Horror you control dies, you may discard a card. If you do, draw a ca
       <tablerow>1</tablerow>
       <text>When this enchantment enters, call upon Goblin Archer. Then you may behold a Boss or Event. If you do, create a Treasure token.
 Whenever a Goblin you control dies, it deals 1 damage to any target.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Melee Focus</name>
@@ -5069,6 +5080,7 @@ Whenever a Goblin you control dies, it deals 1 damage to any target.</text>
       <tablerow>1</tablerow>
       <text>When this enchantment enters, call upon Broken Hero Sword. Then you may behold a Hero. If you do, create a Treasure token.
 Whenever a Warrior you control dies, you may attach any number of Equipment that were attached to it to another target creature.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Ranged Focus</name>
@@ -5083,6 +5095,7 @@ Whenever a Warrior you control dies, you may attach any number of Equipment that
       <tablerow>1</tablerow>
       <text>When this enchantment enters, call upon Storm Diver. Then you may behold a Hero. If you do, create a Treasure token. Otherwise, put a -1/-1 counter on the Storm Diver.
 Whenever a Ranger you control dies, surveil 2.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Magic Focus</name>
@@ -5097,6 +5110,7 @@ Whenever a Ranger you control dies, surveil 2.</text>
       <tablerow>1</tablerow>
       <text>When this enchantment enters, call upon Wizard Attire. Then you may behold a Hero. If you do, create a Treasure token.
 Whenever a Wizard you control dies, you may pay {2}. If you do, call upon Mana Crystal. This ability only triggers once each turn.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Summon Focus</name>
@@ -5111,6 +5125,7 @@ Whenever a Wizard you control dies, you may pay {2}. If you do, call upon Mana C
       <tablerow>1</tablerow>
       <text>When this enchantment enters, call upon Flinx Staff. Then you may behold a Hero. If you do, create a Treasure token.
 Whenever a Shaman you control dies, create a 1/1 blue Alien Ooze creature token with flying.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Against the World</name>
@@ -5127,6 +5142,7 @@ Whenever a Shaman you control dies, create a 1/1 blue Alien Ooze creature token 
 • Create a Treasure token.
 • You may behold a Hero. If you do, call upon Edmund, Town Merchant.
 Whenever a Human you control dies, create a token that’s a copy of a noncreature token you control.</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Crown Claiming</name>
@@ -5141,6 +5157,7 @@ Whenever a Human you control dies, create a token that’s a copy of a noncreatu
       <tablerow>1</tablerow>
       <text>When this enchantment enters, you may behold a Boss or Event. If you do, create two Treasure tokens. Otherwise, create a Treasure token.
 Treasures you control have “{T}, Sacrifice this artifact: Add two mana of any one color. Spend this mana only to cast Noble spells.”</text>
+      <related>Treasure Token</related>
     </card>
     <card>
       <name>Baleful Harvest</name>
@@ -5155,6 +5172,8 @@ Treasures you control have “{T}, Sacrifice this artifact: Add two mana of any 
       <tablerow>1</tablerow>
       <text>When this enchantment enters, call upon Splinterling. Then you may behold a Boss or Event. If you do, create a Treasure token.
 Whenever a Horror you control dies, create a Food token.</text>
+      <related>Treasure Token</related>
+      <related>Food Token</related>
     </card>
     <card>
       <name>Antlion Swarmer</name>
@@ -5213,6 +5232,63 @@ Whenever this creature attacks, another target attacking creature without flying
       <tablerow>1</tablerow>
       <text>When this enchantment enters, call upon Spitting Antlion. Then you may behold a Boss or Event. If you do, create a Treasure token.
 Whenever an Insect you control dies, you gain 2 life.</text>
+      <related>Treasure Token</related>
+    </card>
+    <card>
+      <name>Plains</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Plains.png" rarity="common" uuid="f8225ea8-bd7d-4caa-a9f7-d863dabea3c4">TRA</set>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Plains.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <type>Basic Land — Plains </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {W}.)</text>
+    </card>
+    <card>
+      <name>Island</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Island.png" rarity="common" uuid="701c248e-cbe8-4685-ab71-d8477df4efd3">TRA</set>
+      <prop>
+        <colors></colors>
+        <type>Basic Land — Island </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {U}.)</text>
+    </card>
+    <card>
+      <name>Swamp</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Swamp.png" rarity="common" uuid="93fdbf64-6078-4ba9-b6d3-9c4134635806">TRA</set>
+      <prop>
+        <colors></colors>
+        <type>Basic Land — Swamp </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {B}.)</text>
+    </card>
+    <card>
+      <name>Mountain</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mountain.png" rarity="common" uuid="6e8a7df9-0c4a-4228-b49e-597f602e2625">TRA</set>
+      <prop>
+        <colors></colors>
+        <type>Basic Land — Mountain</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {R}.)</text>
+    </card>
+    <card>
+      <name>Forest</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Forest.png" rarity="common" uuid="266a8b2c-77d0-46dc-b527-1db1cf909839">TRA</set>
+      <prop>
+        <colors></colors>
+        <type>Basic Land — Forest </type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>({T}: Add {G}.)</text>
     </card>
     <!-->Tokens</-->
     <card>

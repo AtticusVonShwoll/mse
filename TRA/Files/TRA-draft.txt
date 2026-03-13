@@ -7876,7 +7876,7 @@
 			"power": "3",
 			"toughness": "3",
 			"cmc": 2,
-			"oracle_text": "Defender, reach\n{G}{W}, Sacrifice this creature: Call upon your choice of Antlion Charger or Antlion Swarmer. (Create a token that’s a copy of a card with the chosen name.)",
+			"oracle_text": "Defender, reach\n{G}{W}, Sacrifice this creature: Call upon your choice of Antlion Charger or Antlion Swarmer. Activate only as a sorcery. (Create a token that’s a copy of a card with the chosen name.)",
 			"type": "Creature",
 			"subtypes": [
 			"Insect"
@@ -7896,7 +7896,7 @@
 			"power": "3",
 			"toughness": "3",
 			"cmc": 2,
-			"oracle_text": "Defender, reach\n{G}{W}, Sacrifice this creature: Call upon your choice of Antlion Charger or Antlion Swarmer. (Create a token that’s a copy of a card with the chosen name.)",
+			"oracle_text": "Defender, reach\n{G}{W}, Sacrifice this creature: Call upon your choice of Antlion Charger or Antlion Swarmer. Activate only as a sorcery. (Create a token that’s a copy of a card with the chosen name.)",
 			"type": "Token Creature",
 			"subtypes": [
 			"Insect"
