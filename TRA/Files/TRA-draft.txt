@@ -1143,8 +1143,11 @@
 			"cmc": 3,
 			"power": "1",
 			"toughness": "2",
-			"oracle_text": "At the beginning of your upkeep, create a 0/1 green Plant creature token.\n{T}, Sacrifice a Plant: Choose one —\n• Create a Treasure token.\n• Investigate (Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)",
-			"type": "Legendary Creature — Human Citizen ",
+			"oracle_text": "At the beginning of your upkeep, create a 0/1 green Plant creature token.\n{T}, Sacrifice a Plant: Create a Clue token or a Treasure token.",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Human Citizen"
+			],
 	  "set": "tra", "collector_number": "132",
 			"image_uris": {
 				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Hanno, Dye Trader.png"
@@ -1436,7 +1439,7 @@
 			"rarity": "common",
 			"mana_cost": "{2/R}",
 			"cmc": 2,
-			"oracle_text": "Equipped creature gets +1/+1 and has reach.\nEquip {1}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+1, has reach and is a Warrior in addition to its other types.\nEquip {1}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -1450,7 +1453,7 @@
 			"name": "Enchanted Sword Token",
 			"mana_cost": "{2/R}",
 			"cmc": 2,
-			"oracle_text": "Equipped creature gets +1/+1 and has reach.\nEquip {1}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+1, has reach and is a Warrior in addition to its other types.\nEquip {1}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4272,7 +4275,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"cmc": 2,
-			"oracle_text": "Job select\nEquipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4289,7 +4292,7 @@
 			"name": "Flinx Fur Coat Token",
 			"mana_cost": "{1}{W}",
 			"cmc": 2,
-			"oracle_text": "Job select\nEquipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.\nEquip {3}\nEquip Shaman {W}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4303,7 +4306,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"cmc": 2,
-			"oracle_text": "Job select\nEquipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”\nEquip {4}\nEquip Shaman {G}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”\nEquip {4}\nEquip Shaman {G}",
 			"type": "Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4321,7 +4324,7 @@
 			"name": "Flinx Staff Token",
 			"mana_cost": "{1}{G}",
 			"cmc": 2,
-			"oracle_text": "Job select\nEquipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”\nEquip {4}\nEquip Shaman {G}",
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”\nEquip {4}\nEquip Shaman {G}",
 			"type": "Token Artifact",
 			"subtypes": [
 			"Equipment"
@@ -4432,8 +4435,8 @@
 		{
 			"name": "Magic Regeneration Potion",
 			"rarity": "common",
-			"mana_cost": "{3}{G}",
-			"cmc": 4,
+			"mana_cost": "{2}{G}",
+			"cmc": 3,
 			"oracle_text": "Enchant player\nWhenever you tap a land for mana for the first time on your turn, if this Aura is attached to you, add one mana of any color.\nWhenever a land enters under an opponent's control, if this Aura is attached to that player, untap target land you control.",
 			"type": "Enchantment",
 			"subtypes": [
@@ -5141,7 +5144,7 @@
 			"Excalibur Token",
 			"Night's Edge Token",
 			"Insect Egg Token",
-			"Insect Token WBG"
+			"Baby Mothron Token"
 			]
 		},
 		{
@@ -5172,7 +5175,7 @@
 			"image_uris": { "en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Insect Egg Token.png" }
 			},
 			{
-			"name": "Insect Token WBG",
+			"name": "Baby Mothron Token",
 			"mana_cost": "",
 			"power": "2",
 			"toughness": "2",
@@ -6025,7 +6028,7 @@
 			"Excalibur Token",
 			"Night's Edge Token",
 			"Insect Egg Token",
-			"Insect Token WBG"
+			"Baby Mothron Token"
 			]
 		},
 		{
@@ -6481,8 +6484,8 @@
 		{
 			"name": "Martian Saucer",
 			"rarity": "rare",
-			"mana_cost": "{2}{W}{U}{B}",
-			"cmc": 5,
+			"mana_cost": "{1}{W}{U}{B}",
+			"cmc": 4,
 			"power": "6",
 			"toughness": "6",
 			"oracle_text": "Flying, vigilance\nOther Alien creatures you control get +1/+1 and have vigilance.\nCrew 3",
@@ -6713,8 +6716,8 @@
 		{
 			"name": "Flying Dutchman",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}{B}{R}",
-			"cmc": 5,
+			"mana_cost": "{1}{U}{B}{R}",
+			"cmc": 4,
 			"power": "6",
 			"toughness": "6",
 			"oracle_text": "Flying\nAfflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)\nOther Pirate creatures you control get +1/+1 and have afflict 2.\nCrew 3",
@@ -6729,8 +6732,8 @@
 		},
 		{
 			"name": "Flying Dutchman Token",
-			"mana_cost": "{2}{U}{B}{R}",
-			"cmc": 5,
+			"mana_cost": "{1}{U}{B}{R}",
+			"cmc": 4,
 			"power": "6",
 			"toughness": "6",
 			"oracle_text": "Flying\nAfflict 2 (Whenever this creature becomes blocked, defending player loses 2 life.)\nOther Pirate creatures you control get +1/+1 and have afflict 2.\nCrew 3",
@@ -7910,6 +7913,8 @@
 			"name": "Jungle Hornet",
 			"rarity": "common",
 			"mana_cost": "{G}{W}",
+			"power": "1",
+			"toughness": "1",
 			"cmc": 2,
 			"oracle_text": "Flying, deathtouch, lifelink",
 			"type": "Creature",
@@ -7939,6 +7944,765 @@
 			"Spitting Antlion Token",
 			"Treasure Token"
 			]
+		},
+		{
+			"name": "Biome Crossovers",
+			"rarity": "common",
+			"mana_cost": "",
+			"cmc": 0,
+			"oracle_text": "This land enters tapped. As it enters, choose one, two or three basic land types. You must pay 1 life to choose each color beyond the first. This land becomes the chosen types in addition to its other types.",
+			"type": "Land",
+			"collector_number": "367",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Biome Crossovers.png"
+			}
+		},
+		{
+			"name": "Clumsy Slime",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"power": "2",
+			"toughness": "2",
+			"cmc": 3,
+			"oracle_text": "When this creature enters, call upon Bounding Balloon and attach it to this creature. (Create a token that’s a copy of a card named Bounding Balloon.)\nWhen this creature dies, create a token that’s a copy of an artifact token you control.",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze Ranger Citizen"
+			],
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Clumsy Slime.png"
+			},
+			"related_cards": [
+			"Bounding Balloon Token"
+			]
+		},
+		{
+			"name": "Mystic Slime",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"cmc": 3,
+			"power": "1",
+			"toughness": "3",
+			"oracle_text": "{1}{U}, T: You may cast a copy of a card named Turn to Frog without paying its mana cost. Activate only as a sorcery.",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze Wizard Citizen"
+			],
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mystic Slime.png"
+			}
+		},
+		{
+			"name": "Diva Slime",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"cmc": 2,
+			"power": "2",
+			"toughness": "2",
+			"oracle_text": "Whenever this creature attacks, if you created a token this turn, create a 1/1 green and white Citizen creature token.",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze Shaman Citizen"
+			],
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Diva Slime.png"
+			},
+			"related_cards": [
+			"Citizen Token"
+			]
+		},
+		{
+			"name": "Undead Miner",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"cmc": 2,
+			"power": "2",
+			"toughness": "1",
+			"oracle_text": "When this creature enters, create a Bomb token. (It’s an artifact with “{2/R}, {T}, Sacrifice this artifact: It deals 2 damage to any target.”)\nBombs you control have “{R}, {T}, Sacrifice this artifact: Destroy target artifact.”",
+			"type": "Creature",
+			"subtypes": [
+			"Skeleton Warrior"
+			],
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Undead Miner.png"
+			},
+			"related_cards": [
+			"Bomb Token"
+			]
+		},
+		{
+			"name": "Slingshot",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"cmc": 2,
+			"oracle_text": "Choose one —\n• Target artifact you control deals damage equal to its mana value to any other target. Then sacrifice it.\n• Target creature you control deals damage equal to its power to any other target. Then sacrifice it.",
+			"type": "Sorcery",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Slingshot.png"
+			}
+		},
+		{
+			"name": "Face the Enemy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/B}",
+			"cmc": 3,
+			"oracle_text": "Search your library for a Boss card, Hero card or card with Job select, reveal it, put it into your hand, then shuffle.",
+			"type": "Sorcery",
+			"collector_number": "305",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Face the Enemy.png"
+			}
+		},
+		{
+			"name": "New Encounter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"cmc": 5,
+			"oracle_text": "Look at the top five cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
+			"type": "Sorcery",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/New Encounter.png"
+			}
+		},
+		{
+			"name": "Martian Walker",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"cmc": 3,
+			"power": "1",
+			"toughness": "3",
+			"oracle_text": "Double strike, reach",
+			"type": "Artifact Creature",
+			"subtypes": [
+			"Alien Construct"
+			],
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Martian Walker.png"
+			}
+		},
+		{
+			"name": "Martian Officer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"cmc": 3,
+			"power": "3",
+			"toughness": "2",
+			"oracle_text": "During your turn, prevent all damage that would be dealt to this creature.",
+			"type": "Creature",
+			"subtypes": [
+			"Alien Warrior"
+			],
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Martian Officer.png"
+			}
+		},
+		{
+			"name": "Martian Drone",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"cmc": 2,
+			"power": "1",
+			"toughness": "1",
+			"oracle_text": "Flying\n{2/R}, {T}, Sacrifice this creature: It deals 2 damage to any target.",
+			"type": "Artifact Creature",
+			"subtypes": [
+			"Bomb Alien Drone"
+			],
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Martian Drone.png"
+			}
+		},
+		{
+			"name": "Angry Tumbler",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"cmc": 3,
+			"power": "4",
+			"toughness": "2",
+			"oracle_text": "Flash\nTrample",
+			"type": "Creature",
+			"subtypes": [
+			"Plant"
+			],
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Angry Tumbler.png"
+			}
+		},
+		{
+			"name": "Sand Shark",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"cmc": 5,
+			"power": "4",
+			"toughness": "4",
+			"oracle_text": "Desertwalk (This creature can’t be blocked as long as defending player controls a Desert.)\n{1}{U}: Target land becomes a Desert in addition to its other types until end of turn.",
+			"type": "Creature",
+			"subtypes": [
+			"Sand Shark"
+			],
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sand Shark.png"
+			}
+		},
+		{
+			"name": "Desert Mummy",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"cmc": 5,
+			"power": "4",
+			"toughness": "4",
+			"oracle_text": "When this creature enters, detain target creature an opponent controls. (Until your next turn, that creature can’t attack or block and its activated abilities can’t be activated.)",
+			"type": "Creature",
+			"subtypes": [
+			"Zombie"
+			],
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Desert Mummy.png"
+			}
+		},
+		{
+			"name": "Battle for the Ages",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"cmc": 2,
+			"oracle_text": "Remove four defense counters from each battle your opponents protect. Then put four defense counters on each battle you protect.\nEach opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card. Draw a card for each token or battle sacrificed this way.",
+			"type": "Sorcery",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Battle for the Ages.png"
+			}
+		},
+		{
+			"name": "Spooky Armor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"cmc": 2,
+			"oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +3/+1, is a Shaman in addition to its other types, and has menace and “Whenever a nontoken creature you control dies, create a 1/1 black and green Treefolk Horror creature token with menace.”\nEquip {3}",
+			"type": "Artifact",
+			"subtypes": [
+			"Equipment"
+			],
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Spooky Armor.png"
+			},
+			"related_cards": [
+			"Hero Token",
+			"Treefolk Horror Token"
+			]
+		},
+		{
+			"name": "Treefolk Horror Token",
+			"mana_cost": "",
+			"power": "1",
+			"toughness": "1",
+			"oracle_text": "Menace",
+			"type": "Token Creature",
+			"subtypes": [
+			"Treefolk Horror"
+			],
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Treefolk Horror Token.png"
+			}
+		},
+		{
+			"name": "Blood Moon Eel",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"cmc": 5,
+			"power": "4",
+			"toughness": "3",
+			"oracle_text": "Flying, haste",
+			"type": "Creature",
+			"subtypes": [
+			"Fish Demon Horror Boss"
+			],
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Blood Moon Eel.png"
+			}
+		},
+		{
+			"name": "Wandering Eye Fish",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"cmc": 5,
+			"power": "5",
+			"toughness": "5",
+			"oracle_text": "Flying, trample, haste\nAt the beginning of the end step, this creature’s owner shuffles it into their library.",
+			"type": "Creature",
+			"subtypes": [
+			"Eye Fish Horror"
+			],
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Wandering Eye Fish.png"
+			}
+		},
+		{
+			"name": "Death Laser",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"cmc": 5,
+			"oracle_text": "This spell costs {3} less to cast if you control a Boss.\nDeath Laser deals 6 damage to target creature or battle.",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Death Laser.png"
+			}
+		},
+		{
+			"name": "Anomura Fungus",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"cmc": 3,
+			"power": "3",
+			"toughness": "2",
+			"oracle_text": "When this creature enters, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)",
+			"type": "Creature",
+			"subtypes": [
+			"Crab Fungus"
+			],
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Anomura Fungus.png"
+			}
+		},
+		{
+			"name": "Illuminant Bat",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"cmc": 4,
+			"power": "3",
+			"toughness": "3",
+			"oracle_text": "Flying\nOther creatures you control with flying get +1/+0.",
+			"type": "Creature",
+			"subtypes": [
+			"Bat"
+			],
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Illuminant Bat.png"
+			}
+		},
+		{
+			"name": "Guiding Fairy",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"cmc": 1,
+			"power": "0",
+			"toughness": "1",
+			"oracle_text": "Flying\nWhenever this creature attacks, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+			"type": "Creature",
+			"subtypes": [
+			"Faerie"
+			],
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Guiding Fairy.png"
+			}
+		},
+		{
+			"name": "Heart Slime",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"cmc": 3,
+			"power": "3",
+			"toughness": "2",
+			"oracle_text": "Whenever you gain life, put a +1/+1 counter on this creature.",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze"
+			],
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Heart Slime.png"
+			}
+		},
+		{
+			"name": "Slime Drops",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{U}",
+			"cmc": 3,
+			"oracle_text": "When this enchantment enters, create a 2/2 green Ooze creature token.\nWhenever an Ooze you control dies, create a token at random from among Bomb, Clue, Food, and Treasure.",
+			"type": "Kindred Enchantment",
+			"subtypes": [
+			"Ooze"
+			],
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Slime Drops.png"
+			},
+			"related_cards": [
+			"Ooze Token",
+			"Bomb Token",
+			"Clue Token",
+			"Food Token",
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Terrarian Orca",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"cmc": 6,
+			"power": "6",
+			"toughness": "6",
+			"oracle_text": "Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)",
+			"type": "Creature",
+			"subtypes": [
+			"Whale"
+			],
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Terrarian Orca.png"
+			}
+		},
+		{
+			"name": "Jungle Moth",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"cmc": 5,
+			"power": "3",
+			"toughness": "3",
+			"oracle_text": "Flying\nWhen this creature enters, you gain 3 life.",
+			"type": "Creature",
+			"subtypes": [
+			"Insect"
+			],
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Jungle Moth.png"
+			}
+		},
+		{
+			"name": "Face Monster",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"cmc": 3,
+			"power": "4",
+			"toughness": "1",
+			"oracle_text": "When this creature enters, create a Treasure token. (It’s an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)",
+			"type": "Creature",
+			"subtypes": [
+			"Horror Mutant"
+			],
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Face Monster.png"
+			},
+			"related_cards": [
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Sand Elemental",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"cmc": 4,
+			"power": "4",
+			"toughness": "4",
+			"oracle_text": "Vigilance, reach, trample",
+			"type": "Creature",
+			"subtypes": [
+			"Sand Elemental Boss"
+			],
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sand Elemental.png"
+			}
+		},
+		{
+			"name": "Rainbow Slime",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{G}{W}",
+			"cmc": 8,
+			"power": "8",
+			"toughness": "8",
+			"oracle_text": "Affinity for Oozes (This spell costs {1} less to cast for each Ooze you control.)\nVigilance",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze"
+			],
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Rainbow Slime.png"
+			}
+		},
+		{
+			"name": "Revel in Riches",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"cmc": 5,
+			"oracle_text": "Whenever a creature an opponent controls dies, create a Treasure token.\nAt the beginning of your upkeep, if you control ten or more Treasures, you win the game.",
+			"type": "Enchantment",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Forging the Zenith.png"
+			},
+			"related_cards": [
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Acidic Slime",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"cmc": 5,
+			"power": "2",
+			"toughness": "2",
+			"oracle_text": "Deathtouch\nWhen this creature enters, destroy target artifact, enchantment, or land.",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze"
+			],
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Jungle Slime.png"
+			}
+		},
+		{
+			"name": "Sand Slime",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"cmc": 3,
+			"power": "2",
+			"toughness": "2",
+			"oracle_text": "When this creature dies, look at the top five cards of your library. You may reveal an Ooze card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+			"type": "Creature",
+			"subtypes": [
+			"Sand Ooze"
+			],
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sand Slime.png"
+			}
+		},
+		{
+			"name": "Squire Slime",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"cmc": 4,
+			"power": "2",
+			"toughness": "2",
+			"oracle_text": "When this creature enters, draw a card.\nAt the beginning of combat on your turn, if you control an Equipment, you may pay 1. When you do, attach target Equipment you control to target creature you control.",
+			"type": "Creature",
+			"subtypes": [
+			"Ooze Warrior Citizen"
+			],
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Squire Slime.png"
+			}
+		},
+		{
+			"name": "Loyal Cultists",
+			"rarity": "common",
+			"mana_cost": "{W/U}{B}",
+			"cmc": 2,
+			"power": "0",
+			"toughness": "2",
+			"oracle_text": "Boss spells and Event spells you cast cost {1} less to cast.\nWUB, T, Sacrifice this creature and three other artifacts and/or creatures: Call upon The Lunatic Cultist. Activate only as a sorcery. (Create a token that’s a copy of a card named The Lunatic Cultist)",
+			"type": "Creature",
+			"subtypes": [
+			"Human Cleric"
+			],
+			"collector_number": "312",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Loyal Cultists.png"
+			},
+			"related_cards": [
+			"The Lunatic Cultist Token",
+			"Cleric Illusion Token",
+			"Drake Illusion Token"
+			]
+		},
+		{
+			"name": "Konah, Witch Doctor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"cmc": 3,
+			"power": "3",
+			"toughness": "2",
+			"oracle_text": "Whenever a creature you control with deathtouch deals damage to a creature, create a Treasure token.\n{1}, {T}, Sacrifice a Treasure: Call upon Hunter’s Blowgun.",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Lizard Shaman Citizen"
+			],
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Konah, Witch Doctor.png"
+			},
+			"related_cards": [
+			"Treasure Token",
+			"Hunter's Blowgun Token"
+			]
+		},
+		{
+			"name": "Hunter's Blowgun Token",
+			"mana_cost": "{1}",
+			"cmc": 1,
+			"oracle_text": "Equipped creature gets +1/+1.\nEquipped creature has deathtouch during your turn. Otherwise, it has reach.\nEquip {2}",
+			"type": "Token Artifact",
+			"subtypes": [
+			"Equipment"
+			],
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Hunter's Blowgun Token.png"
+			}
+		},
+		{
+			"name": "Mechanical Destruction",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"cmc": 2,
+			"oracle_text": "Destroy target artifact an opponent controls. If it was a Boss, destroy each other artifact that player controls.",
+			"type": "Sorcery",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mechanical Destruction.png"
+			}
+		},
+		{
+			"name": "Princess of Slime",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"cmc": 3,
+			"power": "2",
+			"toughness": "2",
+			"oracle_text": "Partner with Prince of Slime (When this permanent enters, target player may put Prince of Slime into their hand from their library, then shuffle.)\nOoze spells you cast have affinity for Nobles. (They cost {1} less to cast for each Noble you control.)",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Ooze Noble"
+			],
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Princess of Slime.png"
+			},
+			"related_cards": [
+			"Prince of Slime"
+			]
+		},
+		{
+			"name": "Prince of Slime",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"cmc": 3,
+			"power": "2",
+			"toughness": "2",
+			"oracle_text": "Partner with Princess of Slime (When this permanent enters, target player may put Princess of Slime into their hand from their library, then shuffle.)\nOozes you control get +1/+1 for each Noble you control.",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Ooze Noble"
+			],
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Prince of Slime.png"
+			},
+			"related_cards": [
+			"Princess of Slime"
+			]
+		},
+		{
+			"name": "Dulais, Wizard of Old",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"cmc": 2,
+			"power": "2",
+			"toughness": "2",
+			"oracle_text": "Whenever you scry or surveil, roll a d20.\nWhenever you roll a die’s highest result or a 10 or higher, create a Treasure token.\n{2}, {T}, Sacrifice a Treasure: Call upon Crystal Ball. (Create a token that’s a copy of a card named Crystal Ball)",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Human Wizard Citizen"
+			],
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Dulais, Wizard of Old.png"
+			},
+			"related_cards": [
+			"Treasure Token",
+			"Crystal Ball Token"
+			]
+		},
+		{
+			"name": "Crystal Ball Token",
+			"mana_cost": "{3}",
+			"cmc": 3,
+			"oracle_text": "{1}, {T}: Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)",
+			"type": "Token Artifact",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Crystal Ball Token.png"
+			}
+		},
+		{
+			"name": "Scarlett, Cutthroat Stylist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"cmc": 3,
+			"power": "3",
+			"toughness": "2",
+			"oracle_text": "Whenever one or more modified creatures you control deal combat damage to a player, create a Treasure token.\n{T} or Sacrifice a Treasure: Put your choice of a menace, trample or haste counter on target creature. Activate only as a sorcery.",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Human Citizen"
+			],
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Scarlett, Cutthroat Stylist.png"
+			},
+			"related_cards": [
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Enoki, Sentient Truffle",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"cmc": 2,
+			"power": "1",
+			"toughness": "1",
+			"oracle_text": "Whenever Enoki or another Citizen you control enters, create a 1/1 green Fungus creature token.\n{T}, Sacrifice a Fungus or Saproling: Create a Food token or a Treasure token.",
+			"type": "Legendary Creature",
+			"subtypes": [
+			"Fungus Citizen"
+			],
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Enoki, Sentient Truffle.png"
+			},
+			"related_cards": [
+			"Fungus Token",
+			"Food Token",
+			"Treasure Token"
+			]
+		},
+		{
+			"name": "Fungus Token",
+			"mana_cost": "",
+			"cmc": 0,
+			"power": "1",
+			"toughness": "1",
+			"type": "Token Creature",
+			"subtypes": [
+			"Fungus"
+			],
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Fungus Token.png"
+			}
 		}
 		]
 	[RareSlot(1)]
@@ -7988,6 +8752,10 @@
 		2 Phi, Explosive Cyborg
 		2 Flying Dutchman
 		2 Pirate Captain
+		2 Revel in Riches
+		2 Princess of Slime
+		2 Prince of Slime
+		2 Dulais, Wizard of Old
 		1 The Dungeon's Entrance
 		1 Retinazer and Spazmatism
 		1 Skeletron Prime
@@ -8125,6 +8893,20 @@
 		9 Crown Claiming
 		9 Baleful Harvest
 		9 Sting Operation
+		9 Mystic Slime
+		9 Face the Enemy
+		9 New Encounter
+		9 Battle for the Ages
+		9 Spooky Armor
+		9 Blood Moon Eel
+		9 Illuminant Bat
+		9 Guiding Fairy
+		9 Rainbow Slime
+		9 Acidic Slime
+		9 Konah, Witch Doctor
+		9 Mechanical Destruction
+		9 Scarlett, Cutthroat Stylist
+		9 Enoki, Sentient Truffle
 		[CommonSlot(7)]
 		30 Slime Crown
 		30 Bravery Against the Odds
@@ -8288,6 +9070,29 @@
 		30 Antlion Swarmer
 		30 Spitting Antlion
 		30 Jungle Hornet
+		30 Biome Crossovers
+		30 Clumsy Slime
+		30 Diva Slime
+		30 Undead Miner
+		30 Slingshot
+		30 Martian Walker
+		30 Martian Officer
+		30 Martian Drone
+		30 Angry Tumbler
+		30 Sand Shark
+		30 Desert Mummy
+		30 Wandering Eye Fish
+		30 Death Laser
+		30 Anomura Fungus
+		30 Heart Slime
+		30 Slime Drops
+		30 Terrarian Orca
+		30 Jungle Moth
+		30 Face Monster
+		30 Sand Elemental
+		30 Sand Slime
+		30 Squire Slime
+		30 Loyal Cultists
 		[WildcardSlot(2)]
 	10 Skeletron, Dungeon Guardian
 	10 The Dungeon's Entrance
@@ -8623,6 +9428,49 @@
 	10 Spitting Antlion
 	10 Jungle Hornet
 	10 Sting Operation
+	10 Martian Saucer
+	10 Flying Dutchman
+	10 Biome Crossovers
+	10 Clumsy Slime
+	10 Mystic Slime
+	10 Diva Slime
+	10 Undead Miner
+	10 Slingshot
+	10 Face the Enemy
+	10 New Encounter
+	10 Martian Walker
+	10 Martian Officer
+	10 Martian Drone
+	10 Angry Tumbler
+	10 Sand Shark
+	10 Desert Mummy
+	10 Battle for the Ages
+	10 Spooky Armor
+	10 Blood Moon Eel
+	10 Wandering Eye Fish
+	10 Death Laser
+	10 Anomura Fungus
+	10 Illuminant Bat
+	10 Guiding Fairy
+	10 Heart Slime
+	10 Slime Drops
+	10 Terrarian Orca
+	10 Jungle Moth
+	10 Face Monster
+	10 Sand Elemental
+	10 Rainbow Slime
+	10 Revel in Riches
+	10 Acidic Slime
+	10 Sand Slime
+	10 Squire Slime
+	10 Loyal Cultists
+	10 Konah, Witch Doctor
+	10 Mechanical Destruction
+	10 Princess of Slime
+	10 Prince of Slime
+	10 Dulais, Wizard of Old
+	10 Scarlett, Cutthroat Stylist
+	10 Enoki, Sentient Truffle
 	[LandSlot(1)]
 	10 Contaminated Aquifer
 	10 Geothermal Bog

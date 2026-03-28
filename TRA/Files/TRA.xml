@@ -746,9 +746,7 @@ At the beginning of the end step, sacrifice this enchantment.</text>
       </prop>
       <tablerow>2</tablerow>
       <text>At the beginning of your upkeep, create a 0/1 green Plant creature token.
-{T}, Sacrifice a Plant: Choose one —
-• Create a Clue token.
-• Create a Treasure token.</text>
+{T}, Sacrifice a Plant: Create a Clue token or a Treasure token.</text>
       <related>Treasure Token</related>
       <related>Clue Token</related>
       <related>Plant Token</related>
@@ -932,14 +930,16 @@ As long as this creature is blocking a creature with flying, it gets +2/+0.</tex
       <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Enchanted Sword.png">TRA</set>
       <prop>
         <colors>R</colors>
-        <manacost>2/R</manacost>
+        <manacost>1R</manacost>
         <cmc>2</cmc>
         <type>Artifact — Equipment </type>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +1/+1 and has reach.
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+1, has reach and is a Warrior in addition to its other types.
 Equip {1}</text>
+      <related attach="attach">Hero Token</related>
     </card>
     <card>
       <name>Search for an Enchanted Sword</name>
@@ -2752,7 +2752,7 @@ When this creature dies, create three 1/1 green Ooze creature tokens.</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job select
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature gets +0/+1, has “Creature tokens you control get +1/+0” and is a Shaman in addition to its other types.
 Equip {3}
 Equip Shaman {W}</text>
@@ -2769,7 +2769,7 @@ Equip Shaman {W}</text>
         <maintype>Artifact</maintype>
       </prop>
       <tablerow>1</tablerow>
-      <text>Job select
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
 Equipped creature is a Shaman in addition to its other types and has “Whenever this creature attacks, create a 1/1 blue Yeti creature token.”
 Equip {4}
 Equip Shaman {G}</text>
@@ -2867,8 +2867,8 @@ Whenever a creature an opponent controls dies, if this Aura is attached to that 
       <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Magic Regeneration Potion.png">TRA</set>
       <prop>
         <colors>G</colors>
-        <manacost>3G</manacost>
-        <cmc>4</cmc>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
         <type>Enchantment — Aura </type>
         <maintype>Enchantment</maintype>
       </prop>
@@ -4263,8 +4263,8 @@ Creatures you control of the chosen type get +1/+1.
       <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Martian Saucer.png">TRA</set>
       <prop>
         <colors>WUB</colors>
-        <manacost>2WUB</manacost>
-        <cmc>5</cmc>
+        <manacost>1WUB</manacost>
+        <cmc>4</cmc>
         <type>Legendary Kindred Artifact — Vehicle Alien Boss </type>
         <maintype>Artifact</maintype>
         <pt>6/6</pt>
@@ -4428,8 +4428,8 @@ Fortify {1} ({1}: Attach to target land you control. Fortify only as a sorcery.)
       <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Flying Dutchman.png">TRA</set>
       <prop>
         <colors>UBR</colors>
-        <manacost>2UBR</manacost>
-        <cmc>5</cmc>
+        <manacost>1UBR</manacost>
+        <cmc>4</cmc>
         <type>Legendary Kindred Artifact — Vehicle Pirate Boss </type>
         <maintype>Artifact</maintype>
       </prop>
@@ -5290,7 +5290,621 @@ Whenever an Insect you control dies, you gain 2 life.</text>
       <tablerow>0</tablerow>
       <text>({T}: Add {G}.)</text>
     </card>
-    <!-->Tokens</-->
+    <card>
+      <name>Biome Crossovers</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Biome Crossovers.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <manacost></manacost>
+        <cmc>0</cmc>
+        <type>Land</type>
+        <maintype>Land</maintype>
+      </prop>
+      <tablerow>0</tablerow>
+      <text>This land enters tapped. As it enters, choose one, two or three basic land types. You must pay 1 life to choose each color beyond the first. This land becomes the chosen types in addition to its other types.</text>
+      <cipt>1</cipt>
+    </card>
+    <card>
+      <name>Clumsy Slime</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Clumsy Slime.png">TRA</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>2U</manacost>
+        <cmc>3</cmc>
+        <type>Creature — Ooze Ranger Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When this creature enters, call upon Bounding Balloon and attach it to this creature. (Create a token that’s a copy of a card named Bounding Balloon.)
+When this creature dies, create a token that’s a copy of an artifact token you control.</text>
+      <related>Bounding Balloon (Token)</related>
+    </card>
+    <card>
+      <name>Mystic Slime</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mystic Slime.png">TRA</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>1U</manacost>
+        <cmc>2</cmc>
+        <type>Creature — Ooze Wizard Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>{1}{U}, {T}: You may cast a copy of a card named Turn to Frog without paying its mana cost. Activate only as a sorcery.</text>
+      <related>Turn to Frog</related>
+    </card>
+    <card>
+      <name>Diva Slime</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Diva Slime.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Creature — Ooze Shaman Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever this creature attacks, if you created a token this turn, create a 1/1 green and white Citizen creature token.</text>
+      <related>Citizen Token  </related>
+    </card>
+    <card>
+      <name>Undead Miner</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Undead Miner.png">TRA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Creature — Skeleton Warrior </type>
+        <maintype>Creature</maintype>
+        <pt>2/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When this creature enters, create a Bomb token. (It’s an artifact with “{2/R}, {T}, Sacrifice this artifact: It deals 2 damage to any target.”)
+Bombs you control have “{R}, {T}, Sacrifice this artifact: Destroy target artifact.”</text>
+      <related>Bomb Token</related>
+    </card>
+    <card>
+      <name>Slingshot</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Slingshot.png">TRA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Choose one —
+• Target artifact you control deals damage equal to its mana value to any other target. Then sacrifice it.
+• Target creature you control deals damage equal to its power to any other target. Then sacrifice it.</text>
+    </card>
+    <card>
+      <name>Face the Enemy</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Face the Enemy.png">TRA</set>
+      <prop>
+        <colors>WB</colors>
+        <manacost>2W/B</manacost>
+        <cmc>3</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Search your library for a Boss card, Hero card or card with Job select, reveal it, put it into your hand, then shuffle.</text>
+    </card>
+    <card>
+      <name>New Encounter</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/New Encounter.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3GG</manacost>
+        <cmc>5</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Look at the top five cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.</text>
+    </card>
+    <card>
+      <name>Martian Walker</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Martian Walker.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Artifact Creature — Alien Construct </type>
+        <maintype>Creature</maintype>
+        <pt>1/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Double strike, reach</text>
+    </card>
+    <card>
+      <name>Martian Officer</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Martian Officer.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature — Alien Warrior </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>During your turn, prevent all damage that would be dealt to this creature.</text>
+    </card>
+    <card>
+      <name>Martian Drone</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Martian Drone.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Artifact Creature — Bomb Alien Drone </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+{2/R}, {T}, Sacrifice this creature: It deals 2 damage to any target.</text>
+    </card>
+    <card>
+      <name>Angry Tumbler</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Angry Tumbler.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature — Plant </type>
+        <maintype>Creature</maintype>
+        <pt>4/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flash
+Trample</text>
+    </card>
+    <card>
+      <name>Sand Shark</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sand Shark.png">TRA</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>4U</manacost>
+        <cmc>5</cmc>
+        <type>Creature — Sand Shark </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Desertwalk (This creature can’t be blocked as long as defending player controls a Desert.)
+{1}{U}: Target land becomes a Desert in addition to its other types until end of turn.</text>
+    </card>
+    <card>
+      <name>Desert Mummy</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Desert Mummy.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>1W</manacost>
+        <cmc>2</cmc>
+        <type>Creature — Zombie </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When this creature enters, detain target creature an opponent controls. (Until your next turn, that creature can’t attack or block and its activated abilities can’t be activated.)</text>
+    </card>
+    <card>
+      <name>Battle for the Ages</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Battle for the Ages.png">TRA</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>1B</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Remove four defense counters from each battle your opponents protect. Then put four defense counters on each battle you protect.
+Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card. Draw a card for each token or battle sacrificed this way.</text>
+    </card>
+    <card>
+      <name>Spooky Armor</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Spooky Armor.png">TRA</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>3B</manacost>
+        <cmc>4</cmc>
+        <type>Artifact — Equipment </type>
+        <maintype>Artifact</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +3/+1, is a Shaman in addition to its other types, and has menace and “Whenever a nontoken creature you control dies, create a 1/1 black and green Treefolk Horror creature token with menace.”
+Equip {3}</text>
+      <related attach="attach">Hero Token</related>
+      <related>Treefolk Horror Token</related>
+    </card>
+    <card>
+      <name>Blood Moon Eel</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Blood Moon Eel.png">TRA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>3RR</manacost>
+        <cmc>5</cmc>
+        <type>Creature — Fish Demon Horror Boss </type>
+        <maintype>Creature</maintype>
+        <pt>4/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, haste</text>
+    </card>
+    <card>
+      <name>Wandering Eye Fish</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Wandering Eye Fish.png">TRA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>4R</manacost>
+        <cmc>5</cmc>
+        <type>Creature — Eye Fish Horror </type>
+        <maintype>Creature</maintype>
+        <pt>5/5</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying, trample, haste
+At the beginning of the end step, this creature’s owner shuffles it into their library.</text>
+    </card>
+    <card>
+      <name>Death Laser</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Death Laser.png">TRA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>4R</manacost>
+        <cmc>5</cmc>
+        <type>Instant</type>
+        <maintype>Instant</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>This spell costs {3} less to cast if you control a Boss.
+Death Laser deals 6 damage to target creature or battle.</text>
+    </card>
+    <card>
+      <name>Anomura Fungus</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Anomura Fungus.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>2G</manacost>
+        <cmc>3</cmc>
+        <type>Creature — Crab Fungus </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When this creature enters, it explores. (Reveal the top card of your library. Put that card into your hand if it’s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
+    </card>
+    <card>
+      <name>Illuminant Bat</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Illuminant Bat.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature — Bat </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Other creatures you control with flying get +1/+0.</text>
+    </card>
+    <card>
+      <name>Guiding Fairy</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Guiding Fairy.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>W</manacost>
+        <cmc>1</cmc>
+        <type>Creature — Faerie </type>
+        <maintype>Creature</maintype>
+        <pt>0/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+Whenever this creature attacks, look at the top three cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+    </card>
+    <card>
+      <name>Heart Slime</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Heart Slime.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature — Ooze </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever you gain life, put a +1/+1 counter on this creature.</text>
+    </card>
+    <card>
+      <name>Slime Drops</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Slime Drops.png">TRA</set>
+      <prop>
+        <colors>UG</colors>
+        <manacost>1GU</manacost>
+        <cmc>3</cmc>
+        <type>Kindred Enchantment — Ooze </type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>When this enchantment enters, create a 2/2 green Ooze creature token.
+Whenever an Ooze you control dies, create a token at random from among Bomb, Clue, Food, and Treasure.</text>
+      <related>Ooze Token</related>
+      <related>Bomb Token</related>
+      <related>Clue Token</related>
+      <related>Food Token</related>
+      <related>Treasure Token</related>
+    </card>
+    <card>
+      <name>Terrarian Orca</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Terrarian Orca.png">TRA</set>
+      <prop>
+        <colors>U</colors>
+        <manacost>5U</manacost>
+        <cmc>6</cmc>
+        <type>Creature — Whale </type>
+        <maintype>Creature</maintype>
+        <pt>6/6</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+    </card>
+    <card>
+      <name>Jungle Moth</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Jungle Moth.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>4W</manacost>
+        <cmc>5</cmc>
+        <type>Creature — Insect </type>
+        <maintype>Creature</maintype>
+        <pt>3/3</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Flying
+When this creature enters, you gain 3 life.</text>
+    </card>
+    <card>
+      <name>Face Monster</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Face Monster.png">TRA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>2R</manacost>
+        <cmc>3</cmc>
+        <type>Creature — Horror Mutant </type>
+        <maintype>Creature</maintype>
+        <pt>4/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When this creature enters, create a Treasure token. (It’s an artifact with “{T}, Sacrifice this token: Add one mana of any color.”)</text>
+      <related>Treasure Token</related>
+    </card>
+    <card>
+      <name>Sand Elemental</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sand Elemental.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3G</manacost>
+        <cmc>4</cmc>
+        <type>Creature — Sand Elemental Boss </type>
+        <maintype>Creature</maintype>
+        <pt>4/4</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Vigilance, reach, trample</text>
+    </card>
+    <card>
+      <name>Rainbow Slime</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Rainbow Slime.png">TRA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>6GW</manacost>
+        <cmc>8</cmc>
+        <type>Creature — Ooze </type>
+        <maintype>Creature</maintype>
+        <pt>8/8</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Affinity for Oozes (This spell costs {1} less to cast for each Ooze you control.)
+Vigilance</text>
+    </card>
+    <card>
+      <name>Revel in Riches</name>
+      <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Forging the Zenith.png">TRA</set>
+      <prop>
+        <colors>B</colors>
+        <manacost>4B</manacost>
+        <cmc>5</cmc>
+        <type>Enchantment</type>
+        <maintype>Enchantment</maintype>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Whenever a creature an opponent controls dies, create a Treasure token.
+At the beginning of your upkeep, if you control ten or more Treasures, you win the game.</text>
+    </card>
+    <card>
+      <name>Acidic Slime</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Jungle Slime.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>3GG</manacost>
+        <cmc>5</cmc>
+        <type>Creature — Ooze </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Deathtouch
+When this creature enters, destroy target artifact, enchantment, or land.</text>
+    </card>
+    <card>
+      <name>Sand Slime</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Sand Slime.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>2W</manacost>
+        <cmc>3</cmc>
+        <type>Creature — Sand Ooze </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When this creature dies, look at the top five cards of your library. You may reveal an Ooze card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+    </card>
+    <card>
+      <name>Squire Slime</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Squire Slime.png">TRA</set>
+      <prop>
+        <colors>W</colors>
+        <manacost>3W</manacost>
+        <cmc>4</cmc>
+        <type>Creature — Ooze Warrior Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>When this creature enters, draw a card.
+At the beginning of combat on your turn, if you control an Equipment, you may pay {1}. When you do, attach target Equipment you control to target creature you control.</text>
+    </card>
+    <card>
+      <name>Loyal Cultists</name>
+      <set rarity="common" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Loyal Cultists.png">TRA</set>
+      <prop>
+        <colors>WUB</colors>
+        <manacost>W/UB</manacost>
+        <cmc>2</cmc>
+        <type>Creature — Human Cleric </type>
+        <maintype>Creature</maintype>
+        <pt>0/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Boss spells and Event spells you cast cost {1} less to cast.
+{W}{U}{B}, {T}, Sacrifice this creature and three other artifacts and/or creatures: Call upon The Lunatic Cultist. Activate only as a sorcery. (Create a token that’s a copy of a card named The Lunatic Cultist)</text>
+      <related>The Lunatic Cultist (Token)</related>
+    </card>
+    <card>
+      <name>Konah, Witch Doctor</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Konah, Witch Doctor.png">TRA</set>
+      <prop>
+        <colors>BG</colors>
+        <manacost>1BG</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature — Lizard Shaman Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever a creature you control with deathtouch deals damage to a creature, create a Treasure token.
+{1}, {T}, Sacrifice a Treasure: Call upon Hunter’s Blowgun.</text>
+      <related>Treasure Token</related>
+      <related>Hunter's Blowgun (Token)</related>
+    </card>
+    <card>
+      <name>Mechanical Destruction</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Mechanical Destruction.png">TRA</set>
+      <prop>
+        <colors>R</colors>
+        <manacost>1R</manacost>
+        <cmc>2</cmc>
+        <type>Sorcery</type>
+        <maintype>Sorcery</maintype>
+      </prop>
+      <tablerow>3</tablerow>
+      <text>Destroy target artifact an opponent controls. If it was a Boss, destroy each other artifact that player controls.</text>
+    </card>
+    <card>
+      <name>Princess of Slime</name>
+      <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Princess of Slime.png">TRA</set>
+      <prop>
+        <colors>WG</colors>
+        <manacost>1GW</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature — Ooze Noble </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Partner with Prince of Slime (When this permanent enters, target player may put Prince of Slime into their hand from their library, then shuffle.)
+Ooze spells you cast have affinity for Nobles. (They cost {1} less to cast for each Noble you control.)</text>
+    </card>
+    <card>
+      <name>Prince of Slime</name>
+      <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Prince of Slime.png">TRA</set>
+      <prop>
+        <colors>UG</colors>
+        <manacost>1GU</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature — Ooze Noble </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Partner with Princess of Slime (When this permanent enters, target player may put Princess of Slime into their hand from their library, then shuffle.)
+Oozes you control get +1/+1 for each Noble you control.</text>
+    </card>
+    <card>
+      <name>Dulais, Wizard of Old</name>
+      <set rarity="rare" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Dulais, Wizard of Old.png">TRA</set>
+      <prop>
+        <colors>UB</colors>
+        <manacost>UB</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature — Human Wizard Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>2/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever you scry or surveil, roll a d20.
+Whenever you roll a die’s highest result or a 10 or higher, create a Treasure token.
+{2}, {T}, Sacrifice a Treasure: Call upon Crystal Ball. (Create a token that’s a copy of a card named Crystal Ball)</text>
+      <related>Treasure Token</related>
+      <related>Crystal Ball (Token)</related>
+    </card>
+    <card>
+      <name>Scarlett, Cutthroat Stylist</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Scarlett, Cutthroat Stylist.png">TRA</set>
+      <prop>
+        <colors>BR</colors>
+        <manacost>1BR</manacost>
+        <cmc>3</cmc>
+        <type>Legendary Creature — Human Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>3/2</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever one or more modified creatures you control deal combat damage to a player, create a Treasure token.
+{T} or Sacrifice a Treasure: Put your choice of a menace, trample or haste counter on target creature. Activate only as a sorcery.</text>
+      <related>Treasure Token</related>
+    </card>
+    <card>
+      <name>Enoki, Sentient Truffle</name>
+      <set rarity="uncommon" picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Enoki, Sentient Truffle.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <manacost>1G</manacost>
+        <cmc>2</cmc>
+        <type>Legendary Creature — Fungus Citizen </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Whenever Enoki or another Citizen you control enters, create a 1/1 green Fungus creature token.
+{T}, Sacrifice a Fungus or Saproling: Create a Food token or a Treasure token.</text>
+      <related>Fungus Token </related>
+      <related>Food Token</related>
+      <related>Treasure Token</related>
+    </card>
+    <!-->Tokens</picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/.png"-->
     <card>
       <name>Bomb Rabbit Token</name>
       <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Bomb Rabbit Token.png">TRA</set>
@@ -5546,47 +6160,6 @@ Equip {2}</text>
       <tablerow>1</tablerow>
       <text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
       <token>1</token>
-      <reverse-related count="X">Emilia, Hallow Princess</reverse-related>
-      <reverse-related>James, Curseless Clothier</reverse-related>
-      <reverse-related>Korrie, Free Mechanic</reverse-related>
-      <reverse-related>Corrupt Devourer</reverse-related>
-      <reverse-related count="2">Shadow Orb</reverse-related>
-      <reverse-related count="X">Warren, Tax Collector</reverse-related>
-      <reverse-related count="X">Warren, Tax Collector (Token)</reverse-related>
-      <reverse-related>Dazzle, Life of the Party</reverse-related>
-      <reverse-related count="X">Excessive Mining</reverse-related>
-      <reverse-related>Granite Golem</reverse-related>
-      <reverse-related>Spelunker Potion</reverse-related>
-      <reverse-related>Coin Slime</reverse-related>
-      <reverse-related count="X">Golden Rabbit</reverse-related>
-      <reverse-related>Andrew, Helpful Guide</reverse-related>
-      <reverse-related>Hanno, Dye Trader</reverse-related>
-      <reverse-related>Jey, Young Angler</reverse-related>
-      <reverse-related count="X">Luciano, Inspired Painter</reverse-related>
-      <reverse-related>Rattles Magoo, Bone Merchant</reverse-related>
-      <reverse-related count="3">Demon Altar</reverse-related>
-      <reverse-related count="2">Collection of Pots</reverse-related>
-      <reverse-related>Critter Catching Net</reverse-related>
-      <reverse-related>Dungeon Depths // Open a Chest</reverse-related>
-      <reverse-related>The Dungeon's Entrance</reverse-related>
-      <reverse-related>Lucky Coin</reverse-related>
-      <reverse-related>Rare Find</reverse-related>
-      <reverse-related count="2">Crimson Heart</reverse-related>
-      <reverse-related>Metallic Blessing</reverse-related>
-      <reverse-related>Gray Grunt</reverse-related>
-      <reverse-related>Completely Boned</reverse-related>
-      <reverse-related>Sticky Situation</reverse-related>
-      <reverse-related>Eye on You!</reverse-related>
-      <reverse-related>Star Destroyer</reverse-related>
-      <reverse-related>Goblin Punter</reverse-related>
-      <reverse-related>Melee Focus</reverse-related>
-      <reverse-related>Ranged Focus</reverse-related>
-      <reverse-related>Magic Focus</reverse-related>
-      <reverse-related>Summon Focus</reverse-related>
-      <reverse-related>Against the World</reverse-related>
-      <reverse-related>Crown Claiming</reverse-related>
-      <reverse-related>Baleful Harvest</reverse-related>
-      <reverse-related>Sting Operation</reverse-related>
     </card>
     <card>
       <name>Food Token</name>
@@ -5878,6 +6451,32 @@ When this creature dies, create a 2/2 white, black, and green Insect creature to
       <text>When this creature dies, it deals 1 damage to any target.</text>
       <token>1</token>
       <reverse-related>Fire Imp Assault</reverse-related>
+    </card>
+    <card>
+      <name>Fungus Token </name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Fungus Token.png">TRA</set>
+      <prop>
+        <colors>G</colors>
+        <type>Token Creature — Fungus </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text></text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Treefolk Horror Token</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Treefolk Horror Token.png">TRA</set>
+      <prop>
+        <colors>BG</colors>
+        <type>Token Creature — Treefolk Horror </type>
+        <maintype>Creature</maintype>
+        <pt>1/1</pt>
+      </prop>
+      <tablerow>2</tablerow>
+      <text>Menace</text>
+      <token>1</token>
     </card>
     <card>
       <name>The Nebula Pillar (Token)</name>
@@ -6256,14 +6855,16 @@ When this creature dies, you may pay {X}. When you do, call upon Star Cell X tim
         <colors>R</colors>
         <type>Token Artifact — Equipment </type>
         <maintype>Artifact</maintype>
-        <manacost>2/R</manacost>
+        <manacost>1R</manacost>
         <cmc>2</cmc>
       </prop>
       <tablerow>1</tablerow>
-      <text>Equipped creature gets +1/+1 and has reach.
+      <text>Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)
+Equipped creature gets +1/+1, has reach and is a Warrior in addition to its other types.
 Equip {1}</text>
       <token>1</token>
       <reverse-related>Search for an Enchanted Sword</reverse-related>
+      <related attach="attach">Hero Token</related>
     </card>
     <card>
       <name>Evolution Beast (Token)</name>
@@ -7500,8 +8101,8 @@ Fortify {1} ({1}: Attach to target land you control. Fortify only as a sorcery.)
       <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Flying Dutchman Token.png">TRA</set>
       <prop>
         <colors>UBR</colors>
-        <manacost>2UBR</manacost>
-        <cmc>5</cmc>
+        <manacost>1UBR</manacost>
+        <cmc>4</cmc>
         <type>Token Legendary Kindred Artifact — Vehicle Pirate Boss </type>
         <maintype>Artifact</maintype>
       </prop>
@@ -7855,6 +8456,36 @@ This creature gets +1/+0 for each other Insect you control.</text>
 • Target player loses 2 life.</text>
       <token>1</token>
       <reverse-related>Against the World</reverse-related>
+    </card>
+    <card>
+      <name>Hunter's Blowgun (Token)</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Hunters Blowgun Token.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact — Equipment </type>
+        <maintype>Artifact</maintype>
+        <manacost>1</manacost>
+        <cmc>1</cmc>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>Equipped creature gets +1/+1.
+Equipped creature has deathtouch during your turn. Otherwise, it has reach.
+Equip {2}</text>
+      <token>1</token>
+    </card>
+    <card>
+      <name>Crystal Ball (Token)</name>
+      <set picurl="https://raw.githubusercontent.com/AtticusVonShwoll/mse/main/TRA/Tokens/Crystal Ball Token.png">TRA</set>
+      <prop>
+        <colors></colors>
+        <type>Token Artifact</type>
+        <maintype>Artifact</maintype>
+        <manacost>3</manacost>
+        <cmc>3</cmc>
+      </prop>
+      <tablerow>1</tablerow>
+      <text>{1}, {T}: Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+      <token>1</token>
     </card>
   </cards>
 </cockatrice_carddatabase>
